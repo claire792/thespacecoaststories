@@ -1,5 +1,7 @@
 ---
 title: How to Interview an Elderly Relative (Without It Feeling Like an Interview)
+seo_title: "How to Interview an Elderly Relative"
+description: "Learn how to interview an elderly relative without making it feel formal, using relaxed questions and simple techniques that draw out real stories."
 date: '2026-05-22'
 category: How to Start
 tags:
@@ -7,7 +9,6 @@ tags:
 - recording
 - aging parents
 - how to
-description: The trick to interviewing an older relative is to make it not feel like an interview. Here's how to have the kind of relaxed conversation that draws out the real stories.
 draft: false
 faqs:
 - q: How do I interview an elderly relative without it feeling awkward?

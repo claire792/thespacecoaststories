@@ -1,5 +1,7 @@
 ---
 title: 40 Questions to Ask Your Aging Parents Before It's Too Late
+seo_title: "40 Questions to Ask Your Aging Parents"
+description: "Use these 40 meaningful questions to ask aging parents about childhood, family history, relationships, turning points, and lessons they want to pass down."
 date: '2026-06-11'
 category: How to Start
 tags:
@@ -7,7 +9,6 @@ tags:
 - aging parents
 - family history
 - interviewing
-description: Forty meaningful questions to ask your aging parents about their life, your family, and the things you'll wish you'd asked. Free to print and bring to your next visit.
 draft: false
 faqs:
 - q: What questions should I ask my aging parents?

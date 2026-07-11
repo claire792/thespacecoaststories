@@ -1,5 +1,7 @@
 ---
 title: 'Memoir vs. Biography vs. Autobiography: What''s the Difference?'
+seo_title: "Memoir vs. Biography vs. Autobiography"
+description: "Understand the difference between a memoir, biography, autobiography, and legacy book, and choose the right format for your family's story."
 date: '2026-06-07'
 category: Legacy Books
 tags:
@@ -7,7 +9,6 @@ tags:
 - memoir
 - biography
 - definitions
-description: Memoir, biography, autobiography, and legacy book get mixed up constantly. Here's the plain-English difference, with a quick chart, and how to choose the right one for your family.
 draft: false
 faqs:
 - q: What's the difference between a memoir and an autobiography?

@@ -1,5 +1,7 @@
 ---
 title: "Tell Me Your Story Card Kits"
+description: "Tell Me Your Story question-card kits help families capture parents' and grandparents' memories at dinner, holidays, and gatherings across the Space Coast."
+image: "images/kit-box-held.jpg"
 layout: "card-kits"
 eyebrow: "The easiest place to start"
 lead: "A deck of the questions people wish they'd asked, printed on cards you can actually pass around the table. Pull one out at dinner and watch a quiet relative turn into a storyteller."

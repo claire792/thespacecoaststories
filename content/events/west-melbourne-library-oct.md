@@ -1,5 +1,7 @@
 ---
-title: "Free Storytelling Class — West Melbourne Library"
+title: "Free Storytelling Class at West Melbourne Library — October 15"
+seo_title: "West Melbourne Library Storytelling Class | Oct. 15"
+description: "Join Space Coast Stories at West Melbourne Public Library on October 15, 2026, for a free class on interviewing relatives and preserving family memories."
 date: 2026-07-11
 event_date: 2026-10-15
 event_type: "Free class"

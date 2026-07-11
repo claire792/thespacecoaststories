@@ -1,5 +1,7 @@
 ---
 title: What Is a Legacy Book? (And Why It's More Than a Photo Album)
+seo_title: "What Is a Legacy Book?"
+description: "Learn what a legacy book is, what it includes, how it is created, and how it differs from a memoir, biography, autobiography, or photo album."
 date: '2026-06-23'
 category: Legacy Books
 tags:
@@ -7,7 +9,6 @@ tags:
 - personal history
 - family history
 - keepsake
-description: A legacy book captures a person's life story in their own words. Here's what goes into one, who it's for, and how it differs from a memoir, biography, and photo album.
 draft: false
 faqs:
 - q: What is a legacy book?

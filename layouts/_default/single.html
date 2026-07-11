@@ -11,13 +11,29 @@
   <div class="wrap-narrow">
     {{ with .Params.portrait }}
     <figure class="portrait-figure">
-      <img src="{{ . | relURL }}" alt="{{ $.Params.portrait_alt | default $.Title }}" loading="lazy" decoding="async">
+      <img src="{{ . | relURL }}" alt="{{ $.Params.portrait_alt | default $.Title }}" loading="lazy" decoding="async" width="1200" height="900">
       {{ with $.Params.portrait_caption }}<figcaption>{{ . }}</figcaption>{{ end }}
     </figure>
     {{ end }}
     <div class="prose">
       {{ .Content }}
     </div>
+
+    {{ with .Params.faqs }}
+    <section style="margin-top:3rem;">
+      <span class="eyebrow">Common questions</span>
+      <h2>What families ask</h2>
+      <div style="margin-top:1.5rem;">
+        {{ range . }}
+        <details style="border-top:1px solid var(--line);padding:1.2rem 0;">
+          <summary style="font-family:var(--serif);font-size:1.2rem;cursor:pointer;color:var(--ink);">{{ .q }}</summary>
+          <p style="margin:.9rem 0 0;color:var(--ink-soft);">{{ .a }}</p>
+        </details>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
     {{ if .Params.show_contact_cta }}
     <div class="note" style="margin-top:2.5rem;">
       Ready to start, or just have questions? <a href="{{ "/contact" | relURL }}">Reach out here</a> and we'll take it from there.

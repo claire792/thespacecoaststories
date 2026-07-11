@@ -1,12 +1,13 @@
 ---
 title: 'Behind the Scenes: How a Legacy Book Comes Together'
+seo_title: "How a Legacy Book Is Made"
+description: "See how recorded interviews, family photos, writing, revisions, design, and printing come together to create a finished family legacy book."
 date: '2026-05-30'
 category: Behind the Scenes
 tags:
 - legacy books
 - behind the scenes
 - process
-description: Ever wondered how a life becomes a book? A behind-the-scenes look at the five stages of making a legacy book, from the first conversation to the finished hardcover.
 draft: false
 faqs:
 - q: How is a legacy book made?

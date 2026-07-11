@@ -1,5 +1,7 @@
 ---
 title: How to Organize Old Family Photos Before You Lose the Story Behind Them
+seo_title: "How to Organize Old Family Photos"
+description: "Organize old family photos and documents while preserving the names, dates, places, and stories that give each image meaning."
 date: '2026-06-15'
 category: How to Start
 tags:
@@ -7,7 +9,6 @@ tags:
 - how to
 - preservation
 - family history
-description: A practical guide to organizing old family photos and documents, and capturing the stories behind them while the people who remember are still here to tell you.
 draft: false
 faqs:
 - q: How do I organize a big box of old family photos?

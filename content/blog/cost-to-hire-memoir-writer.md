@@ -1,5 +1,7 @@
 ---
 title: How Much Does It Cost to Hire Someone to Write a Family Memoir?
+seo_title: "Cost to Hire a Family Memoir Writer"
+description: "Learn what it costs to hire a family memoir writer or personal historian, what affects the price, and which type of legacy book fits your family."
 date: '2026-06-27'
 category: Legacy Books
 tags:
@@ -7,7 +9,6 @@ tags:
 - cost
 - memoir
 - pricing
-description: A plain-English breakdown of what it costs to hire someone to write a family memoir or legacy book, what drives the price, and how to know what you actually need.
 draft: false
 faqs:
 - q: How much does it cost to hire someone to write a family memoir?

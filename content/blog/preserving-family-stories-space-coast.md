@@ -1,5 +1,7 @@
 ---
 title: Preserving Family Stories on Florida's Space Coast
+seo_title: "Preserving Family Stories on the Space Coast"
+description: "Why Brevard County family stories matter, from the space program and military service to citrus, tourism, beachside life, and rapid local change."
 date: '2026-07-01'
 category: Local History
 tags:
@@ -7,7 +9,6 @@ tags:
 - Brevard County
 - local history
 - family history
-description: The Space Coast changed faster than almost anywhere in America. Here's why preserving your family's Brevard County stories matters now, and how to start.
 draft: false
 faqs:
 - q: Why is it important to preserve family stories on the Space Coast?

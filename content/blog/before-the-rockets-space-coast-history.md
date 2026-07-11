@@ -1,9 +1,10 @@
 ---
 title: "Before the Rockets: A Short History of Florida's Space Coast"
+seo_title: "Space Coast History Before the Rockets"
+description: "Explore Brevard County history before the launch pads, from early communities and citrus groves to the local memories that still deserve to be preserved."
 date: 2026-06-24
 category: "Local History"
 tags: ["Space Coast", "Brevard County", "local history", "Florida"]
-description: "The Space Coast is famous for rockets, but the land had a long story before the launch pads. A quick look at Brevard County's earlier chapters, and why local memory is worth keeping."
 ---
 
 We named this stretch of Florida coast after the thing that made it famous: the rockets. But the land had a long life before the launch pads, and a lot of it still lives in the memories of people who were here for the change.

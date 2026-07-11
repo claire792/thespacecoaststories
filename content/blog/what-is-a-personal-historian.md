@@ -1,12 +1,13 @@
 ---
 title: What Is a Personal Historian, and Does Your Family Need One?
+seo_title: "What Is a Personal Historian?"
+description: "Learn what a personal historian does, how the work differs from genealogy and ghostwriting, what it costs, and when a family may want one."
 date: '2026-05-26'
 category: How to Start
 tags:
 - personal historian
 - legacy books
 - family history
-description: A personal historian preserves everyday people's life stories in books, audio, or video. Here's what they do, how they differ from a genealogist, what it costs, and who needs one.
 draft: false
 faqs:
 - q: What does a personal historian do?

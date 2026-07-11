@@ -1,6 +1,7 @@
 {{ define "main" }}
 {{ $p := .Params }}
 {{ $s := hugo.Data.site }}
+{{ $checkoutReady := and $s.square_checkout_url (not (in $s.square_checkout_url "REPLACE-ME")) }}
 
 <section class="section-tight">
   <div class="wrap">
@@ -10,12 +11,12 @@
         <h1>{{ .Title }}</h1>
         <p class="lead">{{ $p.lead }}</p>
         <div class="btn-row" style="margin-top:1.4rem;">
-          <a class="btn btn-primary" href="{{ $s.square_checkout_url }}" rel="noopener">Shop the kits</a>
+          {{ if $checkoutReady }}<a class="btn btn-primary" href="{{ $s.square_checkout_url }}" rel="noopener">Shop the kits</a>{{ else }}<a class="btn btn-primary" href="{{ "/contact" | relURL }}">Ask about a kit</a>{{ end }}
           <a class="btn btn-ghost" href="{{ "/events" | relURL }}">Find us in person</a>
         </div>
       </div>
       <figure style="margin:0;">
-        <img src="{{ "images/kit-box-held.jpg" | relURL }}" alt="A person holding the navy, gold-star Tell Me Your Story card kit box" style="width:100%;border-radius:4px;box-shadow:0 24px 50px -28px rgba(22,50,79,.5);" loading="eager" decoding="async">
+        <img src="{{ "images/kit-box-held.jpg" | relURL }}" alt="A person holding the navy, gold-star Tell Me Your Story card kit box" style="width:100%;border-radius:4px;box-shadow:0 24px 50px -28px rgba(22,50,79,.5);" loading="eager" decoding="async" width="1000" height="1000">
       </figure>
     </div>
     {{ with $p.credit_note }}
@@ -45,7 +46,7 @@
       {{ end }}
     </div>
     <div class="center" style="margin-top:2.5rem;">
-      <a class="btn btn-primary" href="{{ $s.square_checkout_url }}" rel="noopener">Shop all kits & packs</a>
+      {{ if $checkoutReady }}<a class="btn btn-primary" href="{{ $s.square_checkout_url }}" rel="noopener">Shop all kits & packs</a>{{ else }}<a class="btn btn-primary" href="{{ "/contact" | relURL }}">Ask about kits & packs</a>{{ end }}
     </div>
   </div>
 </section>
@@ -59,11 +60,11 @@
   <div class="wrap" style="margin-top:2.5rem;">
     <div class="grid grid-2" style="gap:clamp(1.5rem,4vw,2.5rem);align-items:center;">
       <figure style="margin:0;">
-        <img src="{{ "images/kit-box-white.jpg" | relURL }}" alt="The Tell Me Your Story card kit box" style="width:100%;border-radius:4px;box-shadow:var(--shadow-soft);" loading="lazy" decoding="async">
+        <img src="{{ "images/kit-box-white.jpg" | relURL }}" alt="The Tell Me Your Story card kit box" style="width:100%;border-radius:4px;box-shadow:var(--shadow-soft);" loading="lazy" decoding="async" width="1000" height="1000">
         <figcaption style="font-family:var(--sans);font-size:.82rem;color:var(--muted);margin-top:.6rem;text-align:center;">Every kit: 20 questions, ready to open at the table.</figcaption>
       </figure>
       <figure style="margin:0;">
-        <img src="{{ "images/card-filled.jpg" | relURL }}" alt="A handwritten, filled-out Tell Me Your Story keepsake card" style="width:100%;border-radius:4px;box-shadow:var(--shadow-soft);" loading="lazy" decoding="async">
+        <img src="{{ "images/card-filled.jpg" | relURL }}" alt="A handwritten, filled-out Tell Me Your Story keepsake card" style="width:100%;border-radius:4px;box-shadow:var(--shadow-soft);" loading="lazy" decoding="async" width="1000" height="1000">
         <figcaption style="font-family:var(--sans);font-size:.82rem;color:var(--muted);margin-top:.6rem;text-align:center;">A finished card, in their own hand — the keepsake you're really making.</figcaption>
       </figure>
     </div>

@@ -1,5 +1,7 @@
 ---
 title: 50 Questions to Ask Your Grandparents While You Still Can
+seo_title: "50 Questions to Ask Your Grandparents"
+description: "Use these 50 meaningful questions to ask grandparents about childhood, family, love, work, turning points, and the stories they have rarely told."
 date: '2026-07-09'
 category: How to Start
 tags:
@@ -7,7 +9,6 @@ tags:
 - family history
 - grandparents
 - Brevard County
-description: Fifty warm, real questions to ask your grandparents about their life — from childhood to love to the things they've never told anyone. Free to print and bring to your next visit.
 draft: false
 faqs:
 - q: What are good questions to ask grandparents?

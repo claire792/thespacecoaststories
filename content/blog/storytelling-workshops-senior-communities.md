@@ -1,5 +1,7 @@
 ---
 title: Storytelling Workshops for Senior Communities on the Space Coast
+seo_title: "Storytelling Workshops for Senior Communities"
+description: "See how storytelling workshops help older adults connect, reminisce, and preserve memories in senior communities and libraries across Brevard County."
 date: '2026-06-19'
 category: Behind the Scenes
 tags:
@@ -7,7 +9,6 @@ tags:
 - senior communities
 - Brevard County
 - reminiscence
-description: What a storytelling workshop looks like at a senior community or library, why reminiscence is so good for older adults, and how activity directors on the Space Coast can bring one in.
 draft: false
 faqs:
 - q: What is a storytelling workshop for seniors?

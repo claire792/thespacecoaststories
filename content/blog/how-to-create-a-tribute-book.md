@@ -1,5 +1,7 @@
 ---
 title: How to Create a Tribute Book to Honor Someone You've Lost
+seo_title: "How to Create a Tribute Book"
+description: "A gentle step-by-step guide to creating a tribute book with stories, photographs, letters, and memories that honor someone who has died."
 date: '2026-05-14'
 category: Memorial
 tags:
@@ -7,7 +9,6 @@ tags:
 - tribute book
 - grief
 - family history
-description: A gentle, step-by-step guide to creating a tribute book that honors a loved one who has passed — gathering their story, photos, and the memories of everyone who knew them.
 draft: false
 faqs:
 - q: What is a tribute book?

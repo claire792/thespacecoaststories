@@ -1,5 +1,7 @@
 ---
-title: "Free Storytelling Class — West Melbourne Library"
+title: "Free Storytelling Class at West Melbourne Library — September 17"
+seo_title: "West Melbourne Library Storytelling Class | Sept. 17"
+description: "Join a free family storytelling class at West Melbourne Public Library on September 17, 2026, with prompts for preserving the stories that matter."
 date: 2026-07-11
 event_date: 2026-09-17
 event_type: "Free class"

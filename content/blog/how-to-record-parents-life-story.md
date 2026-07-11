@@ -1,5 +1,7 @@
 ---
 title: How to Record Your Parents' Life Story Before It's Too Late
+seo_title: "How to Record Your Parents' Life Story"
+description: "A simple seven-step guide to recording your parents' life story before important memories are lost, using tools you already have."
 date: '2026-07-05'
 category: How to Start
 tags:
@@ -7,7 +9,6 @@ tags:
 - recording
 - aging parents
 - family history
-description: A simple, gentle guide to recording your parents' life story while you still can, with seven steps and the mistakes to avoid. No special gear required.
 draft: false
 faqs:
 - q: What's the best way to record a parent's life story?

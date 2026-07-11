@@ -1,0 +1,22 @@
+{{ define "main" }}
+{{ $p := .Params }}
+<section class="section-tight">
+  <div class="wrap-narrow">
+    <span class="eyebrow">{{ $p.event_type | default "Space Coast Stories event" }}</span>
+    <h1>{{ .Title }}</h1>
+    <div class="article-meta" style="margin-top:1rem;">
+      {{ with $p.event_date }}{{ (time.AsTime .).Format "Monday, January 2, 2006" }}{{ end }}
+      {{ with $p.location }} · {{ . }}{{ end }}
+    </div>
+  </div>
+</section>
+<section class="section-tight" style="padding-top:0;">
+  <div class="wrap-narrow">
+    <div class="prose">{{ .Content }}</div>
+    <div class="note" style="margin-top:2rem;">
+      Questions about this event or interested in bringing a storytelling class to your Brevard County community? <a href="{{ "/contact" | relURL }}">Contact Space Coast Stories</a>.
+    </div>
+    <p style="margin-top:2rem;"><a href="{{ "/events" | relURL }}">← See all events and classes</a></p>
+  </div>
+</section>
+{{ end }}

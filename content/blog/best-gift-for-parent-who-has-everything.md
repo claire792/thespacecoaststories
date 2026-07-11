@@ -1,5 +1,7 @@
 ---
 title: The Best Gift for a Parent or Grandparent Who Has Everything
+seo_title: "Best Gift for a Parent Who Has Everything"
+description: "A meaningful gift for a parent or grandparent who has everything: their life story, recorded and preserved as a keepsake the whole family can share."
 date: '2026-05-18'
 category: Legacy Books
 tags:
@@ -7,7 +9,6 @@ tags:
 - legacy books
 - grandparents
 - occasions
-description: Stuck shopping for the parent or grandparent who has everything? The one gift they don't have is their own life story, captured and kept. Here's how to give it at any budget.
 draft: false
 faqs:
 - q: What do you get a parent or grandparent who has everything?

@@ -2,6 +2,15 @@
 business_name: "Space Coast Stories"
 tagline: "A legacy that's out of this world"
 location: "Brevard County, Florida"
+service_areas:
+  - "Melbourne, Florida"
+  - "West Melbourne, Florida"
+  - "Palm Bay, Florida"
+  - "Viera, Florida"
+  - "Rockledge, Florida"
+  - "Cocoa, Florida"
+  - "Merritt Island, Florida"
+  - "Titusville, Florida"
 
 # CONTACT — replace with your real details before launch.
 email: "claire@thespacecoaststories.com"
@@ -12,7 +21,7 @@ phone_note: "Call or text — I answer personally"
 square_checkout_url: "https://square.link/REPLACE-ME"
 
 # Social links (leave blank to hide).
-facebook: "https://www.facebook.com/"
+facebook: ""
 instagram: ""
 newsletter_name: "Bright Side Brevard"
 

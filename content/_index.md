@@ -1,5 +1,7 @@
 ---
 title: "Home"
+description: "Personal historian and legacy book studio serving Brevard County families. We record, write, design, and preserve the stories of parents and grandparents."
+image: "images/book-daughter.jpg"
 hero_eyebrow: "Personal history · Brevard County, Florida"
 hero_heading: "Someday, someone will wish they'd asked."
 hero_prompts:

@@ -10,7 +10,7 @@
         <p class="lead">{{ $p.lead }}</p>
       </div>
       <figure style="margin:0;">
-        <img src="{{ "images/book-beach.jpg" | relURL }}" alt="A finished legacy book, The Life and Times of Catherine Small, held up on a Florida beach" style="width:100%;border-radius:4px;box-shadow:0 24px 50px -28px rgba(22,50,79,.5);" loading="eager" decoding="async">
+        <img src="{{ "images/book-beach.jpg" | relURL }}" alt="A finished legacy book, The Life and Times of Catherine Small, held up on a Florida beach" style="width:100%;border-radius:4px;box-shadow:0 24px 50px -28px rgba(22,50,79,.5);" loading="eager" decoding="async" width="1600" height="900">
       </figure>
     </div>
   </div>
@@ -21,6 +21,21 @@
 <section class="section-tight" style="padding-top:0;">
   <div class="wrap-narrow">
     <div class="pullquote"><p>{{ . }}</p></div>
+  </div>
+</section>
+{{ end }}
+
+
+<!-- LOCAL SERVICE AREA -->
+{{ with $p.local_heading }}
+<section class="section-tight" style="padding-top:0;">
+  <div class="wrap-narrow">
+    <div class="note">
+      <span class="eyebrow">Personal historian on the Space Coast</span>
+      <h2 style="font-size:1.55rem;">{{ . }}</h2>
+      <p>{{ $p.local_body }}</p>
+      <a class="card__link" href="{{ "/brevard-county" | relURL }}">See Brevard County service areas</a>
+    </div>
   </div>
 </section>
 {{ end }}

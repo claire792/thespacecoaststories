@@ -1,5 +1,7 @@
 ---
 title: "Thank you. We've got it."
+description: "Thank you for contacting Space Coast Stories."
+noindex: true
 eyebrow: "Message sent"
 lead: "Your note is on its way to us, and we'll reply personally, usually within a day or two."
 sitemap:

@@ -61,6 +61,10 @@ summaryLength = 40
   pageRef = "/card-kits"
   weight = 20
 [[menu.footer]]
+  name = "Brevard County"
+  pageRef = "/brevard-county"
+  weight = 25
+[[menu.footer]]
   name = "The Journal"
   pageRef = "/blog"
   weight = 30

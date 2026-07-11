@@ -1,9 +1,13 @@
 ---
 title: "Legacy Books & Storytelling Services"
+description: "Legacy books, family memoir writing, memorial books, and storytelling workshops for Brevard County families, with clear pricing and flexible interview options."
+image: "images/book-beach.jpg"
 layout: "services"
 eyebrow: "What we make"
 lead: "From a single deck of question cards to a full hardcover life, here's everything we do and what it costs. No mystery pricing."
 positioning: "We're personal historians, not ghostwriters. The words stay theirs. We just make sure they're kept."
+local_heading: "A Brevard County personal historian, close to home."
+local_body: "Space Coast Stories serves families in Melbourne, West Melbourne, Palm Bay, Viera, Rockledge, Cocoa, Merritt Island, Titusville, and nearby communities. Interviews can happen in person across Brevard County or by phone and video for relatives who live elsewhere."
 
 inside_heading: "This is what your family keeps."
 inside_sub: "A few pages from Catherine's book, made with her family. Yours won't look like this one — your person isn't like anyone else."

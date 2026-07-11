@@ -1,5 +1,7 @@
 ---
 title: Preserving Memories When a Loved One Has Dementia or Alzheimer's
+seo_title: "Preserving Memories After a Dementia Diagnosis"
+description: "A compassionate guide to preserving stories after a dementia or Alzheimer's diagnosis through photos, music, recordings, and gentle conversation."
 date: '2026-06-03'
 category: How to Start
 tags:
@@ -7,7 +9,6 @@ tags:
 - Alzheimer's
 - memory care
 - caregiving
-description: A dementia diagnosis doesn't mean the stories are gone. A compassionate guide to preserving a loved one's memories and connecting through them, even as the disease progresses.
 draft: false
 faqs:
 - q: Can you still capture the memories of someone with dementia?

@@ -36,6 +36,7 @@ collections:
     sortable_fields: ["date", "title"]
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "SEO title", name: "seo_title", widget: "string", required: false, hint: "Optional shorter Google title. Aim for 50–60 characters." }
       - { label: "Publish date", name: "date", widget: "datetime" }
       - label: "Category"
         name: "category"
@@ -67,6 +68,8 @@ collections:
     summary: "{{title}}  ·  {{event_date}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "SEO title", name: "seo_title", widget: "string", required: false, hint: "Optional shorter Google title. Aim for 50–60 characters." }
+      - { label: "SEO description", name: "description", widget: "text", hint: "A unique 140–160 character summary for search results." }
       - { label: "Event date", name: "event_date", widget: "datetime", hint: "The day the event actually happens. Future dates are fine." }
       - label: "Type"
         name: "event_type"
@@ -90,6 +93,7 @@ collections:
           - { label: "Business name", name: "business_name", widget: "string" }
           - { label: "Tagline", name: "tagline", widget: "string" }
           - { label: "Location", name: "location", widget: "string" }
+          - { label: "Service areas", name: "service_areas", widget: "list" }
           - { label: "Email", name: "email", widget: "string" }
           - { label: "Phone", name: "phone", widget: "string" }
           - { label: "Phone note", name: "phone_note", widget: "string" }
@@ -111,6 +115,8 @@ collections:
         file: "content/_index.md"
         fields:
           - { label: "Title", name: "title", widget: "hidden", default: "Home" }
+          - { label: "SEO description", name: "description", widget: "text" }
+          - { label: "Social share image", name: "image", widget: "image", required: false }
           - { label: "Hero eyebrow", name: "hero_eyebrow", widget: "string" }
           - { label: "Hero heading", name: "hero_heading", widget: "string" }
           - label: "Rotating prompts"
@@ -155,8 +161,31 @@ collections:
         file: "content/about.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
+          - { label: "SEO description", name: "description", widget: "text" }
+          - { label: "Social share image", name: "image", widget: "image", required: false }
           - { label: "Eyebrow", name: "eyebrow", widget: "string" }
           - { label: "Lead", name: "lead", widget: "text" }
+          - { label: "Show contact prompt at end", name: "show_contact_cta", widget: "boolean", default: true }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      # ---- BREVARD COUNTY ----
+      - name: "brevard-county"
+        label: "Brevard County Page"
+        file: "content/brevard-county.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "SEO title", name: "seo_title", widget: "string", required: false }
+          - { label: "SEO description", name: "description", widget: "text" }
+          - { label: "Social share image", name: "image", widget: "image", required: false }
+          - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+          - { label: "Lead", name: "lead", widget: "text" }
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Question", name: "q", widget: "string" }
+              - { label: "Answer", name: "a", widget: "text" }
           - { label: "Show contact prompt at end", name: "show_contact_cta", widget: "boolean", default: true }
           - { label: "Body", name: "body", widget: "markdown" }
 
@@ -166,10 +195,14 @@ collections:
         file: "content/services.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
+          - { label: "SEO description", name: "description", widget: "text" }
+          - { label: "Social share image", name: "image", widget: "image", required: false }
           - { label: "Layout", name: "layout", widget: "hidden", default: "services" }
           - { label: "Eyebrow", name: "eyebrow", widget: "string" }
           - { label: "Lead", name: "lead", widget: "text" }
           - { label: "Positioning line", name: "positioning", widget: "text" }
+          - { label: "Local service heading", name: "local_heading", widget: "string" }
+          - { label: "Local service description", name: "local_body", widget: "text" }
           - { label: "Books heading", name: "books_heading", widget: "string" }
           - { label: "Books subtext", name: "books_sub", widget: "text" }
           - label: "Book tiers"
@@ -207,6 +240,8 @@ collections:
         file: "content/card-kits.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
+          - { label: "SEO description", name: "description", widget: "text" }
+          - { label: "Social share image", name: "image", widget: "image", required: false }
           - { label: "Layout", name: "layout", widget: "hidden", default: "card-kits" }
           - { label: "Eyebrow", name: "eyebrow", widget: "string" }
           - { label: "Lead", name: "lead", widget: "text" }
@@ -230,6 +265,8 @@ collections:
         file: "content/contact.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
+          - { label: "SEO description", name: "description", widget: "text" }
+          - { label: "Social share image", name: "image", widget: "image", required: false }
           - { label: "Layout", name: "layout", widget: "hidden", default: "contact" }
           - { label: "Eyebrow", name: "eyebrow", widget: "string" }
           - { label: "Lead", name: "lead", widget: "text" }
