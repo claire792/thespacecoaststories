@@ -1,4 +1,6 @@
 ---
+image: "images/legacy-book-peggy.jpg"
+image_alt: "The Best Gift for a Parent or Grandparent Who Has Everything"
 title: The Best Gift for a Parent or Grandparent Who Has Everything
 seo_title: "Best Gift for a Parent Who Has Everything"
 description: "A meaningful gift for a parent or grandparent who has everything: their life story, recorded and preserved as a keepsake the whole family can share."

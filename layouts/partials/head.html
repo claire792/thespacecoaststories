@@ -96,6 +96,13 @@
   <script type="application/ld+json">{{ $bp | jsonify | safeJS }}</script>
   {{ end }}
 
+  {{- /* Service structured data for offering and location pages */ -}}
+  {{ if eq .Params.schema_type "Service" }}
+  {{ $areas := slice }}{{ range .Params.area_served }}{{ $areas = $areas | append (dict "@type" "Place" "name" .) }}{{ end }}
+  {{ $serviceType := .Params.service_type | default .Title }}
+  <script type="application/ld+json">{{ (dict "@context" "https://schema.org" "@type" "Service" "name" .Title "description" $desc "url" .Permalink "serviceType" $serviceType "provider" (dict "@type" "ProfessionalService" "name" "Space Coast Stories" "url" site.BaseURL "telephone" (index hugo.Data.site "phone") "email" (index hugo.Data.site "email")) "areaServed" $areas) | jsonify | safeJS }}</script>
+  {{ end }}
+
   {{- /* Event structured data */ -}}
   {{ if and .IsPage (eq .Section "events") }}
   {{ $event := dict

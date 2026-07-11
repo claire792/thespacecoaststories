@@ -1,4 +1,6 @@
 ---
+image: "images/catherine-library-card.jpg"
+image_alt: "How to Organize Old Family Photos Before You Lose the Story Behind Them"
 title: How to Organize Old Family Photos Before You Lose the Story Behind Them
 seo_title: "How to Organize Old Family Photos"
 description: "Organize old family photos and documents while preserving the names, dates, places, and stories that give each image meaning."

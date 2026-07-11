@@ -1,4 +1,6 @@
 ---
+image: "images/legacy-book-frank.jpg"
+image_alt: "Behind the Scenes: How a Legacy Book Comes Together"
 title: 'Behind the Scenes: How a Legacy Book Comes Together'
 seo_title: "How a Legacy Book Is Made"
 description: "See how recorded interviews, family photos, writing, revisions, design, and printing come together to create a finished family legacy book."

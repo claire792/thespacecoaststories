@@ -1,29 +1,26 @@
-# Global site info. Edit these in the CMS under "Site Settings".
-business_name: "Space Coast Stories"
-tagline: "A legacy that's out of this world"
-location: "Brevard County, Florida"
+business_name: Space Coast Stories
+tagline: A legacy that's out of this world
+location: Brevard County, Florida
 service_areas:
-  - "Melbourne, Florida"
-  - "West Melbourne, Florida"
-  - "Palm Bay, Florida"
-  - "Viera, Florida"
-  - "Rockledge, Florida"
-  - "Cocoa, Florida"
-  - "Merritt Island, Florida"
-  - "Titusville, Florida"
-
-# CONTACT — replace with your real details before launch.
-email: "claire@thespacecoaststories.com"
-phone: "(321) 780-0784"
-phone_note: "Call or text — I answer personally"
-
-# Square checkout for the card kits — paste your Square Online link here.
-square_checkout_url: "https://square.link/REPLACE-ME"
-
-# Social links (leave blank to hide).
-facebook: ""
-instagram: ""
-newsletter_name: "Bright Side Brevard"
-
-# Footer sign-off line.
-footer_note: "Serving Melbourne, Viera, Rockledge, Merritt Island, and the greater Space Coast."
+- Melbourne, Florida
+- West Melbourne, Florida
+- Palm Bay, Florida
+- Viera, Florida
+- Rockledge, Florida
+- Cocoa, Florida
+- Merritt Island, Florida
+- Titusville, Florida
+- Satellite Beach, Florida
+- Indian Harbour Beach, Florida
+- Indialantic, Florida
+- Melbourne Beach, Florida
+- Vero Beach, Florida
+- Sebastian, Florida
+email: claire@thespacecoaststories.com
+phone: (321) 780-0784
+phone_note: Call or text — I answer personally
+square_checkout_url: https://square.link/REPLACE-ME
+facebook: ''
+instagram: ''
+newsletter_name: Bright Side Brevard
+footer_note: Serving Brevard County and Indian River County, with remote projects available anywhere.

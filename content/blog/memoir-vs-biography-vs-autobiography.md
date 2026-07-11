@@ -1,4 +1,6 @@
 ---
+image: "images/catherine-title.jpg"
+image_alt: "Memoir vs. Biography vs. Autobiography: What''s the Difference?"
 title: 'Memoir vs. Biography vs. Autobiography: What''s the Difference?'
 seo_title: "Memoir vs. Biography vs. Autobiography"
 description: "Understand the difference between a memoir, biography, autobiography, and legacy book, and choose the right format for your family's story."

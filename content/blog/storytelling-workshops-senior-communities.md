@@ -1,4 +1,6 @@
 ---
+image: "images/card-filled.jpg"
+image_alt: "Storytelling Workshops for Senior Communities on the Space Coast"
 title: Storytelling Workshops for Senior Communities on the Space Coast
 seo_title: "Storytelling Workshops for Senior Communities"
 description: "See how storytelling workshops help older adults connect, reminisce, and preserve memories in senior communities and libraries across Brevard County."

@@ -1,4 +1,6 @@
 ---
+image: "images/book-daughter.jpg"
+image_alt: "What Is a Legacy Book? (And Why It's More Than a Photo Album)"
 title: What Is a Legacy Book? (And Why It's More Than a Photo Album)
 seo_title: "What Is a Legacy Book?"
 description: "Learn what a legacy book is, what it includes, how it is created, and how it differs from a memoir, biography, autobiography, or photo album."

@@ -1,4 +1,6 @@
 ---
+image: "images/book-table2.jpg"
+image_alt: "How to Record Your Parents' Life Story Before It's Too Late"
 title: How to Record Your Parents' Life Story Before It's Too Late
 seo_title: "How to Record Your Parents' Life Story"
 description: "A simple seven-step guide to recording your parents' life story before important memories are lost, using tools you already have."

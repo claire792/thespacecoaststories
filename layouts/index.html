@@ -16,7 +16,7 @@
 
       <p class="hero__sub lead">{{ $p.hero_sub }}</p>
       <div class="btn-row">
-        <a class="btn btn-primary" href="{{ "/services" | relURL }}">{{ $p.hero_cta1 | default "See legacy books" }}</a>
+        <a class="btn btn-primary" href="{{ "/legacy-books/" | relURL }}">{{ $p.hero_cta1 | default "See legacy books" }}</a>
         <a class="btn btn-ghost" href="{{ "/card-kits" | relURL }}">{{ $p.hero_cta2 | default "Shop the card kits" }}</a>
       </div>
     </div>
@@ -89,35 +89,65 @@
   </div>
 </section>
 
-<!-- DEMO / SAMPLE -->
+<!-- BOOK SHOWCASE -->
 <section class="section panel-cream">
   <div class="wrap">
-    <div class="grid grid-2" style="align-items:center;gap:clamp(2rem,6vw,4rem);">
-      <div>
-        <span class="eyebrow">A finished book</span>
-        <h2>{{ $p.demo_heading | default "See what one looks like." }}</h2>
-        <p class="lead">{{ $p.demo_body }}</p>
-        <a class="btn btn-ghost" href="{{ "/contact" | relURL }}">Request a sample book</a>
-      </div>
-      <figure style="margin:0;">
-        <img src="{{ "images/book-table.jpg" | relURL }}" alt="A finished legacy book, The Life and Times of Catherine Small, displayed on a living-room table" width="1600" height="900" style="width:100%;border-radius:4px;box-shadow:0 24px 50px -28px rgba(22,50,79,.5);" loading="lazy" decoding="async">
-        <figcaption style="font-family:var(--sans);font-size:.82rem;color:var(--muted);margin-top:.7rem;">A sample legacy book — <em>The Life and Times of Catherine Small</em>.</figcaption>
-      </figure>
+    <div class="center" style="max-width:720px;margin-inline:auto;">
+      <span class="eyebrow" style="justify-content:center;">A book designed around the person</span>
+      <h2>{{ $p.demo_heading }}</h2>
+      <p class="lead">{{ $p.demo_body }}</p>
     </div>
+    <div class="showcase-grid" style="margin-top:2.4rem;">
+      {{ range $p.book_showcase }}
+      <figure class="showcase-card">
+        <img src="{{ .image | relURL }}" alt="{{ .alt }}" loading="lazy" decoding="async" width="1400" height="1050">
+        <figcaption><strong>{{ .title }}</strong><span>{{ .caption }}</span></figcaption>
+      </figure>
+      {{ end }}
+    </div>
+    <div class="center" style="margin-top:2rem;"><a class="btn btn-ghost" href="{{ "/portfolio" | relURL }}">See the portfolio and sample pages</a></div>
   </div>
 </section>
 
-<!-- TESTIMONIAL -->
+<!-- TESTIMONIALS -->
+{{ with $p.testimonials }}
 <section class="section-tight">
   <div class="wrap-narrow center">
-    <span class="eyebrow" style="justify-content:center;">From a family we helped</span>
-    <blockquote class="serif-italic" style="font-size:clamp(1.4rem,2.8vw,1.9rem);line-height:1.4;color:var(--ink);border:0;margin:1rem 0 1.2rem;padding:0;">
-      "She knows exactly how to tell a story. I cried for hours reading my late father's mini legacy book. She got it done in time for the funeral, and even gave us extra to work with so we had a beautiful montage of his life to share. We were blessed to have found her."
-    </blockquote>
-    <p style="font-family:var(--sans);font-weight:700;font-size:.9rem;letter-spacing:.02em;color:var(--coral-deep);margin:0;">Rebecca Bell</p>
-    <p style="font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:.2rem 0 0;">Legacy book client</p>
+    <span class="eyebrow" style="justify-content:center;">From families we helped</span>
+    <div class="testimonial-grid">
+      {{ range . }}
+      <figure class="testimonial">
+        <blockquote>“{{ .quote }}”</blockquote>
+        <figcaption><strong>{{ .name }}</strong><span>{{ .role }}</span></figcaption>
+      </figure>
+      {{ end }}
+    </div>
   </div>
 </section>
+{{ end }}
+
+<!-- JOURNAL SERIES -->
+{{ with $p.journal_series }}
+<section class="section">
+  <div class="wrap">
+    <div style="max-width:660px;margin-bottom:2.3rem;">
+      <span class="eyebrow">Explore the journal</span>
+      <h2>Useful answers, local lives, and the stories families carry.</h2>
+      <p class="lead">The journal is organized around the questions people ask Google, ChatGPT, and each other at the kitchen table.</p>
+    </div>
+    <div class="grid grid-3">
+      {{ range . }}
+      <div class="card">
+        <span class="card__num">{{ .label }}</span>
+        <h3>{{ .title }}</h3>
+        <p>{{ .body }}</p>
+        <a class="card__link" href="{{ .url | relURL }}">Read this series</a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
 
 <!-- FOR SENIOR COMMUNITIES (B2B) -->
 <section class="section">

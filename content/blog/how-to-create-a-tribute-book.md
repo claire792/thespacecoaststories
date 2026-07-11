@@ -1,4 +1,6 @@
 ---
+image: "images/book-table.jpg"
+image_alt: "How to Create a Tribute Book to Honor Someone You've Lost"
 title: How to Create a Tribute Book to Honor Someone You've Lost
 seo_title: "How to Create a Tribute Book"
 description: "A gentle step-by-step guide to creating a tribute book with stories, photographs, letters, and memories that honor someone who has died."

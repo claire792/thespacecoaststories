@@ -1,4 +1,6 @@
 ---
+image: "images/card-filled.jpg"
+image_alt: "40 Questions to Ask Your Aging Parents Before It's Too Late"
 title: 40 Questions to Ask Your Aging Parents Before It's Too Late
 seo_title: "40 Questions to Ask Your Aging Parents"
 description: "Use these 40 meaningful questions to ask aging parents about childhood, family history, relationships, turning points, and lessons they want to pass down."

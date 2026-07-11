@@ -1,4 +1,6 @@
 ---
+image: "images/interview.jpg"
+image_alt: "Preserving Memories When a Loved One Has Dementia or Alzheimer's"
 title: Preserving Memories When a Loved One Has Dementia or Alzheimer's
 seo_title: "Preserving Memories After a Dementia Diagnosis"
 description: "A compassionate guide to preserving stories after a dementia or Alzheimer's diagnosis through photos, music, recordings, and gentle conversation."

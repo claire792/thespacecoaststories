@@ -10,7 +10,7 @@
         <p class="lead">{{ $p.lead }}</p>
       </div>
       <figure style="margin:0;">
-        <img src="{{ "images/book-beach.jpg" | relURL }}" alt="A finished legacy book, The Life and Times of Catherine Small, held up on a Florida beach" style="width:100%;border-radius:4px;box-shadow:0 24px 50px -28px rgba(22,50,79,.5);" loading="eager" decoding="async" width="1600" height="900">
+        <img src="{{ $p.image | default "images/book-beach.jpg" | relURL }}" alt="A finished legacy book, The Life and Times of Catherine Small, held up on a Florida beach" style="width:100%;border-radius:4px;box-shadow:0 24px 50px -28px rgba(22,50,79,.5);" loading="eager" decoding="async" width="1600" height="900">
       </figure>
     </div>
   </div>
@@ -61,6 +61,13 @@
 </section>
 {{ end }}
 
+
+<!-- PORTFOLIO PROOF -->
+{{ with $p.portfolio_heading }}
+<section class="section-tight" style="padding-top:0;">
+  <div class="wrap-narrow"><div class="note"><span class="eyebrow">Portfolio</span><h2 style="font-size:1.55rem;">{{ . }}</h2><p>{{ $p.portfolio_body }}</p><a class="card__link" href="{{ "/portfolio/" | relURL }}">Browse covers and sample pages</a></div></div>
+</section>
+{{ end }}
 <!-- LEGACY BOOKS -->
 <section class="section">
   <div class="wrap">
@@ -79,7 +86,7 @@
         <ul>
           {{ range .features }}<li>{{ . }}</li>{{ end }}
         </ul>
-        <a class="btn {{ if .featured }}btn-primary{{ else }}btn-ghost{{ end }}" href="{{ "/contact" | relURL }}">{{ .cta | default "Ask about this" }}</a>
+        <a class="btn {{ if .featured }}btn-primary{{ else }}btn-ghost{{ end }}" href="{{ .cta_url | default "/contact/" | relURL }}">{{ .cta | default "Ask about this" }}</a>
       </div>
       {{ end }}
     </div>

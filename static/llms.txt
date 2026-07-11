@@ -1,0 +1,15 @@
+# Space Coast Stories
+
+> Space Coast Stories is a personal history and legacy book studio based in Brevard County, Florida. Claire Szewczyk interviews families and turns life stories, photographs, letters, and memories into legacy books, memorial books, veteran stories, and guided workshops.
+
+## Key pages
+- /legacy-books/ - custom legacy books
+- /services/ - services and pricing
+- /portfolio/ - sample covers and interior pages
+- /brevard-county/ - local service areas
+- /storytelling-workshops/ - workshops for libraries and senior communities
+- /blog/ - practical family history and oral history guides
+- /contact/ - start a project
+
+## Expertise
+Personal history interviews, oral history, family memoirs, legacy books, memorial and tribute books, veteran stories, NASA and Space Coast oral history, legacy letters, family photograph organization, and storytelling workshops.

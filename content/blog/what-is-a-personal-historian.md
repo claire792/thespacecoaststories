@@ -1,4 +1,6 @@
 ---
+image: "images/claire-headshot.jpg"
+image_alt: "What Is a Personal Historian, and Does Your Family Need One?"
 title: What Is a Personal Historian, and Does Your Family Need One?
 seo_title: "What Is a Personal Historian?"
 description: "Learn what a personal historian does, how the work differs from genealogy and ghostwriting, what it costs, and when a family may want one."

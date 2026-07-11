@@ -1,4 +1,6 @@
 ---
+image: "images/book-beach.jpg"
+image_alt: "Preserving Family Stories on Florida's Space Coast"
 title: Preserving Family Stories on Florida's Space Coast
 seo_title: "Preserving Family Stories on the Space Coast"
 description: "Why Brevard County family stories matter, from the space program and military service to citrus, tourism, beachside life, and rapid local change."

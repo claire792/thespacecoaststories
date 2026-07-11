@@ -1,4 +1,6 @@
 ---
+image: "images/feature-nasa-questions.jpg"
+image_alt: "Before the Rockets: A Short History of Florida's Space Coast"
 title: "Before the Rockets: A Short History of Florida's Space Coast"
 seo_title: "Space Coast History Before the Rockets"
 description: "Explore Brevard County history before the launch pads, from early communities and citrus groves to the local memories that still deserve to be preserved."

@@ -1,4 +1,6 @@
 ---
+image: "images/legacy-book-frank.jpg"
+image_alt: "How Much Does It Cost to Hire Someone to Write a Family Memoir?"
 title: How Much Does It Cost to Hire Someone to Write a Family Memoir?
 seo_title: "Cost to Hire a Family Memoir Writer"
 description: "Learn what it costs to hire a family memoir writer or personal historian, what affects the price, and which type of legacy book fits your family."

@@ -1,4 +1,6 @@
 ---
+image: "images/interview.jpg"
+image_alt: "How to Interview an Elderly Relative (Without It Feeling Like an Interview)"
 title: How to Interview an Elderly Relative (Without It Feeling Like an Interview)
 seo_title: "How to Interview an Elderly Relative"
 description: "Learn how to interview an elderly relative without making it feel formal, using relaxed questions and simple techniques that draw out real stories."

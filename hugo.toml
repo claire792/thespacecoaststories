@@ -28,15 +28,19 @@ summaryLength = 40
 [menu]
   [[menu.main]]
     name = "Legacy Books"
-    pageRef = "/services"
+    pageRef = "/legacy-books"
     weight = 10
+  [[menu.main]]
+    name = "Portfolio"
+    pageRef = "/portfolio"
+    weight = 15
   [[menu.main]]
     name = "Card Kits"
     pageRef = "/card-kits"
     weight = 20
   [[menu.main]]
     name = "Workshops"
-    pageRef = "/services"
+    pageRef = "/storytelling-workshops"
     weight = 30
   [[menu.main]]
     name = "Journal"
@@ -56,6 +60,10 @@ summaryLength = 40
   name = "Legacy Books"
   pageRef = "/services"
   weight = 10
+[[menu.footer]]
+  name = "Portfolio"
+  pageRef = "/portfolio"
+  weight = 15
 [[menu.footer]]
   name = "Card Kits"
   pageRef = "/card-kits"

@@ -1,4 +1,6 @@
 ---
+image: "images/card-filled.jpg"
+image_alt: "50 Questions to Ask Your Grandparents While You Still Can"
 title: 50 Questions to Ask Your Grandparents While You Still Can
 seo_title: "50 Questions to Ask Your Grandparents"
 description: "Use these 50 meaningful questions to ask grandparents about childhood, family, love, work, turning points, and the stories they have rarely told."
