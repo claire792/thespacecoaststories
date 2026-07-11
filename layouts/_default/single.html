@@ -9,6 +9,12 @@
 
 <section class="section-tight" style="padding-top:0;">
   <div class="wrap-narrow">
+    {{ with .Params.portrait }}
+    <figure class="portrait-figure">
+      <img src="{{ . | relURL }}" alt="{{ $.Params.portrait_alt | default $.Title }}" loading="lazy" decoding="async">
+      {{ with $.Params.portrait_caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+    </figure>
+    {{ end }}
     <div class="prose">
       {{ .Content }}
     </div>

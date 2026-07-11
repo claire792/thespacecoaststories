@@ -4,19 +4,25 @@
 
 <!-- HERO -->
 <section class="hero">
-  <div class="wrap hero__inner">
-    <span class="eyebrow">{{ $p.hero_eyebrow | default "Personal history · Brevard County" }}</span>
-    <h1>{{ $p.hero_heading | default "Someday, someone will wish they'd asked." }}</h1>
+  <div class="wrap hero__inner hero__grid">
+    <div class="hero__copy">
+      <span class="eyebrow">{{ $p.hero_eyebrow | default "Personal history · Brevard County" }}</span>
+      <h1>{{ $p.hero_heading | default "Someday, someone will wish they'd asked." }}</h1>
 
-    <div class="prompt-card" aria-hidden="true">
-      <span class="prompt-card__label">Ask them anything</span>
-      <p class="prompt-card__q" id="rotating-prompt">{{ index $p.hero_prompts 0 }}</p>
+      <div class="prompt-card" aria-hidden="true">
+        <span class="prompt-card__label">Ask them anything</span>
+        <p class="prompt-card__q" id="rotating-prompt">{{ index $p.hero_prompts 0 }}</p>
+      </div>
+
+      <p class="hero__sub lead">{{ $p.hero_sub }}</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="{{ "/services" | relURL }}">{{ $p.hero_cta1 | default "See legacy books" }}</a>
+        <a class="btn btn-ghost" href="{{ "/card-kits" | relURL }}">{{ $p.hero_cta2 | default "Shop the card kits" }}</a>
+      </div>
     </div>
-
-    <p class="hero__sub lead">{{ $p.hero_sub }}</p>
-    <div class="btn-row">
-      <a class="btn btn-primary" href="{{ "/services" | relURL }}">{{ $p.hero_cta1 | default "See legacy books" }}</a>
-      <a class="btn btn-ghost" href="{{ "/card-kits" | relURL }}">{{ $p.hero_cta2 | default "Shop the card kits" }}</a>
+    <div class="hero__art">
+      <img src="{{ "images/book-daughter.jpg" | relURL }}" alt="A daughter holding a finished legacy book, The Life and Times of Catherine Small" width="1100" height="1375" loading="eager" decoding="async">
+      <span class="hero__tag">A legacy that's out of this world</span>
     </div>
   </div>
   {{ with $p.hero_prompts }}
@@ -90,14 +96,23 @@
         <p class="lead">{{ $p.demo_body }}</p>
         <a class="btn btn-ghost" href="{{ "/contact" | relURL }}">Request a sample book</a>
       </div>
-      <div style="background:var(--white);border:1px solid var(--line);border-radius:3px;padding:2.5rem;box-shadow:var(--shadow-soft);">
-        <div style="border:1px solid var(--line);border-top:4px solid var(--brass);border-radius:2px;padding:2rem 1.6rem;text-align:center;">
-          <span class="eyebrow" style="justify-content:center;">Legacy book · sample</span>
-          <p class="serif-italic" style="font-size:1.55rem;line-height:1.35;color:var(--ink);margin:.5rem 0 .3rem;">"A Life in Full"</p>
-          <p style="font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0;">The story of Catherine Small<br>as told in her own words</p>
-        </div>
-      </div>
+      <figure style="margin:0;">
+        <img src="{{ "images/book-table.jpg" | relURL }}" alt="A finished legacy book, The Life and Times of Catherine Small, displayed on a living-room table" style="width:100%;border-radius:4px;box-shadow:0 24px 50px -28px rgba(22,50,79,.5);" loading="lazy" decoding="async">
+        <figcaption style="font-family:var(--sans);font-size:.82rem;color:var(--muted);margin-top:.7rem;">A sample legacy book — <em>The Life and Times of Catherine Small</em>.</figcaption>
+      </figure>
     </div>
+  </div>
+</section>
+
+<!-- TESTIMONIAL -->
+<section class="section-tight">
+  <div class="wrap-narrow center">
+    <span class="eyebrow" style="justify-content:center;">From a family we helped</span>
+    <blockquote class="serif-italic" style="font-size:clamp(1.4rem,2.8vw,1.9rem);line-height:1.4;color:var(--ink);border:0;margin:1rem 0 1.2rem;padding:0;">
+      "She knows exactly how to tell a story. I cried for hours reading my late father's mini legacy book. She got it done in time for the funeral, and even gave us extra to work with so we had a beautiful montage of his life to share. We were blessed to have found her."
+    </blockquote>
+    <p style="font-family:var(--sans);font-weight:700;font-size:.9rem;letter-spacing:.02em;color:var(--coral-deep);margin:0;">Rebecca Bell</p>
+    <p style="font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:.2rem 0 0;">Legacy book client</p>
   </div>
 </section>
 
@@ -107,7 +122,7 @@
     <div class="note" style="border-left-width:4px;padding:clamp(1.6rem,4vw,2.4rem);">
       <div class="grid grid-2" style="align-items:center;gap:2rem;">
         <div>
-          <span class="eyebrow" style="color:var(--sea);">For activity & life-enrichment directors</span>
+          <span class="eyebrow" style="color:var(--teal-deep);">For activity & life-enrichment directors</span>
           <h3 style="font-size:clamp(1.5rem,2.6vw,1.9rem);">{{ $p.b2b_heading | default "Bring storytelling to your community." }}</h3>
           <p style="margin-bottom:0;color:var(--ink-soft);">{{ $p.b2b_body }}</p>
         </div>

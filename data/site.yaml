@@ -1,12 +1,12 @@
 # Global site info. Edit these in the CMS under "Site Settings".
 business_name: "Space Coast Stories"
-tagline: "Personal history & legacy storytelling"
+tagline: "A legacy that's out of this world"
 location: "Brevard County, Florida"
 
 # CONTACT — replace with your real details before launch.
-email: "hello@thespacecoaststories.com"
-phone: "(321) 555-0100"
-phone_note: "Calls & texts welcome, Mon–Fri"
+email: "claire@thespacecoaststories.com"
+phone: "(321) 780-0784"
+phone_note: "Call or text — I answer personally"
 
 # Square checkout for the card kits — paste your Square Online link here.
 square_checkout_url: "https://square.link/REPLACE-ME"

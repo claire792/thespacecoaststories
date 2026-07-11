@@ -2,6 +2,9 @@
 title: "About Space Coast Stories"
 eyebrow: "Who's behind this"
 lead: "A writer, a stack of question cards, and a stubborn belief that the people we love should get to keep their stories."
+portrait: "images/claire-headshot.jpg"
+portrait_alt: "Claire Szewczyk, founder of Space Coast Stories, on a Florida beach"
+portrait_caption: "Claire Szewczyk — writer, personal historian, and founder of Space Coast Stories."
 show_contact_cta: true
 ---
 
