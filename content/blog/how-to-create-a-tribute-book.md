@@ -1,9 +1,9 @@
 ---
-image: "images/book-table.jpg"
-image_alt: "How to Create a Tribute Book to Honor Someone You've Lost"
+image: https://images.unsplash.com/photo-1616122719830-82e74d8b3eb5?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: A warm floral arrangement for a meaningful memorial tribute
 title: How to Create a Tribute Book to Honor Someone You've Lost
-seo_title: "How to Create a Tribute Book"
-description: "A gentle step-by-step guide to creating a tribute book with stories, photographs, letters, and memories that honor someone who has died."
+seo_title: How to Create a Tribute Book
+description: A gentle step-by-step guide to creating a tribute book with stories, photographs, letters, and memories that honor someone who has died.
 date: '2026-05-14'
 category: Memorial
 tags:
@@ -21,6 +21,8 @@ faqs:
   a: Reach out personally and ask each person for one specific memory, story, or detail they never want to forget. Give them a simple way to send it, by text, email, or handwriting. People who were too grief-stricken to speak at the service often write something moving in the weeks after.
 - q: Can someone create a tribute book for me?
   a: Yes. A personal historian can gather the photos and stories, interview the family, write and design the book, and manage the printing, so you end up with a finished keepsake without having to assemble it yourself during a hard season.
+image_credit: Mary Oakey
+image_credit_url: https://images.unsplash.com/photo-1616122719830-82e74d8b3eb5?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 A tribute book is a printed keepsake that gathers a loved one's life story, their photographs, and the memories of the people who knew them, created after they've passed. To make one, collect their story and pictures, invite family and friends to share their memories, shape it all into chapters, and have it printed. Here's how to begin, even while you're still grieving.

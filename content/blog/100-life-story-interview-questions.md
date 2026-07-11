@@ -2,16 +2,16 @@
 title: 100 Life Story and Oral History Interview Questions (Free Printable)
 seo_title: 100 Life Story Interview Questions + PDF
 description: 100 life story and oral history interview questions for families, students, activity directors, and volunteers, grouped by theme with a free printable PDF.
-date: '2026-11-24'
-lastmod: '2026-11-24'
+date: '2026-07-06'
+lastmod: '2026-07-06'
 category: How to Start
 tags:
 - life story questions
 - oral history interview questions
 - free printable
 - family history
-image: images/feature-life-story-questions.jpg
-image_alt: 100 Life Story and Oral History Interview Questions (Free Printable)
+image: https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: A pen resting on lined paper ready for life story interview notes
 draft: false
 faqs:
 - q: What are good oral history interview questions?
@@ -22,6 +22,8 @@ faqs:
   a: 'Anyone preserving someone''s memories: families recording a relative, students doing history projects, activity directors running reminiscence sessions, and hospice or community volunteers. The themes are universal, so you can adapt the list to any setting.'
 - q: Is there a printable version of these questions?
   a: Yes. A free printable PDF of all 100 questions, organized by theme, is linked at the top of this post. Print it to bring to an interview, a family gathering, or a group session.
+image_credit: Aaron Burden
+image_credit_url: https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 These 100 life story and oral history interview questions help you capture anyone's memories, organized into ten themes from early childhood to final reflections. They work for families recording a relative, students on a history project, activity directors at senior communities, and hospice or community volunteers. Ask open questions, listen more than you talk, and record the conversation. A free printable version is linked below.

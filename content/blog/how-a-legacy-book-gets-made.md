@@ -1,9 +1,9 @@
 ---
-image: "images/legacy-book-frank.jpg"
-image_alt: "Behind the Scenes: How a Legacy Book Comes Together"
+image: https://images.unsplash.com/photo-1646645733353-55c8bfb60a70?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: A professionally designed photo book open to a family collage
 title: 'Behind the Scenes: How a Legacy Book Comes Together'
-seo_title: "How a Legacy Book Is Made"
-description: "See how recorded interviews, family photos, writing, revisions, design, and printing come together to create a finished family legacy book."
+seo_title: How a Legacy Book Is Made
+description: See how recorded interviews, family photos, writing, revisions, design, and printing come together to create a finished family legacy book.
 date: '2026-05-30'
 category: Behind the Scenes
 tags:
@@ -20,6 +20,8 @@ faqs:
   a: It varies with the scope, but most projects involve several relaxed sessions rather than one long one. Shorter sessions spread out produce warmer, richer material and are easier on your loved one.
 - q: What do I have to do as the family?
   a: Not much. You help arrange access to your loved one and gather old photographs, answer occasional fact-checking questions, and let the conversations unfold. The interviewing, writing, design, and printing are handled for you.
+image_credit: Arun Prakash
+image_credit_url: https://images.unsplash.com/photo-1646645733353-55c8bfb60a70?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 A legacy book comes together in five stages: the conversations, the recording and transcription, the writing and shaping, the design with photographs, and the printing. Start to finish, it usually takes a few weeks to a few months, depending on the length and the life. Here's a look behind the scenes at how a whole life becomes a book you can hold.

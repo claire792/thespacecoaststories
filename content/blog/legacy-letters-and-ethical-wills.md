@@ -2,16 +2,16 @@
 title: 'Legacy Letters and Ethical Wills: Passing On More Than Money'
 seo_title: Legacy Letters & Ethical Wills Explained
 description: A legacy letter or ethical will passes on values, lessons, and blessings rather than assets. Learn what it is and how to write one.
-date: '2026-08-03'
-lastmod: '2026-08-03'
+date: '2026-06-29'
+lastmod: '2026-06-29'
 category: Memorial
 tags:
 - legacy letter
 - ethical will
 - estate planning
 - family values
-image: images/feature-legacy-letters.jpg
-image_alt: 'Legacy Letters and Ethical Wills: Passing On More Than Money'
+image: https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: A fountain pen resting on handwritten pages
 draft: false
 faqs:
 - q: What is an ethical will or legacy letter?
@@ -22,6 +22,8 @@ faqs:
   a: A legal will distributes your money and property and is legally binding. A legacy letter passes on your values, wisdom, and blessings and is not legally binding. One answers "who gets what," the other answers "who was I and what do I hope for you." Families benefit from having both.
 - q: How do I write an ethical will?
   a: Write as if speaking directly to your loved ones. Include your values, lessons learned, gratitude, a few defining stories, and your hopes and blessings for each person. Keep it honest and personal, date and sign it, and let someone know where to find it. You can add to it over time.
+image_credit: Aaron Burden
+image_credit_url: https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 A legacy letter, also called an ethical will, is a personal message that passes on your values, life lessons, blessings, and hopes to the people you love. Unlike a legal will, which distributes your money and property, a legacy letter is not legally binding. It shares who you are and what you believe. Here's what it is, why it belongs alongside your estate planning, and how to write one.

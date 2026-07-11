@@ -385,3 +385,17 @@ p { margin: 0 0 1.1em; }
 .interior-gallery figure { margin:0 0 1.2rem; break-inside:avoid; background:var(--white); border:1px solid var(--line); padding:.35rem; box-shadow:var(--shadow-soft); }
 .interior-gallery img { width:100%; display:block; }
 @media (max-width:860px) { .showcase-grid,.related-grid { grid-template-columns:1fr; } .post-grid { grid-template-columns:1fr; } }
+
+/* Portfolio image reliability and full sample gallery */
+.interior-gallery__link { display:block; background:var(--paper-2); }
+.interior-gallery__link img { min-height:80px; }
+.interior-gallery figcaption { padding:.55rem .35rem .25rem; color:var(--muted); font-family:var(--sans); font-size:.76rem; text-align:center; }
+
+
+.image-credit {
+  margin: .45rem 0 0;
+  color: var(--muted, #6f6a62);
+  font-size: .76rem;
+  text-align: right;
+}
+.image-credit a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }

@@ -2,16 +2,16 @@
 title: Can AI Write Your Family Memoir? What It Can and Can't Do
 seo_title: Can AI Write Your Family Memoir?
 description: Can AI write your family memoir? A personal historian explains where AI helps, where it fails, and when a human writer still matters.
-date: '2026-11-10'
-lastmod: '2026-11-10'
+date: '2026-07-08'
+lastmod: '2026-07-08'
 category: Behind the Scenes
 tags:
 - AI memoir writer
 - family memoir
 - personal historian
 - memoir writing
-image: images/feature-ai-memoir.jpg
-image_alt: Can AI Write Your Family Memoir? What It Can and Can't Do
+image: https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: A person writing in a notebook beside a laptop
 draft: false
 faqs:
 - q: Can AI write a family memoir?
@@ -22,6 +22,8 @@ faqs:
   a: Treat them as sensitive data. Before entering a lifetime of personal history into an online AI service, understand where that information goes and how it may be stored or used. For deeply private material, that caution matters.
 - q: Should I use AI or hire a personal historian for a memoir?
   a: Use AI for the mechanical parts like transcription and organizing, and rely on a human for voice, fact-checking, and emotional judgment. A personal historian often does both, using AI tools to work efficiently while doing the human work that makes the book ring true.
+image_credit: Thought Catalog
+image_credit_url: https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 AI can genuinely help write a family memoir, but it can't do the whole job well on its own. It's excellent at transcribing interviews, organizing scattered notes, and drafting rough passages. It struggles with what matters most in a memoir: capturing a real person's voice, protecting private details, and telling the emotional truth without inventing facts. The best results come from a human using AI as a tool, not from AI alone.

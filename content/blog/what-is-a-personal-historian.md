@@ -1,9 +1,9 @@
 ---
-image: "images/claire-headshot.jpg"
-image_alt: "What Is a Personal Historian, and Does Your Family Need One?"
+image: https://images.unsplash.com/photo-1579017308347-e53e0d2fc5e9?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: A woman writing thoughtful notes in a notebook
 title: What Is a Personal Historian, and Does Your Family Need One?
-seo_title: "What Is a Personal Historian?"
-description: "Learn what a personal historian does, how the work differs from genealogy and ghostwriting, what it costs, and when a family may want one."
+seo_title: What Is a Personal Historian?
+description: Learn what a personal historian does, how the work differs from genealogy and ghostwriting, what it costs, and when a family may want one.
 date: '2026-05-26'
 category: How to Start
 tags:
@@ -20,6 +20,8 @@ faqs:
   a: It varies with the length of the project, the number of interview hours, and whether you want a simple keepsake or a full hardcover book. It can range from a few hundred dollars to several thousand. The main drivers are interview time, writing, design, and printing.
 - q: Do I really need a personal historian, or can I do it myself?
   a: You can absolutely do it yourself, and many families do. Hiring one makes sense when time is short, when a loved one opens up more to a neutral outsider than to family, or when you want a polished, finished book without doing the writing and design. Even capturing the interviews now protects the story either way.
+image_credit: Marcos Paulo Prado
+image_credit_url: https://images.unsplash.com/photo-1579017308347-e53e0d2fc5e9?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 A personal historian is a professional who preserves people's life stories, usually by interviewing them and shaping those conversations into a book, an audio recording, or a video. Think of it as a biographer for everyday families, not just the famous. Here's what a personal historian actually does, how they're different from a genealogist, what it costs, and how to tell if your family needs one.

@@ -1,12 +1,18 @@
 ---
-image: "images/feature-nasa-questions.jpg"
-image_alt: "Before the Rockets: A Short History of Florida's Space Coast"
-title: "Before the Rockets: A Short History of Florida's Space Coast"
-seo_title: "Space Coast History Before the Rockets"
-description: "Explore Brevard County history before the launch pads, from early communities and citrus groves to the local memories that still deserve to be preserved."
+image: https://images.unsplash.com/photo-1457364887197-9150188c107b?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: A glowing rocket trail arcing over the Florida coast at dusk
+title: 'Before the Rockets: A Short History of Florida''s Space Coast'
+seo_title: Space Coast History Before the Rockets
+description: Explore Brevard County history before the launch pads, from early communities and citrus groves to the local memories that still deserve to be preserved.
 date: 2026-06-24
-category: "Local History"
-tags: ["Space Coast", "Brevard County", "local history", "Florida"]
+category: Local History
+tags:
+- Space Coast
+- Brevard County
+- local history
+- Florida
+image_credit: SpaceX
+image_credit_url: https://images.unsplash.com/photo-1457364887197-9150188c107b?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 We named this stretch of Florida coast after the thing that made it famous: the rockets. But the land had a long life before the launch pads, and a lot of it still lives in the memories of people who were here for the change.

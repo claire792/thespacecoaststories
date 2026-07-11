@@ -1,9 +1,9 @@
 ---
-image: "images/catherine-library-card.jpg"
-image_alt: "How to Organize Old Family Photos Before You Lose the Story Behind Them"
+image: https://images.unsplash.com/photo-1528569937393-ee892b976859?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: Hands opening an old album filled with black and white photographs
 title: How to Organize Old Family Photos Before You Lose the Story Behind Them
-seo_title: "How to Organize Old Family Photos"
-description: "Organize old family photos and documents while preserving the names, dates, places, and stories that give each image meaning."
+seo_title: How to Organize Old Family Photos
+description: Organize old family photos and documents while preserving the names, dates, places, and stories that give each image meaning.
 date: '2026-06-15'
 category: How to Start
 tags:
@@ -21,6 +21,8 @@ faqs:
   a: Sit down with the oldest members of your family, go through the photos together, and record them identifying people and events. This is the single most important step, because once those relatives are gone, the identities and stories often can't be recovered.
 - q: How should I store old photos to protect them?
   a: Keep them out of direct sunlight, heat, and humidity, handle them by the edges with clean hands, and store them in acid-free boxes or sleeves. In humid climates like Florida, a cool, dry, stable spot matters even more.
+image_credit: Laura Fuhrman
+image_credit_url: https://images.unsplash.com/photo-1528569937393-ee892b976859?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 To organize old family photos, gather them all in one place, sort them into rough groups by era or family line, digitize them by scanning or photographing, and label each one with who's in it and what's happening. The most important and most overlooked step is capturing the stories behind the photos while the people who remember them are still here. Here's how.

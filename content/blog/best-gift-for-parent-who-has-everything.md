@@ -1,9 +1,9 @@
 ---
-image: "images/legacy-book-peggy.jpg"
-image_alt: "The Best Gift for a Parent or Grandparent Who Has Everything"
+image: https://images.unsplash.com/photo-1763685769055-54e56a115b68?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: An open family photo book displayed on a table
 title: The Best Gift for a Parent or Grandparent Who Has Everything
-seo_title: "Best Gift for a Parent Who Has Everything"
-description: "A meaningful gift for a parent or grandparent who has everything: their life story, recorded and preserved as a keepsake the whole family can share."
+seo_title: Best Gift for a Parent Who Has Everything
+description: 'A meaningful gift for a parent or grandparent who has everything: their life story, recorded and preserved as a keepsake the whole family can share.'
 date: '2026-05-18'
 category: Legacy Books
 tags:
@@ -21,6 +21,8 @@ faqs:
   a: It scales to any budget. A question-card kit is an affordable starting point, recording the stories yourself costs only your time, and a full professionally written and printed legacy book is a larger investment. You can start small and build up to a finished book later.
 - q: Can I give a legacy book as a gift if it won't be finished in time?
   a: Absolutely. Give a card announcing the gift, maybe with a photo or a first question, and let the interviews happen afterward. The anticipation is part of the fun, and your loved one gets something to look forward to.
+image_credit: tommao wang
+image_credit_url: https://images.unsplash.com/photo-1763685769055-54e56a115b68?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 The best gift for a parent or grandparent who has everything is their own life story, captured and kept. Instead of one more thing to dust, you give them the experience of being asked about their life, and you give your family a record that lasts for generations. Here's how to give it, at every budget.

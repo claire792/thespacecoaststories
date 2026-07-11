@@ -2,16 +2,16 @@
 title: 'Meaningful Celebration of Life Ideas: Telling Their Story and Building a Memory Table'
 seo_title: Meaningful Celebration of Life Ideas
 description: Meaningful celebration of life ideas that reflect the person, from a memory table and story sharing to displaying their own words and keepsakes.
-date: '2026-08-17'
-lastmod: '2026-08-17'
+date: '2026-06-26'
+lastmod: '2026-06-26'
 category: Memorial
 tags:
 - celebration of life ideas
 - memory table
 - memorial ideas
 - tribute book
-image: images/feature-celebration-life.jpg
-image_alt: 'Meaningful Celebration of Life Ideas: Telling Their Story and Building a Memory Table'
+image: https://images.unsplash.com/photo-1544813545-4827b64fcacb?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: Soft pink and white flowers arranged for a celebration of life
 draft: false
 faqs:
 - q: What is a celebration of life?
@@ -22,6 +22,8 @@ faqs:
   a: Photos from across their life, objects that defined them, their own words or a journal, items from their hobbies and passions, a guest book or memory cards, and flowers or candles. Arrange it centrally at a height people can gather around.
 - q: How can we preserve the stories shared at a celebration of life?
   a: Ask someone to quietly record the story-sharing on a phone, and set out memory cards for guests to write down memories. Afterward, those stories can be gathered into a keepsake book, so the memories shared that day are kept for good.
+image_credit: Mayron Oliveira
+image_credit_url: https://images.unsplash.com/photo-1544813545-4827b64fcacb?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 A celebration of life is a personal, often less formal gathering that honors who someone truly was. Meaningful ideas include building a memory table of their belongings and photos, inviting guests to share stories, displaying their own words or life-story book, and weaving in their music, hobbies, and favorite things. Here's how to plan one that genuinely reflects the person you loved.

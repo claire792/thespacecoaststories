@@ -19,7 +19,10 @@
       {{ range .Pages.ByDate.Reverse }}
       {{ $post := . }}
       <article class="post-card">
-        {{ with $post.Params.image }}<a class="post-card__image" href="{{ $post.RelPermalink }}"><img src="{{ . | relURL }}" alt="{{ $post.Params.image_alt | default $post.Title }}" loading="lazy" decoding="async" width="1600" height="900"></a>{{ end }}
+        {{ with $post.Params.image }}
+        {{ $img := . }}{{ if not (or (hasPrefix $img "http://") (hasPrefix $img "https://")) }}{{ $img = ($img | relURL) }}{{ end }}
+        <a class="post-card__image" href="{{ $post.RelPermalink }}"><img src="{{ $img }}" alt="{{ $post.Params.image_alt | default $post.Title }}" loading="lazy" decoding="async" width="1600" height="900" referrerpolicy="no-referrer"></a>
+        {{ end }}
         <div class="post-card__body">
           <div class="post-card__meta">{{ .Date.Format "Jan 2, 2006" }}{{ with .Params.category }} · {{ . }}{{ end }}</div>
           <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>

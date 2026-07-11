@@ -52,15 +52,15 @@ b2b_body: We run warm, easy storytelling sessions for assisted living and senior
 cta_heading: The stories don't survive by accident.
 cta_body: Tell us who you're trying to remember. We'll tell you the simplest way to start.
 book_showcase:
-- image: images/book-table.jpg
+- image: /images/book-table.jpg
   alt: Catherine Small legacy book displayed on a table
   title: Catherine Small
   caption: Literary, warm, and rooted in family photographs.
-- image: images/legacy-book-frank.jpg
+- image: /images/legacy-book-frank-v2.jpg
   alt: Frank Delgado sailing-themed legacy book
   title: Frank Delgado
   caption: A coastal life story built around the water.
-- image: images/legacy-book-peggy.jpg
+- image: /images/legacy-book-peggy.jpg
   alt: Peggy Anne Gregory floral legacy book
   title: Peggy Anne Gregory
   caption: A soft family memoir centered on love and memory.

@@ -2,16 +2,16 @@
 title: 'StoryWorth Alternatives: DIY, Personal Historian, or Legacy Book Service?'
 seo_title: Best StoryWorth Alternatives for Families
 description: An honest look at StoryWorth alternatives, from DIY recording to hiring a personal historian, especially when a parent would rather talk than write.
-date: '2026-11-03'
-lastmod: '2026-11-03'
+date: '2026-07-10'
+lastmod: '2026-07-10'
 category: Legacy Books
 tags:
 - StoryWorth alternatives
 - personal historian
 - legacy book
 - family memoir
-image: images/feature-storyworth-alternatives.jpg
-image_alt: 'StoryWorth Alternatives: DIY, Personal Historian, or Legacy Book Service?'
+image: https://images.unsplash.com/photo-1676883344224-2fa5de6025db?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: Hands holding a photo book open to a wedding photograph
 draft: false
 faqs:
 - q: What is the best alternative to StoryWorth if my parent doesn't like writing?
@@ -22,6 +22,8 @@ faqs:
   a: Yes. Interviewing your parent yourself and recording it on a phone costs nothing but time, and it captures their actual voice. You can pair it with a free list of questions to guide the conversation and organize the results into a book later.
 - q: What if my parent's memory is fading?
   a: Skip the written, weekly-homework model and capture stories in person, gently and soon. Recorded conversations, familiar photos, and an unhurried pace work far better than emailed questions. A personal historian experienced with memory loss can help draw out the stories while they're still reachable.
+image_credit: Kristyna Squared.one
+image_credit_url: https://images.unsplash.com/photo-1676883344224-2fa5de6025db?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 The best StoryWorth alternative depends on how your loved one likes to communicate. StoryWorth emails weekly questions that your parent answers in writing, then compiles a year of answers into a book. If your parent doesn't like to write, better options include recording their answers as audio, using a question-card kit, or hiring a personal historian who interviews them and writes the book for them. Here's an honest comparison.

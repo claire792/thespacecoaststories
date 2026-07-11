@@ -2,16 +2,16 @@
 title: Questions to Ask Someone Who Worked at NASA or Kennedy Space Center
 seo_title: Questions for NASA & Kennedy Space Center Workers
 description: Questions to ask someone who worked at NASA or Kennedy Space Center, from launch pads to control rooms, to preserve the human stories behind the missions.
-date: '2026-12-08'
-lastmod: '2026-12-08'
+date: '2026-07-03'
+lastmod: '2026-07-03'
 category: Local History
 tags:
 - NASA oral history
 - Kennedy Space Center
 - Space Coast history
 - life story questions
-image: images/feature-nasa-questions.jpg
-image_alt: Questions to Ask Someone Who Worked at NASA or Kennedy Space Center
+image: https://images.unsplash.com/photo-1614728263952-84ea256f9679?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: A space shuttle lifting off from Kennedy Space Center
 draft: false
 faqs:
 - q: What should I ask a retired NASA or Kennedy Space Center worker?
@@ -22,6 +22,8 @@ faqs:
   a: The people who built and launched the early space program are aging, and much of their firsthand experience has never been written down. Once they're gone, those personal accounts, the human stories behind the missions, can't be recovered. Recording them now preserves a unique piece of local and national history.
 - q: Where can I learn about NASA's own oral history efforts?
   a: NASA runs an oral history project that preserves interviews with people who worked in the space program. You can explore it through NASA's history resources online. It's a great example of why these firsthand stories are worth capturing, both nationally and within your own family.
+image_credit: NASA
+image_credit_url: https://images.unsplash.com/photo-1614728263952-84ea256f9679?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 The best questions to ask someone who worked at NASA or Kennedy Space Center focus on their specific job, the missions they were part of, what launch days felt like from the inside, the people they worked with, and how it felt to be part of something historic. Let them tell the human story behind the hardware. Below are questions grouped by theme to help you preserve a space worker's memories, right here on the Space Coast.

@@ -2,16 +2,16 @@
 title: What to Do With a Loved One's Letters, Journals, and Belongings
 seo_title: What to Do With Letters, Journals & Belongings
 description: A gentle guide to sorting a loved one's letters, journals, photos, and belongings, including what to keep, how to preserve it, and how to share it.
-date: '2026-08-10'
-lastmod: '2026-08-10'
+date: '2026-06-28'
+lastmod: '2026-06-28'
 category: Memorial
 tags:
 - preserve old letters
 - family journals
 - grief keepsakes
 - family archive
-image: images/feature-belongings.jpg
-image_alt: What to Do With a Loved One's Letters, Journals, and Belongings
+image: https://images.unsplash.com/photo-1447069387593-a5de0862481e?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: A vintage sheet of paper and pen among family keepsakes
 draft: false
 faqs:
 - q: What should I do with a deceased loved one's letters and journals?
@@ -22,6 +22,8 @@ faqs:
   a: Handle them with clean, dry hands, store them flat in acid-free boxes away from sunlight, heat, and humidity, and digitize them by scanning or photographing. Back up the digital copies in more than one place so the words are protected even if the paper degrades.
 - q: What can I do with a loved one's writings to honor them?
   a: 'Gather their letters and journal entries into something lasting: transcribe a journal, collect letters into a bound book, or combine their writings with photos into a keepsake. This turns scattered papers into a shared family treasure in their own words.'
+image_credit: Joanna Kosinska
+image_credit_url: https://images.unsplash.com/photo-1447069387593-a5de0862481e?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 When sorting a loved one's letters, journals, and belongings, go slowly and resist discarding anything meaningful in the early rush of grief. Set aside the writings, photos, and objects that carry their voice or story, digitize and preserve the most precious, and consider turning letters and journals into a keepsake the family can share. Here's a gentle, practical guide.

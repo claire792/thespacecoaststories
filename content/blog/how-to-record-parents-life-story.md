@@ -1,9 +1,9 @@
 ---
-image: "images/book-table2.jpg"
-image_alt: "How to Record Your Parents' Life Story Before It's Too Late"
+image: https://images.unsplash.com/photo-1609113006359-1e9c378ab54d?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: An older couple talking together in a comfortable home
 title: How to Record Your Parents' Life Story Before It's Too Late
-seo_title: "How to Record Your Parents' Life Story"
-description: "A simple seven-step guide to recording your parents' life story before important memories are lost, using tools you already have."
+seo_title: How to Record Your Parents' Life Story
+description: A simple seven-step guide to recording your parents' life story before important memories are lost, using tools you already have.
 date: '2026-07-05'
 category: How to Start
 tags:
@@ -21,6 +21,8 @@ faqs:
   a: No. A modern smartphone's voice recorder captures clear audio for a family history. Worry about the questions and the setting, not the microphone.
 - q: Should I hire someone to do this instead?
   a: It's worth it if the conversations are hard to have as a family member, if time is short, or if you want a finished book rather than a folder of recordings. A personal historian handles the interviews, writing, and design.
+image_credit: Tim Kilby
+image_credit_url: https://images.unsplash.com/photo-1609113006359-1e9c378ab54d?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 To record your parent's life story, start now, with a phone and a plan. Sit down for short, regular conversations, ask open questions about their childhood and the turning points, record the audio, and back it up somewhere safe. You don't need special equipment or a perfect setup. You need to begin before the chance is gone.

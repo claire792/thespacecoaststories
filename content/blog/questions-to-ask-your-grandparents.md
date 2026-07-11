@@ -1,9 +1,9 @@
 ---
-image: "images/card-filled.jpg"
-image_alt: "50 Questions to Ask Your Grandparents While You Still Can"
+image: https://images.unsplash.com/photo-1645497265284-f2cf176bcb6c?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: An open keepsake album filled with a couple’s family photographs
 title: 50 Questions to Ask Your Grandparents While You Still Can
-seo_title: "50 Questions to Ask Your Grandparents"
-description: "Use these 50 meaningful questions to ask grandparents about childhood, family, love, work, turning points, and the stories they have rarely told."
+seo_title: 50 Questions to Ask Your Grandparents
+description: Use these 50 meaningful questions to ask grandparents about childhood, family, love, work, turning points, and the stories they have rarely told.
 date: '2026-07-09'
 category: How to Start
 tags:
@@ -19,6 +19,8 @@ faqs:
   a: Use your phone's voice memo app, sit somewhere quiet and comfortable, and ask one open question at a time. Record the whole conversation and back it up. Capturing it is what counts.
 - q: What if my grandparent doesn't want to talk about the past?
   a: Start small and low-stakes — a favorite meal, a first job, a song they loved. Warmth opens doors that direct questions don't. A neutral third person often gets stories a family member can't.
+image_credit: Arun Prakash
+image_credit_url: https://images.unsplash.com/photo-1645497265284-f2cf176bcb6c?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 The best questions to ask your grandparents are the open ones, the kind that ask for a story instead of a yes or a no. Start with their childhood, then move to work, love, the hard years, and what they hope you'll remember. Below are fifty questions, grouped by theme, that you can bring to any visit and start using today.

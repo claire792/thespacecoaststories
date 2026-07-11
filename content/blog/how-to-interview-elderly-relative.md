@@ -1,9 +1,9 @@
 ---
-image: "images/interview.jpg"
-image_alt: "How to Interview an Elderly Relative (Without It Feeling Like an Interview)"
+image: https://images.unsplash.com/photo-1758612897909-7b4c8e3297e8?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: A grandfather and grandson sharing a quiet conversation
 title: How to Interview an Elderly Relative (Without It Feeling Like an Interview)
-seo_title: "How to Interview an Elderly Relative"
-description: "Learn how to interview an elderly relative without making it feel formal, using relaxed questions and simple techniques that draw out real stories."
+seo_title: How to Interview an Elderly Relative
+description: Learn how to interview an elderly relative without making it feel formal, using relaxed questions and simple techniques that draw out real stories.
 date: '2026-05-22'
 category: How to Start
 tags:
@@ -21,6 +21,8 @@ faqs:
   a: Yes. Use your phone's voice recorder, set it down, and let everyone forget it's there. Later, the recording captures details you'd never remember, and the sound of their actual voice becomes priceless. Just let them know you're recording so it's comfortable.
 - q: What if my relative says their life isn't interesting?
   a: Almost everyone says that, and almost everyone is wrong. Start with one small, specific question rather than announcing a big project. A single memory usually opens the door to more. If it stays difficult, a personal historian asking as a neutral outsider often draws out stories family can't.
+image_credit: Vitaly Gariev
+image_credit_url: https://images.unsplash.com/photo-1758612897909-7b4c8e3297e8?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 To interview an elderly relative without it feeling like an interview, keep it a relaxed conversation instead of a question-and-answer session. Pick a comfortable setting, ask open questions one at a time, listen far more than you talk, follow their tangents wherever they go, and let the recorder run quietly in the background. Warmth is what draws out the real stories. Here's how to do it.

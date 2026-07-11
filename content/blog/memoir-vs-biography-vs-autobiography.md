@@ -1,9 +1,9 @@
 ---
-image: "images/catherine-title.jpg"
-image_alt: "Memoir vs. Biography vs. Autobiography: What''s the Difference?"
+image: https://images.unsplash.com/photo-1632679760635-55966a6e3d42?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: An open book displayed on a patterned blanket
 title: 'Memoir vs. Biography vs. Autobiography: What''s the Difference?'
-seo_title: "Memoir vs. Biography vs. Autobiography"
-description: "Understand the difference between a memoir, biography, autobiography, and legacy book, and choose the right format for your family's story."
+seo_title: Memoir vs. Biography vs. Autobiography
+description: Understand the difference between a memoir, biography, autobiography, and legacy book, and choose the right format for your family's story.
 date: '2026-06-07'
 category: Legacy Books
 tags:
@@ -21,6 +21,8 @@ faqs:
   a: Not quite. A memoir is usually written by the person themselves about part of their life. A legacy book is typically created with a personal historian, keeps the subject's own voice, can cover the whole life or select chapters, and is made as a keepsake for the family rather than for publication.
 - q: Which type of life story book should I choose for a parent or grandparent?
   a: If they won't be writing it themselves but you want their stories in their own voice for the family, choose a legacy book. If they want to write their whole life themselves, that's an autobiography; a single meaningful chapter, a memoir; and a professionally researched, outside-voice account, a biography.
+image_credit: Anne Nygård
+image_credit_url: https://images.unsplash.com/photo-1632679760635-55966a6e3d42?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 A memoir is a first-person story about part of a person's life, usually written by them. An autobiography is a first-person account of their whole life, also written by them. A biography is someone's life story written by another person. A legacy book is a personal keepsake built with a loved one, in their own voice, to preserve their history for the family. Here's how to tell them apart and pick the right one.

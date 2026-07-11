@@ -11,7 +11,11 @@
   {{- else -}}
     {{- $title = printf "%s · %s" .Title site.Title -}}
   {{- end -}}
-  {{- $image := .Params.image | default "images/book-daughter.jpg" | absURL -}}
+  {{- $rawImage := .Params.image | default "images/book-daughter.jpg" -}}
+  {{- $image := $rawImage -}}
+  {{- if not (or (hasPrefix $rawImage "http://") (hasPrefix $rawImage "https://")) -}}
+    {{- $image = ($rawImage | absURL) -}}
+  {{- end -}}
 
   <title>{{ $title }}</title>
   <meta name="description" content="{{ $desc }}">

@@ -3,8 +3,8 @@ managed_page: true
 title: Custom Legacy Books for Families
 seo_title: Custom Legacy Books in Brevard County
 description: Custom legacy books created from recorded interviews, family photographs, and personal documents for families in Brevard County and beyond.
-image: images/legacy-book-frank.jpg
-portrait: images/legacy-book-frank.jpg
+image: /images/legacy-book-frank-v2.jpg
+portrait: /images/legacy-book-frank-v2.jpg
 portrait_alt: A custom Frank Delgado legacy book held at a kitchen table
 eyebrow: Full-service family storytelling
 lead: We interview your loved one, preserve the way they actually speak, and turn their memories and photographs into a finished book your family can keep.

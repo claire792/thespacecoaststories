@@ -2,16 +2,16 @@
 title: 'How to Make a Family History Book: A Step-by-Step Guide'
 seo_title: How to Make a Family History Book
 description: A step-by-step guide to making a family history book, with a sample outline, photo tips, and an honest look at doing it yourself versus hiring help.
-date: '2026-10-27'
-lastmod: '2026-10-27'
+date: '2026-07-11'
+lastmod: '2026-07-11'
 category: How to Start
 tags:
 - family history book
 - legacy book
 - family stories
 - DIY memoir
-image: images/feature-family-history-book.jpg
-image_alt: 'How to Make a Family History Book: A Step-by-Step Guide'
+image: https://images.unsplash.com/photo-1645497265272-5c92210a18b8?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: An open family photo book showing a parent holding a baby
 draft: false
 faqs:
 - q: How do I make a family history book?
@@ -22,6 +22,8 @@ faqs:
   a: The three common formats are chronological (one life or a clear timeline), by person or family branch (for multiple relatives), and thematic (grouped by topics like home, work, and love). Choose the one that best fits the material you've gathered.
 - q: Should I make a family history book myself or hire someone?
   a: 'Do it yourself if you enjoy the work and have the time; hire a personal historian if time is short or you want a polished, lasting keepsake. Many families do a hybrid: they record the interviews themselves and hire out the writing and design.'
+image_credit: Arun Prakash
+image_credit_url: https://images.unsplash.com/photo-1645497265272-5c92210a18b8?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 To make a family history book, gather your family's stories and photos, choose a structure (usually by generation, by person, or in time order), write the stories in a clear voice, pair them with images, and print it as a bound keepsake. You can do it yourself with a simple word processor and a printing service, or hire a personal historian to handle the interviews, writing, and design. Here's the whole process, step by step.

@@ -2,16 +2,16 @@
 title: How to Write a Eulogy That Sounds Like Them
 seo_title: How to Write a Eulogy That Sounds Like Them
 description: A step-by-step guide to writing a eulogy that sounds like the person, with a simple template, examples, and gentle tips for delivering it.
-date: '2026-07-20'
-lastmod: '2026-07-20'
+date: '2026-07-02'
+lastmod: '2026-07-02'
 category: Memorial
 tags:
 - how to write a eulogy
 - eulogy template
 - memorial writing
 - celebration of life
-image: images/feature-eulogy.jpg
-image_alt: How to Write a Eulogy That Sounds Like Them
+image: https://images.unsplash.com/photo-1517971071642-34a2d3ecc9cd?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: A person writing heartfelt notes by hand for a eulogy
 draft: false
 faqs:
 - q: How long should a eulogy be?
@@ -22,6 +22,8 @@ faqs:
   a: An opening that says who you are, a heart section built around two or three qualities each shown through a story, a touch of the person's own words or humor, and a short closing about what they gave you and a simple goodbye.
 - q: What should you not say in a eulogy?
   a: Avoid reciting the whole life in order, listing accomplishments like a résumé, sharing grievances or too-private inside jokes, and leaning on generic clichés. Specific, true, and warm always lands better than grand and impersonal.
+image_credit: Hannah Olinger
+image_credit_url: https://images.unsplash.com/photo-1517971071642-34a2d3ecc9cd?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 To write a eulogy that sounds like the person, gather specific stories and their own sayings, choose two or three qualities that captured who they were, and tell short true stories that show those qualities instead of listing facts. Aim for about three to five minutes, write the way you talk, and read it aloud before the day. Here's how, step by step.

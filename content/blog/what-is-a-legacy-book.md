@@ -1,9 +1,9 @@
 ---
-image: "images/book-daughter.jpg"
-image_alt: "What Is a Legacy Book? (And Why It's More Than a Photo Album)"
+image: https://images.unsplash.com/photo-1645497265259-e1b0ed46066e?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: An open legacy book featuring a couple’s photographs
 title: What Is a Legacy Book? (And Why It's More Than a Photo Album)
-seo_title: "What Is a Legacy Book?"
-description: "Learn what a legacy book is, what it includes, how it is created, and how it differs from a memoir, biography, autobiography, or photo album."
+seo_title: What Is a Legacy Book?
+description: Learn what a legacy book is, what it includes, how it is created, and how it differs from a memoir, biography, autobiography, or photo album.
 date: '2026-06-23'
 category: Legacy Books
 tags:
@@ -21,6 +21,8 @@ faqs:
   a: A photo album shows the pictures; a legacy book tells the stories behind them, weaving the photographs together with the person's own account of their life.
 - q: How do you make a legacy book?
   a: It's built from recorded interviews, shaped into a written story, checked with the family, laid out with photographs, and printed as a finished book. A personal historian can handle the whole process, or you can capture the interviews yourself.
+image_credit: Arun Prakash
+image_credit_url: https://images.unsplash.com/photo-1645497265259-e1b0ed46066e?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 A legacy book is a printed keepsake that captures a person's life story in their own words, usually built from recorded interviews, photographs, and family history. It's more personal than a formal biography and deeper than a photo album. Put simply, it's a way to keep someone's voice, and the shape of their whole life, after they're gone.

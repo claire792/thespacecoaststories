@@ -1,9 +1,9 @@
 ---
-image: "images/interview.jpg"
-image_alt: "Preserving Memories When a Loved One Has Dementia or Alzheimer's"
+image: https://images.unsplash.com/photo-1758691031036-5b7b635e30b8?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: Three older adults looking through a family photo album together
 title: Preserving Memories When a Loved One Has Dementia or Alzheimer's
-seo_title: "Preserving Memories After a Dementia Diagnosis"
-description: "A compassionate guide to preserving stories after a dementia or Alzheimer's diagnosis through photos, music, recordings, and gentle conversation."
+seo_title: Preserving Memories After a Dementia Diagnosis
+description: A compassionate guide to preserving stories after a dementia or Alzheimer's diagnosis through photos, music, recordings, and gentle conversation.
 date: '2026-06-03'
 category: How to Start
 tags:
@@ -21,6 +21,8 @@ faqs:
   a: Yes, and soon. Each stage of the disease tends to take a little more, so capturing stories while symptoms are mild protects the fullest version. Even simple phone voice memos or short videos are enough to preserve their voice and memories.
 - q: Why does music help people with dementia remember?
   a: Musical memory is stored in parts of the brain that dementia tends to affect later, so familiar songs can reach a person and bring back associated memories and emotions even when other approaches don't. Playing music from their youth is a gentle, effective way to connect.
+image_credit: Vitaly Gariev
+image_credit_url: https://images.unsplash.com/photo-1758691031036-5b7b635e30b8?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 A dementia or Alzheimer's diagnosis doesn't mean your loved one's stories are already gone. Long-term memories, the childhood ones, the deep ones, often stay reachable long after recent memory fades. To preserve them, start recording sooner rather than later, meet the person where they are, and use photos, music, and old objects to open the door. Here's how, gently.

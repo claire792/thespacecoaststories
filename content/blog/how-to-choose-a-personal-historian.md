@@ -2,16 +2,16 @@
 title: 'How to Choose a Personal Historian: 10 Questions to Ask Before Hiring'
 seo_title: How to Choose a Personal Historian
 description: 'How to choose a personal historian to write a loved one''s life story: ten questions to ask, what to look for, red flags, and whether it is worth it.'
-date: '2026-12-01'
-lastmod: '2026-12-01'
+date: '2026-07-04'
+lastmod: '2026-07-04'
 category: Legacy Books
 tags:
 - personal historian
 - hire a memoir writer
 - legacy book service
 - family memoir
-image: images/feature-choose-personal-historian.jpg
-image_alt: 'How to Choose a Personal Historian: 10 Questions to Ask Before Hiring'
+image: https://images.unsplash.com/photo-1713942590288-1468a2d88ee4?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: Two adults talking across a table during a personal history conversation
 draft: false
 faqs:
 - q: What should I look for when hiring a personal historian?
@@ -22,6 +22,8 @@ faqs:
   a: Search for a personal historian or memoir writer, ideally one near you or experienced with remote interviews, and vet them with the ten questions in this post. Prioritize warmth, real samples, and clear pricing. A comfortable rapport matters, because they'll be spending hours with your mother.
 - q: Is hiring a personal historian worth the money?
   a: For most families it is, particularly when time is limited. You get a lasting record of a loved one's voice and life, made with professional skill. If you have the time and your loved one opens up easily to you, doing it yourself is also a valid, meaningful option.
+image_credit: Vitaly Gariev
+image_credit_url: https://images.unsplash.com/photo-1713942590288-1468a2d88ee4?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 To choose a personal historian, look at their sample work, ask how they conduct interviews and preserve a person's voice, understand exactly what's included and what it costs, and make sure you feel comfortable with them, because they'll be sitting with someone you love. Below are the ten questions to ask before you hire one, plus the red flags to watch for.

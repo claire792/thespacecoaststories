@@ -2,16 +2,16 @@
 title: Questions to Ask a Veteran About Their Military Service
 seo_title: Questions to Ask a Veteran About Service
 description: Meaningful questions to ask a veteran about military service, from enlisting to coming home, organized by theme for families preserving a veteran's story.
-date: '2026-11-17'
-lastmod: '2026-11-17'
+date: '2026-07-07'
+lastmod: '2026-07-07'
 category: How to Start
 tags:
 - questions to ask a veteran
 - military stories
 - oral history
 - veteran legacy book
-image: images/feature-veteran-graphic.jpg
-image_alt: Questions to Ask a Veteran About Their Military Service
+image: https://images.unsplash.com/photo-1458323679487-2ebd81b13c5f?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: A person holding two treasured father and son photographs
 draft: false
 faqs:
 - q: What questions should I ask a veteran about their service?
@@ -22,6 +22,8 @@ faqs:
   a: Yes, if they agree. Their own voice telling these stories is priceless for the family. Ask permission first, use a phone or recorder, and keep it low-key. You can also donate the recording to the Library of Congress Veterans History Project to preserve it in the national archive.
 - q: When is a good time to ask a veteran about their service?
   a: Any unhurried, private moment works, and occasions like Veterans Day or Memorial Day can open the conversation naturally. The most important thing is starting while they're still here to tell it, at a pace that feels right to them.
+image_credit: Lindy Maio
+image_credit_url: https://images.unsplash.com/photo-1458323679487-2ebd81b13c5f?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 The best questions to ask a veteran are open ones that let them share at their own pace, covering why they joined, their training, the people they served with, daily life, deployment, coming home, and what it all taught them. Let them lead, don't push on painful subjects, and record it if they're willing. Below are questions grouped by theme to help you preserve a veteran's story with respect.

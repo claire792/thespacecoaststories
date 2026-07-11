@@ -1,9 +1,9 @@
 ---
-image: "images/book-beach.jpg"
-image_alt: "Preserving Family Stories on Florida's Space Coast"
+image: https://images.unsplash.com/photo-1645497265341-38cabe0f4414?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: A family photo album featuring a couple on a beach
 title: Preserving Family Stories on Florida's Space Coast
-seo_title: "Preserving Family Stories on the Space Coast"
-description: "Why Brevard County family stories matter, from the space program and military service to citrus, tourism, beachside life, and rapid local change."
+seo_title: Preserving Family Stories on the Space Coast
+description: Why Brevard County family stories matter, from the space program and military service to citrus, tourism, beachside life, and rapid local change.
 date: '2026-07-01'
 category: Local History
 tags:
@@ -19,6 +19,8 @@ faqs:
   a: Sit down with them and your phone, ask open questions about what the area was like when they arrived, and record it. Phone and video work fine if they're in a senior community or you're out of town.
 - q: Can you help capture my family's Space Coast history if we don't all live nearby?
   a: Yes. I work with families across the Space Coast and remotely by phone or video, so distance doesn't have to stop you.
+image_credit: Arun Prakash
+image_credit_url: https://images.unsplash.com/photo-1645497265341-38cabe0f4414?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 The Space Coast changed faster than almost anywhere in the country, and the people who remember it before the rockets are the ones worth recording now. Preserving your family's stories here means capturing what it felt like to live through that change, in their own words, before those memories go quiet. Here's why it matters, and where to begin.

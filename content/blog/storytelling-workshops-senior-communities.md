@@ -1,9 +1,9 @@
 ---
-image: "images/card-filled.jpg"
-image_alt: "Storytelling Workshops for Senior Communities on the Space Coast"
+image: https://images.unsplash.com/photo-1758612897934-a56dbd09a39e?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: A grandfather and grandson talking together during family time
 title: Storytelling Workshops for Senior Communities on the Space Coast
-seo_title: "Storytelling Workshops for Senior Communities"
-description: "See how storytelling workshops help older adults connect, reminisce, and preserve memories in senior communities and libraries across Brevard County."
+seo_title: Storytelling Workshops for Senior Communities
+description: See how storytelling workshops help older adults connect, reminisce, and preserve memories in senior communities and libraries across Brevard County.
 date: '2026-06-19'
 category: Behind the Scenes
 tags:
@@ -21,6 +21,8 @@ faqs:
   a: Yes, with a gentler, more sensory approach. Familiar photos, music, and objects help reach long-term memories that are often still intact, and the focus stays on connection and enjoyment rather than getting facts exactly right.
 - q: How can our senior community or library book a storytelling workshop?
   a: Reach out with a little about your residents and your goals, and we'll design a session or series that fits your community. Workshops are available across the Space Coast, and everything but the room and the group is provided for you.
+image_credit: Vitaly Gariev
+image_credit_url: https://images.unsplash.com/photo-1758612897934-a56dbd09a39e?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 A storytelling workshop brings older adults together to share and preserve memories in a warm, guided group setting. On the Space Coast, I lead these sessions at senior communities and libraries, using questions, photos, and prompts to draw out life stories. They're meaningful for residents, easy for staff to host, and genuinely good for aging minds. Here's what they look like and how to bring one in.

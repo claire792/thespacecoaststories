@@ -13,3 +13,9 @@ This build adds:
 The memorial posts are scheduled weekly beginning July 20, 2026. The keyword-focused family-history sequence is scheduled October 27 through December 8, 2026. Hugo will publish each automatically on its date because `buildFuture` remains false.
 
 The new testimonials mentioned in the upload message were not present as a separate file or text. The existing Rebecca Bell testimonial is used, and the homepage/portfolio are now set up to accept additional testimonials through the CMS.
+
+## Portfolio image correction
+- Rebuilt the Frank Delgado image under a new cache-busting filename.
+- Added all 27 nonblank Catherine sample-book pages to the portfolio gallery.
+- Added click-to-enlarge links and page captions.
+- Verified that every referenced portfolio image exists and decodes successfully.

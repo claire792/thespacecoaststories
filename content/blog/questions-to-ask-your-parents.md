@@ -1,9 +1,9 @@
 ---
-image: "images/card-filled.jpg"
-image_alt: "40 Questions to Ask Your Aging Parents Before It's Too Late"
+image: https://images.unsplash.com/photo-1581952976147-5a2d15560349?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: Two family members talking closely on a couch
 title: 40 Questions to Ask Your Aging Parents Before It's Too Late
-seo_title: "40 Questions to Ask Your Aging Parents"
-description: "Use these 40 meaningful questions to ask aging parents about childhood, family history, relationships, turning points, and lessons they want to pass down."
+seo_title: 40 Questions to Ask Your Aging Parents
+description: Use these 40 meaningful questions to ask aging parents about childhood, family history, relationships, turning points, and lessons they want to pass down.
 date: '2026-06-11'
 category: How to Start
 tags:
@@ -21,6 +21,8 @@ faqs:
   a: Keep it casual, ask one question at a time, and listen more than you talk. Old photographs are a great way in. Record the conversation quietly so it feels natural, and follow wherever their memories lead rather than sticking rigidly to a list.
 - q: Should I write down or record my parents' answers?
   a: Record them. A phone voice memo captures details you'd never remember and preserves the sound of their voice, which becomes priceless later. You can always turn the recordings into written stories, or a book, down the road.
+image_credit: Jonathan Borba
+image_credit_url: https://images.unsplash.com/photo-1581952976147-5a2d15560349?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 The best questions to ask your aging parents are open ones about their childhood, how they became who they are, your family's history, and what they've learned. Ask them now, while the answers are still sharp and the conversations are still possible. Below are forty questions, grouped by theme, to bring to your next visit with them.

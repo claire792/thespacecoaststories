@@ -1,9 +1,9 @@
 ---
-image: "images/legacy-book-frank.jpg"
-image_alt: "How Much Does It Cost to Hire Someone to Write a Family Memoir?"
+image: https://images.unsplash.com/photo-1483546363825-7ebf25fb7513?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: A pencil resting across an open book on a writing desk
 title: How Much Does It Cost to Hire Someone to Write a Family Memoir?
-seo_title: "Cost to Hire a Family Memoir Writer"
-description: "Learn what it costs to hire a family memoir writer or personal historian, what affects the price, and which type of legacy book fits your family."
+seo_title: Cost to Hire a Family Memoir Writer
+description: Learn what it costs to hire a family memoir writer or personal historian, what affects the price, and which type of legacy book fits your family.
 date: '2026-06-27'
 category: Legacy Books
 tags:
@@ -21,6 +21,8 @@ faqs:
   a: For most families, yes, especially when time is short. You end up with a permanent record of a loved one's voice and life that can't be recreated once they're gone.
 - q: Can I lower the cost by doing some of the work myself?
   a: Absolutely. Recording the interviews yourself and hiring help only for the writing and design is a common, budget-friendly path.
+image_credit: Jan Kahánek
+image_credit_url: https://images.unsplash.com/photo-1483546363825-7ebf25fb7513?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 ---
 
 Hiring someone to write a family memoir usually ranges from a few hundred dollars for a short, recorded-and-transcribed project to several thousand for a full, ghostwritten, hardcover book. The price comes down to length, how many hours of interviews it takes, how much writing and design is involved, and how many copies you print. Here's what actually goes into that number.
