@@ -24,6 +24,8 @@ faqs:
   a: 'Gather their letters and journal entries into something lasting: transcribe a journal, collect letters into a bound book, or combine their writings with photos into a keepsake. This turns scattered papers into a shared family treasure in their own words.'
 image_credit: Joanna Kosinska
 image_credit_url: https://images.unsplash.com/photo-1447069387593-a5de0862481e?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+series:
+- Memory, Loss, and Legacy
 ---
 
 When sorting a loved one's letters, journals, and belongings, go slowly and resist discarding anything meaningful in the early rush of grief. Set aside the writings, photos, and objects that carry their voice or story, digitize and preserve the most precious, and consider turning letters and journals into a keepsake the family can share. Here's a gentle, practical guide.

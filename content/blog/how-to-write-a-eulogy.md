@@ -24,6 +24,8 @@ faqs:
   a: Avoid reciting the whole life in order, listing accomplishments like a résumé, sharing grievances or too-private inside jokes, and leaning on generic clichés. Specific, true, and warm always lands better than grand and impersonal.
 image_credit: Hannah Olinger
 image_credit_url: https://images.unsplash.com/photo-1517971071642-34a2d3ecc9cd?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+series:
+- Memory, Loss, and Legacy
 ---
 
 To write a eulogy that sounds like the person, gather specific stories and their own sayings, choose two or three qualities that captured who they were, and tell short true stories that show those qualities instead of listing facts. Aim for about three to five minutes, write the way you talk, and read it aloud before the day. Here's how, step by step.

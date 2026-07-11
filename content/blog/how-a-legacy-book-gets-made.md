@@ -22,6 +22,8 @@ faqs:
   a: Not much. You help arrange access to your loved one and gather old photographs, answer occasional fact-checking questions, and let the conversations unfold. The interviewing, writing, design, and printing are handled for you.
 image_credit: Arun Prakash
 image_credit_url: https://images.unsplash.com/photo-1646645733353-55c8bfb60a70?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+series:
+- Ask a Historian
 ---
 
 A legacy book comes together in five stages: the conversations, the recording and transcription, the writing and shaping, the design with photographs, and the printing. Start to finish, it usually takes a few weeks to a few months, depending on the length and the life. Here's a look behind the scenes at how a whole life becomes a book you can hold.

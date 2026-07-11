@@ -24,6 +24,8 @@ faqs:
   a: Skip the written, weekly-homework model and capture stories in person, gently and soon. Recorded conversations, familiar photos, and an unhurried pace work far better than emailed questions. A personal historian experienced with memory loss can help draw out the stories while they're still reachable.
 image_credit: Kristyna Squared.one
 image_credit_url: https://images.unsplash.com/photo-1676883344224-2fa5de6025db?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+series:
+- Ask a Historian
 ---
 
 The best StoryWorth alternative depends on how your loved one likes to communicate. StoryWorth emails weekly questions that your parent answers in writing, then compiles a year of answers into a book. If your parent doesn't like to write, better options include recording their answers as audio, using a question-card kit, or hiring a personal historian who interviews them and writes the book for them. Here's an honest comparison.

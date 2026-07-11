@@ -1,19 +1,10 @@
 {{ define "main" }}
 <section class="section-tight">
   <div class="wrap-narrow">
-    <span class="eyebrow">{{ .Params.eyebrow | default "Notes on memory, family & the Space Coast" }}</span>
+    <span class="eyebrow">Journal series</span>
     <h1>{{ .Title }}</h1>
-    {{ with .Params.lead }}<p class="lead">{{ . }}</p>{{ end }}
-    <div class="chip-row" style="margin-top:1.4rem;">
-      <a class="chip" href="{{ "/categories/how-to-start/" | relURL }}">How to start</a>
-      <a class="chip" href="{{ "/categories/legacy-books/" | relURL }}">Legacy books</a>
-      <a class="chip" href="{{ "/categories/local-history/" | relURL }}">Local history</a>
-      <a class="chip" href="{{ "/categories/memorial/" | relURL }}">Memorial</a>
-      <a class="chip" href="{{ "/categories/behind-the-scenes/" | relURL }}">Behind the scenes</a>
-      <a class="chip" href="{{ "/series/ask-a-historian/" | relURL }}">Ask a Historian</a>
-      <a class="chip" href="{{ "/series/space-coast-lives/" | relURL }}">Space Coast Lives</a>
-      <a class="chip" href="{{ "/series/memory-loss-and-legacy/" | relURL }}">Memory, Loss & Legacy</a>
-    </div>
+    {{ with .Params.lead }}<p class="lead">{{ . }}</p>{{ else }}<p class="lead">Articles from the {{ $.Title }} series.</p>{{ end }}
+    <a class="card__link" href="{{ "/blog/" | relURL }}">Browse the complete journal</a>
   </div>
 </section>
 <section class="section-tight" style="padding-top:0;">

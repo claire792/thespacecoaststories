@@ -24,6 +24,8 @@ faqs:
   a: Ask someone to quietly record the story-sharing on a phone, and set out memory cards for guests to write down memories. Afterward, those stories can be gathered into a keepsake book, so the memories shared that day are kept for good.
 image_credit: Mayron Oliveira
 image_credit_url: https://images.unsplash.com/photo-1544813545-4827b64fcacb?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+series:
+- Memory, Loss, and Legacy
 ---
 
 A celebration of life is a personal, often less formal gathering that honors who someone truly was. Meaningful ideas include building a memory table of their belongings and photos, inviting guests to share stories, displaying their own words or life-story book, and weaving in their music, hobbies, and favorite things. Here's how to plan one that genuinely reflects the person you loved.

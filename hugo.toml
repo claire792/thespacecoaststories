@@ -23,6 +23,7 @@ summaryLength = 40
 [taxonomies]
   tag = "tags"
   category = "categories"
+  series = "series"
 
 # Main navigation
 [menu]

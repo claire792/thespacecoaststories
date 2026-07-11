@@ -44,6 +44,13 @@ collections:
         widget: "select"
         options: ["Legacy Books", "How to Start", "Local History", "Memorial", "Behind the Scenes", "Space Coast Lives"]
         default: "How to Start"
+      - label: "Series"
+        name: "series"
+        widget: "select"
+        multiple: true
+        required: false
+        options: ["Ask a Historian", "Space Coast Lives", "Florida Lives", "Memory, Loss, and Legacy"]
+        hint: "Choose a recurring journal series when the article belongs to one."
       - { label: "Tags", name: "tags", widget: "list", required: false }
       - { label: "SEO description", name: "description", widget: "text", required: false, hint: "One or two sentences for Google and social previews." }
       - label: "FAQs (great for Google + AI answers)"
@@ -59,6 +66,10 @@ collections:
       - { label: "Cover image alt text", name: "image_alt", widget: "string", required: false }
       - { label: "Image credit", name: "image_credit", widget: "string", required: false, hint: "Photographer or source name." }
       - { label: "Image credit URL", name: "image_credit_url", widget: "string", required: false }
+      - { label: "Image source", name: "image_source", widget: "string", required: false, hint: "Example: Unsplash, NASA, Library of Congress, or Wikimedia Commons." }
+      - { label: "Image source URL", name: "image_source_url", widget: "string", required: false }
+      - { label: "Image license", name: "image_license", widget: "string", required: false, hint: "Example: Public domain, CC BY 2.0, or CC BY-SA 4.0." }
+      - { label: "Image license URL", name: "image_license_url", widget: "string", required: false }
       - { label: "Draft (hide until ready)", name: "draft", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "markdown" }
 
@@ -208,6 +219,7 @@ collections:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Body", name: "body", widget: "text" }
               - { label: "URL", name: "url", widget: "string" }
+              - { label: "Series values", name: "series_values", widget: "list", field: { label: "Series", name: "series", widget: "string" }, hint: "Exact journal series name(s) this homepage section should pull from." }
           - { label: "For-communities heading", name: "b2b_heading", widget: "string" }
           - { label: "For-communities body", name: "b2b_body", widget: "text" }
           - { label: "Closing heading", name: "cta_heading", widget: "string" }

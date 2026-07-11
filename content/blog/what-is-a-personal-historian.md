@@ -22,6 +22,8 @@ faqs:
   a: You can absolutely do it yourself, and many families do. Hiring one makes sense when time is short, when a loved one opens up more to a neutral outsider than to family, or when you want a polished, finished book without doing the writing and design. Even capturing the interviews now protects the story either way.
 image_credit: Marcos Paulo Prado
 image_credit_url: https://images.unsplash.com/photo-1579017308347-e53e0d2fc5e9?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+series:
+- Ask a Historian
 ---
 
 A personal historian is a professional who preserves people's life stories, usually by interviewing them and shaping those conversations into a book, an audio recording, or a video. Think of it as a biographer for everyday families, not just the famous. Here's what a personal historian actually does, how they're different from a genealogist, what it costs, and how to tell if your family needs one.

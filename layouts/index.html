@@ -128,23 +128,50 @@
 
 <!-- JOURNAL SERIES -->
 {{ with $p.journal_series }}
-<section class="section">
+<section class="section journal-series-home">
   <div class="wrap">
-    <div style="max-width:660px;margin-bottom:2.3rem;">
+    <div style="max-width:700px;margin-bottom:2.5rem;">
       <span class="eyebrow">Explore the journal</span>
-      <h2>Useful answers, local lives, and the stories families carry.</h2>
-      <p class="lead">The journal is organized around the questions people ask Google, ChatGPT, and each other at the kitchen table.</p>
+      <h2>Useful answers, remarkable lives, and the stories families carry.</h2>
+      <p class="lead">Three ongoing series, each built to give you something worth reading, using, or passing along.</p>
     </div>
-    <div class="grid grid-3">
-      {{ range . }}
-      <div class="card">
-        <span class="card__num">{{ .label }}</span>
-        <h3>{{ .title }}</h3>
-        <p>{{ .body }}</p>
-        <a class="card__link" href="{{ .url | relURL }}">Read this series</a>
-      </div>
-      {{ end }}
-    </div>
+
+    {{ $blogPosts := where site.RegularPages "Section" "blog" }}
+    {{ range . }}
+      {{ $seriesCard := . }}
+      {{ $seriesValues := .series_values | default (slice .title) }}
+      {{ $seriesPosts := where $blogPosts "Params.series" "intersect" $seriesValues }}
+      <section class="journal-series-block" aria-labelledby="series-{{ anchorize .title }}">
+        <div class="journal-series-block__head">
+          <div>
+            <span class="card__num">{{ .label }}</span>
+            <h3 id="series-{{ anchorize .title }}">{{ .title }}</h3>
+            <p>{{ .body }}</p>
+          </div>
+          <a class="btn btn-ghost" href="{{ .url | relURL }}">View the full series</a>
+        </div>
+        <div class="series-preview-grid">
+          {{ range first 3 $seriesPosts.ByDate.Reverse }}
+          {{ $post := . }}
+          <article class="post-card post-card--compact">
+            {{ with $post.Params.image }}
+            {{ $img := . }}{{ if not (or (hasPrefix $img "http://") (hasPrefix $img "https://")) }}{{ $img = ($img | relURL) }}{{ end }}
+            <a class="post-card__image" href="{{ $post.RelPermalink }}"><img src="{{ $img }}" alt="{{ $post.Params.image_alt | default $post.Title }}" loading="lazy" decoding="async" width="1200" height="675" referrerpolicy="no-referrer"></a>
+            {{ end }}
+            <div class="post-card__body">
+              <div class="post-card__meta">{{ $post.Date.Format "Jan 2, 2006" }}</div>
+              <h4><a href="{{ $post.RelPermalink }}">{{ $post.Title }}</a></h4>
+              <p>{{ $post.Summary | plainify | truncate 120 }}</p>
+              <a class="card__link" href="{{ $post.RelPermalink }}">Read the article</a>
+            </div>
+          </article>
+          {{ end }}
+        </div>
+        {{ if eq .title "Space Coast Lives" }}
+        <p class="journal-series-extra">Traveling beyond Brevard? <a href="{{ "/series/florida-lives/" | relURL }}">Explore Florida Lives too.</a></p>
+        {{ end }}
+      </section>
+    {{ end }}
   </div>
 </section>
 {{ end }}

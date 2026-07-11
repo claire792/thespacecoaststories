@@ -24,6 +24,8 @@ faqs:
   a: For most families it is, particularly when time is limited. You get a lasting record of a loved one's voice and life, made with professional skill. If you have the time and your loved one opens up easily to you, doing it yourself is also a valid, meaningful option.
 image_credit: Vitaly Gariev
 image_credit_url: https://images.unsplash.com/photo-1713942590288-1468a2d88ee4?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+series:
+- Ask a Historian
 ---
 
 To choose a personal historian, look at their sample work, ask how they conduct interviews and preserve a person's voice, understand exactly what's included and what it costs, and make sure you feel comfortable with them, because they'll be sitting with someone you love. Below are the ten questions to ask before you hire one, plus the red flags to watch for.

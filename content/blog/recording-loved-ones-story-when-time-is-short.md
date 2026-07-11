@@ -24,6 +24,8 @@ faqs:
   a: Yes. Hospice chaplains and social workers often understand life review and can help create the right moment or support your efforts. Let them know you'd like to capture some stories, and they can be a valuable ally.
 image_credit: Alexander Schimmeck
 image_credit_url: https://images.unsplash.com/photo-1604137488398-b1d691713d96?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+series:
+- Memory, Loss, and Legacy
 ---
 
 When time is short, focus on capturing a loved one's voice and the few stories that matter most to them, not a complete life history. Keep sessions brief and gentle, follow their energy, ask what they most want remembered, and record it as audio or video. Even a short recording becomes something your family treasures forever. Here's a compassionate guide for families in hospice or facing a terminal illness.

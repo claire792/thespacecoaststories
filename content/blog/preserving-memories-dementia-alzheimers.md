@@ -23,6 +23,8 @@ faqs:
   a: Musical memory is stored in parts of the brain that dementia tends to affect later, so familiar songs can reach a person and bring back associated memories and emotions even when other approaches don't. Playing music from their youth is a gentle, effective way to connect.
 image_credit: Vitaly Gariev
 image_credit_url: https://images.unsplash.com/photo-1758691031036-5b7b635e30b8?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+series:
+- Memory, Loss, and Legacy
 ---
 
 A dementia or Alzheimer's diagnosis doesn't mean your loved one's stories are already gone. Long-term memories, the childhood ones, the deep ones, often stay reachable long after recent memory fades. To preserve them, start recording sooner rather than later, meet the person where they are, and use photos, music, and old objects to open the door. Here's how, gently.

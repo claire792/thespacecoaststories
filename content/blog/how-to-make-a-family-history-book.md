@@ -24,6 +24,8 @@ faqs:
   a: 'Do it yourself if you enjoy the work and have the time; hire a personal historian if time is short or you want a polished, lasting keepsake. Many families do a hybrid: they record the interviews themselves and hire out the writing and design.'
 image_credit: Arun Prakash
 image_credit_url: https://images.unsplash.com/photo-1645497265272-5c92210a18b8?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+series:
+- Ask a Historian
 ---
 
 To make a family history book, gather your family's stories and photos, choose a structure (usually by generation, by person, or in time order), write the stories in a clear voice, pair them with images, and print it as a bound keepsake. You can do it yourself with a simple word processor and a printing service, or hire a personal historian to handle the interviews, writing, and design. Here's the whole process, step by step.

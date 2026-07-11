@@ -69,16 +69,24 @@ testimonials:
   name: Rebecca Bell
   role: Legacy book client
 journal_series:
-- label: Practical guides
-  title: Ask a Personal Historian
+- label: Practical answers
+  title: Ask a Historian
   body: Clear answers on interviews, memoirs, photographs, costs, and how to begin.
-  url: /categories/how-to-start/
-- label: Local history
-  title: Space Coast Lives & Local History
-  body: The human stories behind Brevard, NASA, the beaches, and the people who shaped this place.
-  url: /categories/local-history/
-- label: After a loss
-  title: Memory, Loss & Legacy
-  body: Gentle resources for eulogies, tribute books, letters, belongings, and celebrations of life.
-  url: /categories/memorial/
+  url: /series/ask-a-historian/
+  series_values:
+  - Ask a Historian
+- label: Notable local lives
+  title: Space Coast Lives
+  body: The beginnings, turning points, and local roots of notable people connected to Brevard County.
+  url: /series/space-coast-lives/
+  series_values:
+  - Space Coast Lives
+- label: Gentle resources
+  title: Memory, Loss, and Legacy
+  body: Helpful guidance for eulogies, tribute books, letters, belongings, hospice, and celebrations of life.
+  url: /series/memory-loss-and-legacy/
+  series_values:
+  - Memory, Loss, and Legacy
 ---
+
+

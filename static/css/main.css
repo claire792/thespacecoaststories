@@ -399,3 +399,24 @@ p { margin: 0 0 1.1em; }
   text-align: right;
 }
 .image-credit a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+
+
+/* ---------- homepage journal series ---------- */
+.journal-series-block { padding: 2.4rem 0; border-top: 1px solid var(--line); }
+.journal-series-block:last-child { border-bottom: 1px solid var(--line); }
+.journal-series-block__head { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:2rem; align-items:end; margin-bottom:1.5rem; }
+.journal-series-block__head h3 { font-size:clamp(1.65rem,3vw,2.15rem); margin:.45rem 0 .35rem; }
+.journal-series-block__head p { color:var(--ink-soft); margin:0; max-width:62ch; }
+.series-preview-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1.35rem; }
+.post-card--compact h4 { font-size:1.22rem; margin:.5rem 0 .4rem; }
+.post-card--compact h4 a { color:var(--ink); text-decoration:none; }
+.post-card--compact .post-card__body { padding:1rem 1.05rem 1.2rem; }
+.post-card--compact .post-card__body > p { font-size:.9rem; }
+.post-card--compact .card__link { margin-top:auto; padding-top:.9rem; }
+.journal-series-extra { font-family:var(--sans); font-size:.88rem; color:var(--muted); margin:.9rem 0 0; }
+.journal-series-extra a { color:var(--teal-deep); }
+@media (max-width:900px) {
+  .series-preview-grid { grid-template-columns:1fr; }
+  .journal-series-block__head { grid-template-columns:1fr; align-items:start; gap:1rem; }
+  .journal-series-block__head .btn { justify-self:start; }
+}

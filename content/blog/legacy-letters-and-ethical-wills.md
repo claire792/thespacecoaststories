@@ -24,6 +24,8 @@ faqs:
   a: Write as if speaking directly to your loved ones. Include your values, lessons learned, gratitude, a few defining stories, and your hopes and blessings for each person. Keep it honest and personal, date and sign it, and let someone know where to find it. You can add to it over time.
 image_credit: Aaron Burden
 image_credit_url: https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+series:
+- Memory, Loss, and Legacy
 ---
 
 A legacy letter, also called an ethical will, is a personal message that passes on your values, life lessons, blessings, and hopes to the people you love. Unlike a legal will, which distributes your money and property, a legacy letter is not legally binding. It shares who you are and what you believe. Here's what it is, why it belongs alongside your estate planning, and how to write one.

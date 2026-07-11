@@ -23,6 +23,8 @@ faqs:
   a: Yes. A personal historian can gather the photos and stories, interview the family, write and design the book, and manage the printing, so you end up with a finished keepsake without having to assemble it yourself during a hard season.
 image_credit: Mary Oakey
 image_credit_url: https://images.unsplash.com/photo-1616122719830-82e74d8b3eb5?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+series:
+- Memory, Loss, and Legacy
 ---
 
 A tribute book is a printed keepsake that gathers a loved one's life story, their photographs, and the memories of the people who knew them, created after they've passed. To make one, collect their story and pictures, invite family and friends to share their memories, shape it all into chapters, and have it printed. Here's how to begin, even while you're still grieving.

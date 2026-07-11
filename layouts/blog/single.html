@@ -10,7 +10,10 @@
     {{ $img := . }}{{ if not (or (hasPrefix $img "http://") (hasPrefix $img "https://")) }}{{ $img = ($img | relURL) }}{{ end }}
     <div class="wrap article-cover">
       <img src="{{ $img }}" alt="{{ $.Params.image_alt | default $.Title }}" loading="eager" decoding="async" width="1600" height="900" referrerpolicy="no-referrer">
-      {{ with $.Params.image_credit }}{{ $credit := . }}{{ $creditURL := $.Params.image_credit_url }}<p class="image-credit">Photo by {{ if $creditURL }}<a href="{{ $creditURL }}" rel="noopener noreferrer">{{ $credit }}</a>{{ else }}{{ $credit }}{{ end }} on Unsplash</p>{{ end }}
+      {{ with $.Params.image_credit }}
+      {{ $credit := . }}{{ $creditURL := $.Params.image_credit_url }}
+      <p class="image-credit">Image: {{ if $creditURL }}<a href="{{ $creditURL }}" rel="noopener noreferrer">{{ $credit }}</a>{{ else }}{{ $credit }}{{ end }}{{ with $.Params.image_source }}{{ $source := . }}{{ $sourceURL := $.Params.image_source_url }} · via {{ if $sourceURL }}<a href="{{ $sourceURL }}" rel="noopener noreferrer">{{ $source }}</a>{{ else }}{{ $source }}{{ end }}{{ end }}{{ with $.Params.image_license }}{{ $license := . }}{{ $licenseURL := $.Params.image_license_url }} · {{ if $licenseURL }}<a href="{{ $licenseURL }}" rel="license noopener noreferrer">{{ $license }}</a>{{ else }}{{ $license }}{{ end }}{{ end }}</p>
+      {{ end }}
     </div>
     {{ end }}
   </header>
