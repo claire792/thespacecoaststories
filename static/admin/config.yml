@@ -38,10 +38,11 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "SEO title", name: "seo_title", widget: "string", required: false, hint: "Optional shorter Google title. Aim for 50–60 characters." }
       - { label: "Publish date", name: "date", widget: "datetime" }
+      - { label: "Updated date", name: "lastmod", widget: "datetime", required: false, hint: "Change this when you meaningfully revise the post." }
       - label: "Category"
         name: "category"
         widget: "select"
-        options: ["Legacy Books", "How to Start", "Local History", "Memorial", "Behind the Scenes"]
+        options: ["Legacy Books", "How to Start", "Local History", "Memorial", "Behind the Scenes", "Space Coast Lives"]
         default: "How to Start"
       - { label: "Tags", name: "tags", widget: "list", required: false }
       - { label: "SEO description", name: "description", widget: "text", required: false, hint: "One or two sentences for Google and social previews." }
@@ -55,6 +56,9 @@ collections:
           - { label: "Question", name: "q", widget: "string" }
           - { label: "Answer", name: "a", widget: "text" }
       - { label: "Cover image", name: "image", widget: "image", required: false }
+      - { label: "Cover image alt text", name: "image_alt", widget: "string", required: false }
+      - { label: "Image credit", name: "image_credit", widget: "string", required: false, hint: "Photographer or source name." }
+      - { label: "Image credit URL", name: "image_credit_url", widget: "string", required: false }
       - { label: "Draft (hide until ready)", name: "draft", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "markdown" }
 
@@ -81,6 +85,36 @@ collections:
       - { label: "Details", name: "body", widget: "markdown", hint: "A short description shown on the events page." }
 
   # ------------------------------------------------------------------
+  - name: "site_pages"
+    label: "Service, Portfolio & Location Pages"
+    label_singular: "Page"
+    folder: "content"
+    create: true
+    filter: { field: "managed_page", value: true }
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "SEO title", name: "seo_title", widget: "string", required: false }
+      - { label: "SEO description", name: "description", widget: "text" }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Portrait / page image", name: "portrait", widget: "image", required: false }
+      - { label: "Image alt text", name: "portrait_alt", widget: "string", required: false }
+      - { label: "Eyebrow", name: "eyebrow", widget: "string", required: false }
+      - { label: "Lead", name: "lead", widget: "text", required: false }
+      - { label: "Schema type", name: "schema_type", widget: "hidden", default: "Service", required: false }
+      - { label: "Service type", name: "service_type", widget: "string", required: false }
+      - { label: "Areas served", name: "area_served", widget: "list", required: false }
+      - label: "FAQs"
+        name: "faqs"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Question", name: "q", widget: "string" }
+          - { label: "Answer", name: "a", widget: "text" }
+      - { label: "Show contact prompt", name: "show_contact_cta", widget: "boolean", default: true, required: false }
+      - { label: "Managed page", name: "managed_page", widget: "hidden", default: true }
+      - { label: "Body", name: "body", widget: "markdown" }
+
   - name: "settings"
     label: "Site Settings"
     editor:
@@ -150,6 +184,30 @@ collections:
               - { label: "Body", name: "body", widget: "text" }
           - { label: "Demo heading", name: "demo_heading", widget: "string" }
           - { label: "Demo body", name: "demo_body", widget: "text" }
+          - label: "Book showcase"
+            name: "book_showcase"
+            widget: "list"
+            fields:
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Alt text", name: "alt", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Caption", name: "caption", widget: "text" }
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Quote", name: "quote", widget: "text" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Role", name: "role", widget: "string" }
+          - label: "Journal series"
+            name: "journal_series"
+            widget: "list"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
+              - { label: "URL", name: "url", widget: "string" }
           - { label: "For-communities heading", name: "b2b_heading", widget: "string" }
           - { label: "For-communities body", name: "b2b_body", widget: "text" }
           - { label: "Closing heading", name: "cta_heading", widget: "string" }
@@ -168,6 +226,41 @@ collections:
           - { label: "Show contact prompt at end", name: "show_contact_cta", widget: "boolean", default: true }
           - { label: "Body", name: "body", widget: "markdown" }
 
+      # ---- PORTFOLIO ----
+      - name: "portfolio"
+        label: "Portfolio & Sample Pages"
+        file: "content/portfolio.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "SEO title", name: "seo_title", widget: "string", required: false }
+          - { label: "SEO description", name: "description", widget: "text" }
+          - { label: "Social image", name: "image", widget: "image", required: false }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "portfolio" }
+          - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+          - { label: "Lead", name: "lead", widget: "text" }
+          - label: "Book examples"
+            name: "book_examples"
+            widget: "list"
+            fields:
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Alt text", name: "alt", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Caption", name: "caption", widget: "text" }
+          - label: "Interior gallery"
+            name: "inside_gallery"
+            widget: "list"
+            fields:
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Alt text", name: "alt", widget: "string" }
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Quote", name: "quote", widget: "text" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Role", name: "role", widget: "string" }
+
       # ---- BREVARD COUNTY ----
       - name: "brevard-county"
         label: "Brevard County Page"
@@ -179,6 +272,14 @@ collections:
           - { label: "Social share image", name: "image", widget: "image", required: false }
           - { label: "Eyebrow", name: "eyebrow", widget: "string" }
           - { label: "Lead", name: "lead", widget: "text" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "service-areas" }
+          - label: "Regional pages"
+            name: "areas"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+              - { label: "Description", name: "body", widget: "text" }
           - label: "FAQs"
             name: "faqs"
             widget: "list"
@@ -203,6 +304,17 @@ collections:
           - { label: "Positioning line", name: "positioning", widget: "text" }
           - { label: "Local service heading", name: "local_heading", widget: "string" }
           - { label: "Local service description", name: "local_body", widget: "text" }
+          - { label: "Inside-pages heading", name: "inside_heading", widget: "string", required: false }
+          - { label: "Inside-pages subtext", name: "inside_sub", widget: "text", required: false }
+          - label: "Inside sample pages"
+            name: "inside_pages"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Alt text", name: "alt", widget: "string" }
+          - { label: "Portfolio heading", name: "portfolio_heading", widget: "string", required: false }
+          - { label: "Portfolio body", name: "portfolio_body", widget: "text", required: false }
           - { label: "Books heading", name: "books_heading", widget: "string" }
           - { label: "Books subtext", name: "books_sub", widget: "text" }
           - label: "Book tiers"
@@ -214,6 +326,7 @@ collections:
               - { label: "Description", name: "desc", widget: "text" }
               - { label: "Features", name: "features", widget: "list", field: { label: "Feature", name: "feature", widget: "string" } }
               - { label: "Button text", name: "cta", widget: "string" }
+              - { label: "Button URL", name: "cta_url", widget: "string", required: false }
               - { label: "Highlight this tier", name: "featured", widget: "boolean", default: false }
           - { label: "Payment note", name: "payment_note", widget: "text" }
           - { label: "Other services heading", name: "other_heading", widget: "string" }
