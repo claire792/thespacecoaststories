@@ -1,6 +1,18 @@
 backend:
   name: git-gateway
+  repo: claire792/thespacecoaststories
   branch: main
+  # DecapBridge login (site ID from your DecapBridge dashboard).
+  identity_url: https://auth.decapbridge.com/sites/b0bf3693-b1fe-491d-9bdb-2e3d8debbcf5
+  gateway_url: https://gateway.decapbridge.com
+
+# Friendlier commit messages when you save in the CMS.
+commit_messages:
+  create: 'Create {{collection}} "{{slug}}" — {{author-name}}'
+  update: 'Update {{collection}} "{{slug}}" — {{author-name}}'
+  delete: 'Delete {{collection}} "{{slug}}" — {{author-name}}'
+  uploadMedia: 'Upload "{{path}}" — {{author-name}}'
+  deleteMedia: 'Delete "{{path}}" — {{author-name}}'
 
 # Lets you run the CMS locally with `npx decap-server` (see README).
 local_backend: true
@@ -10,7 +22,7 @@ public_folder: "/images/uploads"
 
 site_url: https://thespacecoaststories.com
 display_url: https://thespacecoaststories.com
-logo_url: https://thespacecoaststories.com/favicon.svg
+logo_url: https://thespacecoaststories.com/images/scs-emblem.png
 
 collections:
   # ------------------------------------------------------------------

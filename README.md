@@ -31,13 +31,16 @@ All of these are editable in the CMS once it's live, or directly in the files li
    - `HUGO_VERSION = 0.164.0`
 3. Deploy. The site builds automatically.
 
-### Turn on the CMS (Decap + Netlify Identity)
+### Turn on the CMS (Decap + DecapBridge)
 
-1. Netlify -> **Site settings -> Identity -> Enable Identity**.
-2. Under **Registration**, set to **Invite only**.
-3. Under **Identity -> Services -> Git Gateway**, click **Enable**.
-4. **Identity -> Invite users** -> invite your own email. Accept it, set a password.
-5. Visit `https://thespacecoaststories.com/admin/` and log in.
+Netlify Identity/Git Gateway are deprecated, so the CMS login runs on **DecapBridge** (free, purpose-built for Decap).
+
+1. Go to **decapbridge.com** and create an account (you're the site owner).
+2. In the dashboard, click **Add site / Create site** and link the GitHub repo `claire792/thespacecoaststories` (it'll ask for a GitHub access token — a fine-grained token scoped to just this repo).
+3. For the admin URL, enter `https://thespacecoaststories.com/admin/`.
+4. DecapBridge shows you a **site ID**. Open `static/admin/config.yml`, find `PASTE-YOUR-SITE-ID-BELOW`, and replace it with that ID.
+5. Re-upload / push, let Netlify rebuild, then visit `https://thespacecoaststories.com/admin/` and log in with your DecapBridge account.
+6. To let someone else edit, use **Manage collaborators** in the DecapBridge dashboard to invite them by email.
 
 ---
 

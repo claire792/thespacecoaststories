@@ -9,19 +9,5 @@
   </main>
   {{ partial "footer.html" . }}
   <script src="{{ "js/main.js" | relURL }}" defer></script>
-
-  {{/* Netlify Identity: catches CMS invite/recovery links and sends them to /admin/ */}}
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", function (user) {
-        if (!user) {
-          window.netlifyIdentity.on("login", function () {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
-  </script>
 </body>
 </html>
