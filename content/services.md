@@ -5,6 +5,22 @@ eyebrow: "What we make"
 lead: "From a single deck of question cards to a full hardcover life, here's everything we do and what it costs. No mystery pricing."
 positioning: "We're personal historians, not ghostwriters. The words stay theirs. We just make sure they're kept."
 
+inside_heading: "This is what your family keeps."
+inside_sub: "A few pages from Catherine's book, made with her family. Yours won't look like this one — your person isn't like anyone else."
+inside_pages:
+  - image: "images/inside-room14.jpg"
+    alt: "A book spread titled Room 14, about Catherine's years teaching seventh-grade English"
+  - image: "images/inside-wedding.jpg"
+    alt: "A book spread with an archival 1977 wedding photograph"
+  - image: "images/inside-roses.jpg"
+    alt: "A book spread featuring Catherine's Florida rose garden at sunset"
+  - image: "images/inside-after.jpg"
+    alt: "A tender book chapter about loss"
+  - image: "images/inside-letter.jpg"
+    alt: "A closing letter to Catherine's children and grandchildren"
+  - image: "images/inside-title.jpg"
+    alt: "The title page of Catherine's legacy book"
+
 books_heading: "A book, sized to the life."
 books_sub: "Every project starts with a conversation, then we build to fit your family and your budget. Prices below are starting points; final quotes depend on length and number of interviews."
 book_tiers:

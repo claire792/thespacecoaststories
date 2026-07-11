@@ -18,6 +18,12 @@
         <img src="{{ "images/kit-box-held.jpg" | relURL }}" alt="A person holding the navy, gold-star Tell Me Your Story card kit box" style="width:100%;border-radius:4px;box-shadow:0 24px 50px -28px rgba(22,50,79,.5);" loading="eager" decoding="async">
       </figure>
     </div>
+    {{ with $p.credit_note }}
+    <div class="note" style="border-left-color:var(--coral);border-left-width:4px;margin-top:2.5rem;display:flex;gap:1rem;align-items:flex-start;">
+      <span style="font-family:var(--serif);font-size:1.5rem;line-height:1;color:var(--coral-deep);flex:none;">★</span>
+      <p style="margin:0;color:var(--ink-soft);"><strong>$100 toward your legacy book.</strong> {{ . }}</p>
+    </div>
+    {{ end }}
   </div>
 </section>
 
@@ -54,7 +60,7 @@
     <div class="grid grid-2" style="gap:clamp(1.5rem,4vw,2.5rem);align-items:center;">
       <figure style="margin:0;">
         <img src="{{ "images/kit-box-white.jpg" | relURL }}" alt="The Tell Me Your Story card kit box" style="width:100%;border-radius:4px;box-shadow:var(--shadow-soft);" loading="lazy" decoding="async">
-        <figcaption style="font-family:var(--sans);font-size:.82rem;color:var(--muted);margin-top:.6rem;text-align:center;">Every kit: 60 questions, ready to open at the table.</figcaption>
+        <figcaption style="font-family:var(--sans);font-size:.82rem;color:var(--muted);margin-top:.6rem;text-align:center;">Every kit: 20 questions, ready to open at the table.</figcaption>
       </figure>
       <figure style="margin:0;">
         <img src="{{ "images/card-filled.jpg" | relURL }}" alt="A handwritten, filled-out Tell Me Your Story keepsake card" style="width:100%;border-radius:4px;box-shadow:var(--shadow-soft);" loading="lazy" decoding="async">

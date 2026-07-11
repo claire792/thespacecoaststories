@@ -2,10 +2,17 @@
 {{ $p := .Params }}
 
 <section class="section-tight">
-  <div class="wrap-narrow center">
-    <span class="eyebrow" style="justify-content:center;">{{ $p.eyebrow }}</span>
-    <h1>{{ .Title }}</h1>
-    <p class="lead">{{ $p.lead }}</p>
+  <div class="wrap">
+    <div class="grid grid-2" style="align-items:center;gap:clamp(2rem,6vw,4rem);">
+      <div>
+        <span class="eyebrow">{{ $p.eyebrow }}</span>
+        <h1>{{ .Title }}</h1>
+        <p class="lead">{{ $p.lead }}</p>
+      </div>
+      <figure style="margin:0;">
+        <img src="{{ "images/book-beach.jpg" | relURL }}" alt="A finished legacy book, The Life and Times of Catherine Small, held up on a Florida beach" style="width:100%;border-radius:4px;box-shadow:0 24px 50px -28px rgba(22,50,79,.5);" loading="eager" decoding="async">
+      </figure>
+    </div>
   </div>
 </section>
 
@@ -14,6 +21,27 @@
 <section class="section-tight" style="padding-top:0;">
   <div class="wrap-narrow">
     <div class="pullquote"><p>{{ . }}</p></div>
+  </div>
+</section>
+{{ end }}
+
+<!-- LOOK INSIDE (auto-flipping showcase) -->
+{{ with $p.inside_pages }}
+<section class="section" style="padding-top:1rem;">
+  <div class="wrap">
+    <div class="grid grid-2" style="align-items:center;gap:clamp(2rem,6vw,4rem);">
+      <div>
+        <span class="eyebrow">Look inside a real one</span>
+        <h2>{{ $p.inside_heading | default "This is what your family keeps." }}</h2>
+        <p class="lead">{{ $p.inside_sub }}</p>
+        <a class="btn btn-primary" href="{{ "/contact" | relURL }}" style="margin-top:.5rem;">Start your family's book</a>
+      </div>
+      <figure class="book-flip" aria-label="Sample pages from a finished legacy book, cycling automatically">
+        {{ range $i, $pg := . }}
+        <img src="{{ $pg.image | relURL }}" alt="{{ $pg.alt }}" class="book-flip__img{{ if eq $i 0 }} is-active{{ end }}" loading="lazy" decoding="async" width="800" height="800">
+        {{ end }}
+      </figure>
+    </div>
   </div>
 </section>
 {{ end }}

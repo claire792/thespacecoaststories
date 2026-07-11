@@ -41,3 +41,20 @@
     }, 500);
   }, 4200);
 })();
+
+(function () {
+  "use strict";
+  // --- Auto-flipping "look inside" book showcase ---
+  var flip = document.querySelector(".book-flip");
+  if (!flip) return;
+  var imgs = flip.querySelectorAll(".book-flip__img");
+  if (imgs.length < 2) return;
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+  var i = 0;
+  setInterval(function () {
+    imgs[i].classList.remove("is-active");
+    i = (i + 1) % imgs.length;
+    imgs[i].classList.add("is-active");
+  }, 3400);
+})();
