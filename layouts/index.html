@@ -70,6 +70,7 @@
         <h2>{{ $p.how_heading | default "You talk. We do the rest." }}</h2>
         <p class="lead">{{ $p.how_sub }}</p>
         <a class="btn btn-primary" href="{{ "/services" | relURL }}" style="margin-top:.5rem;">See the full process</a>
+        <img src="{{ "images/interview.jpg" | relURL }}" alt="Claire interviewing a client, taking notes as they talk" style="width:100%;border-radius:4px;margin-top:2rem;box-shadow:0 24px 50px -30px rgba(22,50,79,.45);" loading="lazy" decoding="async">
       </div>
       <div class="steps">
         {{ range $p.steps }}

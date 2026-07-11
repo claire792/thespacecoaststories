@@ -14,10 +14,9 @@
           <a class="btn btn-ghost" href="{{ "/events" | relURL }}">Find us in person</a>
         </div>
       </div>
-      <div class="prompt-card" style="transform:rotate(1.3deg);max-width:none;">
-        <span class="prompt-card__label">Card 14 of 60</span>
-        <p class="prompt-card__q" style="min-height:auto;">{{ $p.sample_card }}</p>
-      </div>
+      <figure style="margin:0;">
+        <img src="{{ "images/kit-box-held.jpg" | relURL }}" alt="A person holding the navy, gold-star Tell Me Your Story card kit box" style="width:100%;border-radius:4px;box-shadow:0 24px 50px -28px rgba(22,50,79,.5);" loading="eager" decoding="async">
+      </figure>
     </div>
   </div>
 </section>
@@ -50,6 +49,18 @@
     <span class="eyebrow" style="justify-content:center;">How people use them</span>
     <h2>{{ $p.use_heading | default "Bring one to dinner. See what happens." }}</h2>
     <p class="lead">{{ $p.use_body }}</p>
+  </div>
+  <div class="wrap" style="margin-top:2.5rem;">
+    <div class="grid grid-2" style="gap:clamp(1.5rem,4vw,2.5rem);align-items:center;">
+      <figure style="margin:0;">
+        <img src="{{ "images/kit-box-white.jpg" | relURL }}" alt="The Tell Me Your Story card kit box" style="width:100%;border-radius:4px;box-shadow:var(--shadow-soft);" loading="lazy" decoding="async">
+        <figcaption style="font-family:var(--sans);font-size:.82rem;color:var(--muted);margin-top:.6rem;text-align:center;">Every kit: 60 questions, ready to open at the table.</figcaption>
+      </figure>
+      <figure style="margin:0;">
+        <img src="{{ "images/card-filled.jpg" | relURL }}" alt="A handwritten, filled-out Tell Me Your Story keepsake card" style="width:100%;border-radius:4px;box-shadow:var(--shadow-soft);" loading="lazy" decoding="async">
+        <figcaption style="font-family:var(--sans);font-size:.82rem;color:var(--muted);margin-top:.6rem;text-align:center;">A finished card, in their own hand — the keepsake you're really making.</figcaption>
+      </figure>
+    </div>
   </div>
 </section>
 {{ end }}
