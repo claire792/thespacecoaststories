@@ -1,0 +1,60 @@
+{{ define "main" }}
+{{ $p := .Params }}
+{{ $s := hugo.Data.site }}
+<section class="section-tight">
+  <div class="wrap">
+    <div class="grid grid-2" style="gap:clamp(2rem,6vw,4rem);align-items:start;">
+      <div>
+        <span class="eyebrow">{{ $p.eyebrow }}</span>
+        <h1>{{ .Title }}</h1>
+        <p class="lead">{{ $p.lead }}</p>
+        <div class="prose" style="font-size:1.05rem;">{{ .Content }}</div>
+        <div style="margin-top:2rem;border-top:1px solid var(--line);padding-top:1.5rem;">
+          <p style="margin:0 0 .4rem;"><strong>Email</strong><br><a href="mailto:{{ $s.email }}">{{ $s.email }}</a></p>
+          <p style="margin:1rem 0 .4rem;"><strong>Phone & text</strong><br><a href="tel:{{ replaceRE `[^0-9+]` "" $s.phone }}">{{ $s.phone }}</a> <span style="color:var(--muted);font-size:.9rem;">· {{ $s.phone_note }}</span></p>
+          <p style="margin:1rem 0 0;"><strong>Where</strong><br>{{ $s.location }}</p>
+        </div>
+      </div>
+
+      <div style="background:var(--white);border:1px solid var(--line);border-radius:3px;padding:clamp(1.6rem,4vw,2.4rem);box-shadow:var(--shadow-soft);">
+        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you/" class="form">
+          <input type="hidden" name="form-name" value="contact">
+          <p hidden><label>Skip this: <input name="bot-field"></label></p>
+
+          <div>
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" required autocomplete="name">
+          </div>
+          <div class="field-half">
+            <div>
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required autocomplete="email">
+            </div>
+            <div>
+              <label for="phone">Phone (optional)</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel">
+            </div>
+          </div>
+          <div>
+            <label for="interest">What's this about?</label>
+            <select id="interest" name="interest">
+              <option>A legacy book for my family</option>
+              <option>A memorial / tribute book</option>
+              <option>Card kits</option>
+              <option>A workshop for my community or group</option>
+              <option>A class or course</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div>
+            <label for="message">Tell us a little about who the story is for</label>
+            <textarea id="message" name="message" placeholder="Who are we helping you remember? No need to have it all figured out."></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit" style="justify-content:center;">Send it over</button>
+          <p style="font-size:.82rem;color:var(--muted);margin:0;">We read every message and reply personally, usually within a day or two.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

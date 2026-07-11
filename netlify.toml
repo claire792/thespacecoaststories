@@ -1,0 +1,22 @@
+[build]
+  publish = "public"
+  command = "hugo --gc --minify"
+
+[build.environment]
+  HUGO_VERSION = "0.164.0"
+  HUGO_ENV = "production"
+  TZ = "America/New_York"
+
+# Nice-to-have: pretty 404 and security headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "SAMEORIGIN"
+
+# Redirect the Decap admin trailing slash
+[[redirects]]
+  from = "/admin"
+  to = "/admin/"
+  status = 301

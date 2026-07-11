@@ -1,0 +1,20 @@
+# Global site info. Edit these in the CMS under "Site Settings".
+business_name: "Space Coast Stories"
+tagline: "Personal history & legacy storytelling"
+location: "Brevard County, Florida"
+
+# CONTACT — replace with your real details before launch.
+email: "hello@thespacecoaststories.com"
+phone: "(321) 555-0100"
+phone_note: "Calls & texts welcome, Mon–Fri"
+
+# Square checkout for the card kits — paste your Square Online link here.
+square_checkout_url: "https://square.link/REPLACE-ME"
+
+# Social links (leave blank to hide).
+facebook: "https://www.facebook.com/"
+instagram: ""
+newsletter_name: "Bright Side Brevard"
+
+# Footer sign-off line.
+footer_note: "Serving Melbourne, Viera, Rockledge, Merritt Island, and the greater Space Coast."

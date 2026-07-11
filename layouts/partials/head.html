@@ -1,0 +1,50 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {{- $desc := .Description | default site.Params.description -}}
+  {{- $title := "" -}}
+  {{- if .IsHome -}}
+    {{- $title = printf "%s — %s" site.Title (index hugo.Data.site "tagline") -}}
+  {{- else -}}
+    {{- $title = printf "%s · %s" .Title site.Title -}}
+  {{- end -}}
+
+  <title>{{ $title }}</title>
+  <meta name="description" content="{{ $desc }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="{{ site.Title }}">
+  <meta property="og:title" content="{{ $title }}">
+  <meta property="og:description" content="{{ $desc }}">
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  {{- with .Params.image }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Fonts: Newsreader (display/serif) + Public Sans (UI/body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+  <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+
+  {{- /* Local business structured data */ -}}
+  {{ if .IsHome }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "{{ index hugo.Data.site "business_name" }}",
+    "description": "{{ site.Params.description }}",
+    "url": "{{ site.BaseURL }}",
+    "email": "{{ index hugo.Data.site "email" }}",
+    "telephone": "{{ index hugo.Data.site "phone" }}",
+    "areaServed": "Brevard County, Florida",
+    "knowsAbout": ["Personal history", "Legacy storytelling", "Memoir", "Oral history"]
+  }
+  </script>
+  {{ end }}
+</head>

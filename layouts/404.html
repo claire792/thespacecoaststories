@@ -1,0 +1,13 @@
+{{ define "main" }}
+<section class="section center">
+  <div class="wrap-narrow">
+    <span class="eyebrow" style="justify-content:center;">Page not found</span>
+    <h1>This page went quiet.</h1>
+    <p class="lead">The link you followed doesn't lead anywhere anymore. But there's plenty here worth finding.</p>
+    <div class="btn-row" style="justify-content:center;margin-top:1.4rem;">
+      <a class="btn btn-primary" href="{{ "/" | relURL }}">Back home</a>
+      <a class="btn btn-ghost" href="{{ "/blog" | relURL }}">Read the journal</a>
+    </div>
+  </div>
+</section>
+{{ end }}

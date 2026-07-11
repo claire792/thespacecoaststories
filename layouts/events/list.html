@@ -1,0 +1,74 @@
+{{ define "main" }}
+{{ $now := now }}
+{{ $events := where site.RegularPages "Section" "events" }}
+{{ $upcoming := slice }}
+{{ $past := slice }}
+{{ range $events }}
+  {{ $page := . }}
+  {{ with .Params.event_date }}
+    {{ $d := time.AsTime . }}
+    {{ if $d.After $now }}
+      {{ $upcoming = $upcoming | append $page }}
+    {{ else }}
+      {{ $past = $past | append $page }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $upcoming = sort $upcoming ".Params.event_date" "asc" }}
+{{ $past = sort $past ".Params.event_date" "desc" }}
+
+<section class="section-tight">
+  <div class="wrap-narrow">
+    <span class="eyebrow">{{ .Params.eyebrow | default "Come say hi" }}</span>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.lead }}<p class="lead">{{ . }}</p>{{ end }}
+    <div class="prose">{{ .Content }}</div>
+  </div>
+</section>
+
+<section class="section-tight" style="padding-top:0;">
+  <div class="wrap-narrow">
+    <h2 style="font-size:1.5rem;">Coming up</h2>
+    {{ if $upcoming }}
+    <div>
+      {{ range $upcoming }}
+      {{ $d := time.AsTime .Params.event_date }}
+      <div class="event">
+        <div class="event__date">
+          <div class="event__mon">{{ $d.Format "Jan" }}</div>
+          <div class="event__day">{{ $d.Format "2" }}</div>
+        </div>
+        <div>
+          <h3>{{ .Title }}</h3>
+          {{ with .Params.event_type }}<span class="chip">{{ . }}</span>{{ end }}
+          <p style="margin-top:.5rem;">{{ .Summary }}</p>
+          {{ with .Params.location }}<div class="event__where">&#128205; {{ . }}</div>{{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ else }}
+    <p class="note">Nothing on the calendar this minute. New dates are added often, so check back, or <a href="{{ "/contact" | relURL }}">reach out</a> to book a workshop of your own.</p>
+    {{ end }}
+
+    {{ if $past }}
+    <h2 style="font-size:1.5rem;margin-top:3rem;">Where we've been</h2>
+    <div style="opacity:.72;">
+      {{ range first 6 $past }}
+      {{ $d := time.AsTime .Params.event_date }}
+      <div class="event">
+        <div class="event__date">
+          <div class="event__mon">{{ $d.Format "Jan" }}</div>
+          <div class="event__day">{{ $d.Format "2" }}</div>
+        </div>
+        <div>
+          <h3 style="font-size:1.1rem;">{{ .Title }}</h3>
+          {{ with .Params.location }}<div class="event__where">{{ . }}</div>{{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

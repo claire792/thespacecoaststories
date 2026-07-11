@@ -1,0 +1,22 @@
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="{{ "/" | relURL }}" aria-label="Space Coast Stories home">
+      {{ partial "logo.html" . }}
+      <span>
+        <span class="brand__name">Space Coast Stories</span>
+        <span class="brand__sub">Legacy Storytelling</span>
+      </span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav" id="site-nav" aria-label="Primary">
+      {{ range site.Menus.main }}
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      {{ end }}
+      <a class="btn btn-primary" href="{{ "/contact" | relURL }}">Start a project</a>
+    </nav>
+  </div>
+</header>

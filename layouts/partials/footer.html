@@ -1,0 +1,36 @@
+{{- $s := hugo.Data.site -}}
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-brand__name">Space Coast Stories</div>
+        <p>{{ $s.tagline }}. Helping Brevard County families put the people they love into words, while there's still time to ask.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          {{ range site.Menus.footer }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Get in touch</h4>
+        <ul>
+          <li><a href="mailto:{{ $s.email }}">{{ $s.email }}</a></li>
+          <li><a href="tel:{{ replaceRE `[^0-9+]` "" $s.phone }}">{{ $s.phone }}</a></li>
+          <li><span>{{ $s.location }}</span></li>
+          {{ with $s.facebook }}<li><a href="{{ . }}" rel="noopener">Facebook</a></li>{{ end }}
+          {{ with $s.instagram }}<li><a href="{{ . }}" rel="noopener">Instagram</a></li>{{ end }}
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; {{ now.Year }} Space Coast Stories. {{ $s.footer_note }}</span>
+      <span><a href="{{ "/contact" | relURL }}">Contact</a></span>
+    </div>
+  </div>
+</footer>

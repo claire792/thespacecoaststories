@@ -1,0 +1,215 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Lets you run the CMS locally with `npx decap-server` (see README).
+local_backend: true
+
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+site_url: https://thespacecoaststories.com
+display_url: https://thespacecoaststories.com
+logo_url: https://thespacecoaststories.com/favicon.svg
+
+collections:
+  # ------------------------------------------------------------------
+  - name: "blog"
+    label: "Journal Posts"
+    label_singular: "Post"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}}  ·  {{year}}-{{month}}-{{day}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish date", name: "date", widget: "datetime" }
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options: ["Legacy Books", "How to Start", "Local History", "Memorial", "Behind the Scenes"]
+        default: "How to Start"
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "SEO description", name: "description", widget: "text", required: false, hint: "One or two sentences for Google and social previews." }
+      - { label: "Cover image", name: "image", widget: "image", required: false }
+      - { label: "Draft (hide until ready)", name: "draft", widget: "boolean", default: false, required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # ------------------------------------------------------------------
+  - name: "events"
+    label: "Events & Classes"
+    label_singular: "Event"
+    folder: "content/events"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}}  ·  {{event_date}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Event date", name: "event_date", widget: "datetime", hint: "The day the event actually happens. Future dates are fine." }
+      - label: "Type"
+        name: "event_type"
+        widget: "select"
+        options: ["Vendor fair", "Free class", "Workshop", "Community session"]
+        default: "Free class"
+      - { label: "Location", name: "location", widget: "string" }
+      - { label: "Published on", name: "date", widget: "hidden", default: "2026-07-11" }
+      - { label: "Details", name: "body", widget: "markdown", hint: "A short description shown on the events page." }
+
+  # ------------------------------------------------------------------
+  - name: "settings"
+    label: "Site Settings"
+    editor:
+      preview: false
+    files:
+      - name: "site"
+        label: "Contact & Site Info"
+        file: "data/site.yaml"
+        fields:
+          - { label: "Business name", name: "business_name", widget: "string" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Location", name: "location", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Phone", name: "phone", widget: "string" }
+          - { label: "Phone note", name: "phone_note", widget: "string" }
+          - { label: "Square checkout URL", name: "square_checkout_url", widget: "string", hint: "Paste your Square Online link for the card kits." }
+          - { label: "Facebook URL", name: "facebook", widget: "string", required: false }
+          - { label: "Instagram URL", name: "instagram", widget: "string", required: false }
+          - { label: "Newsletter name", name: "newsletter_name", widget: "string", required: false }
+          - { label: "Footer note", name: "footer_note", widget: "string" }
+
+  # ------------------------------------------------------------------
+  - name: "pages"
+    label: "Pages"
+    editor:
+      preview: false
+    files:
+      # ---- HOME ----
+      - name: "home"
+        label: "Home Page"
+        file: "content/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "hidden", default: "Home" }
+          - { label: "Hero eyebrow", name: "hero_eyebrow", widget: "string" }
+          - { label: "Hero heading", name: "hero_heading", widget: "string" }
+          - label: "Rotating prompts"
+            name: "hero_prompts"
+            widget: "list"
+            hint: "These fade through in the hero card. Add or edit the questions."
+            field: { label: "Prompt", name: "prompt", widget: "string" }
+          - { label: "Hero subtext", name: "hero_sub", widget: "text" }
+          - { label: "Hero button 1", name: "hero_cta1", widget: "string" }
+          - { label: "Hero button 2", name: "hero_cta2", widget: "string" }
+          - { label: "Offerings heading", name: "offerings_heading", widget: "string" }
+          - { label: "Offerings subtext", name: "offerings_sub", widget: "text" }
+          - label: "Offerings (3 cards)"
+            name: "offerings"
+            widget: "list"
+            fields:
+              - { label: "Badge", name: "num", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
+              - { label: "Link URL", name: "url", widget: "string" }
+              - { label: "Link text", name: "link_text", widget: "string" }
+          - { label: "Why quote", name: "why_quote", widget: "text" }
+          - { label: "Why body", name: "why_body", widget: "text" }
+          - { label: "How heading", name: "how_heading", widget: "string" }
+          - { label: "How subtext", name: "how_sub", widget: "text" }
+          - label: "Process steps"
+            name: "steps"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Body", name: "body", widget: "text" }
+          - { label: "Demo heading", name: "demo_heading", widget: "string" }
+          - { label: "Demo body", name: "demo_body", widget: "text" }
+          - { label: "For-communities heading", name: "b2b_heading", widget: "string" }
+          - { label: "For-communities body", name: "b2b_body", widget: "text" }
+          - { label: "Closing heading", name: "cta_heading", widget: "string" }
+          - { label: "Closing body", name: "cta_body", widget: "text" }
+
+      # ---- ABOUT ----
+      - name: "about"
+        label: "About Page"
+        file: "content/about.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+          - { label: "Lead", name: "lead", widget: "text" }
+          - { label: "Show contact prompt at end", name: "show_contact_cta", widget: "boolean", default: true }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      # ---- SERVICES ----
+      - name: "services"
+        label: "Services & Pricing"
+        file: "content/services.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "services" }
+          - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+          - { label: "Lead", name: "lead", widget: "text" }
+          - { label: "Positioning line", name: "positioning", widget: "text" }
+          - { label: "Books heading", name: "books_heading", widget: "string" }
+          - { label: "Books subtext", name: "books_sub", widget: "text" }
+          - label: "Book tiers"
+            name: "book_tiers"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Price", name: "price", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Features", name: "features", widget: "list", field: { label: "Feature", name: "feature", widget: "string" } }
+              - { label: "Button text", name: "cta", widget: "string" }
+              - { label: "Highlight this tier", name: "featured", widget: "boolean", default: false }
+          - { label: "Payment note", name: "payment_note", widget: "text" }
+          - { label: "Other services heading", name: "other_heading", widget: "string" }
+          - { label: "Link text (cards)", name: "cta_text", widget: "string", default: "Learn more" }
+          - label: "Other services"
+            name: "other_services"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Price", name: "price", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Link URL", name: "cta_url", widget: "string", required: false }
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - { label: "Question", name: "q", widget: "string" }
+              - { label: "Answer", name: "a", widget: "text" }
+          - { label: "Show contact prompt", name: "show_contact_cta", widget: "boolean", default: false }
+
+      # ---- CARD KITS ----
+      - name: "card-kits"
+        label: "Card Kits Page"
+        file: "content/card-kits.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "card-kits" }
+          - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+          - { label: "Lead", name: "lead", widget: "text" }
+          - { label: "Sample card question", name: "sample_card", widget: "text" }
+          - { label: "Packs heading", name: "packs_heading", widget: "string" }
+          - { label: "Packs subtext", name: "packs_sub", widget: "text" }
+          - label: "Packs"
+            name: "packs"
+            widget: "list"
+            fields:
+              - { label: "Badge", name: "badge", widget: "string" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Count / label", name: "count", widget: "string" }
+          - { label: "Use heading", name: "use_heading", widget: "string" }
+          - { label: "Use body", name: "use_body", widget: "text" }
+
+      # ---- CONTACT ----
+      - name: "contact"
+        label: "Contact Page"
+        file: "content/contact.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "contact" }
+          - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+          - { label: "Lead", name: "lead", widget: "text" }
+          - { label: "Body", name: "body", widget: "markdown" }

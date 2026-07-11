@@ -1,0 +1,79 @@
+baseURL = "https://thespacecoaststories.com/"
+locale = "en-us"
+title = "Space Coast Stories"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+enableEmoji = true
+
+# Blog posts dated in the future stay hidden until their date arrives.
+buildFuture = false
+summaryLength = 40
+
+[params]
+  description = "Legacy storytelling and personal history for Brevard County families. We help you capture the people you love, in their own words, while there's still time to ask."
+  # These fall back to data/site.yaml values in templates; kept here for quick reference.
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true          # allow raw HTML in markdown (needed for some blog embeds)
+  [markup.highlight]
+    noClasses = false
+    style = "friendly"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# Main navigation
+[menu]
+  [[menu.main]]
+    name = "Legacy Books"
+    pageRef = "/services"
+    weight = 10
+  [[menu.main]]
+    name = "Card Kits"
+    pageRef = "/card-kits"
+    weight = 20
+  [[menu.main]]
+    name = "Workshops"
+    pageRef = "/services"
+    weight = 30
+  [[menu.main]]
+    name = "Journal"
+    pageRef = "/blog"
+    weight = 40
+  [[menu.main]]
+    name = "Events"
+    pageRef = "/events"
+    weight = 50
+  [[menu.main]]
+    name = "About"
+    pageRef = "/about"
+    weight = 60
+
+# Footer navigation
+[[menu.footer]]
+  name = "Legacy Books"
+  pageRef = "/services"
+  weight = 10
+[[menu.footer]]
+  name = "Card Kits"
+  pageRef = "/card-kits"
+  weight = 20
+[[menu.footer]]
+  name = "The Journal"
+  pageRef = "/blog"
+  weight = 30
+[[menu.footer]]
+  name = "Events"
+  pageRef = "/events"
+  weight = 40
+[[menu.footer]]
+  name = "About"
+  pageRef = "/about"
+  weight = 50
+[[menu.footer]]
+  name = "Contact"
+  pageRef = "/contact"
+  weight = 60
+

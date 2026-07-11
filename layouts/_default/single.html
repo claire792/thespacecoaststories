@@ -1,0 +1,22 @@
+{{ define "main" }}
+<section class="section-tight">
+  <div class="wrap-narrow">
+    {{ with .Params.eyebrow }}<span class="eyebrow">{{ . }}</span>{{ end }}
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.lead }}<p class="lead">{{ . }}</p>{{ end }}
+  </div>
+</section>
+
+<section class="section-tight" style="padding-top:0;">
+  <div class="wrap-narrow">
+    <div class="prose">
+      {{ .Content }}
+    </div>
+    {{ if .Params.show_contact_cta }}
+    <div class="note" style="margin-top:2.5rem;">
+      Ready to start, or just have questions? <a href="{{ "/contact" | relURL }}">Reach out here</a> and we'll take it from there.
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

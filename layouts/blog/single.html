@@ -1,0 +1,46 @@
+{{ define "main" }}
+<article>
+  <header class="article-head">
+    <div class="wrap-narrow">
+      {{ with .Params.category }}<span class="cat">{{ . }}</span>{{ end }}
+      <h1>{{ .Title }}</h1>
+      <div class="article-meta">
+        {{ .Date.Format "January 2, 2006" }} · {{ .ReadingTime }} min read
+      </div>
+    </div>
+  </header>
+
+  <div class="wrap-narrow">
+    <div class="prose">
+      {{ .Content }}
+    </div>
+
+    {{ with .Params.tags }}
+    <div class="chip-row" style="margin-top:2.5rem;">
+      {{ range . }}<span class="chip">{{ . }}</span>{{ end }}
+    </div>
+    {{ end }}
+
+    <div class="note" style="margin-top:2.5rem;">
+      Thinking about capturing your own family's story? <a href="{{ "/services" | relURL }}">See how legacy books work</a> or <a href="{{ "/contact" | relURL }}">start a conversation</a>. There's no wrong time, but earlier is always better.
+    </div>
+  </div>
+</article>
+
+<section class="section-tight">
+  <div class="wrap-narrow">
+    <h2 style="font-size:1.4rem;">Keep reading</h2>
+    <div class="post-list">
+      {{ range first 3 (where (where site.RegularPages "Section" "blog") "Permalink" "!=" .Permalink) }}
+      <article class="post-item">
+        <div class="post-item__meta">{{ .Date.Format "Jan 2, 2006" }}</div>
+        <div>
+          {{ with .Params.category }}<span class="post-item__cat">{{ . }}</span>{{ end }}
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,95 @@
+{{ define "main" }}
+{{ $p := .Params }}
+
+<section class="section-tight">
+  <div class="wrap-narrow center">
+    <span class="eyebrow" style="justify-content:center;">{{ $p.eyebrow }}</span>
+    <h1>{{ .Title }}</h1>
+    <p class="lead">{{ $p.lead }}</p>
+  </div>
+</section>
+
+<!-- POSITIONING -->
+{{ with $p.positioning }}
+<section class="section-tight" style="padding-top:0;">
+  <div class="wrap-narrow">
+    <div class="pullquote"><p>{{ . }}</p></div>
+  </div>
+</section>
+{{ end }}
+
+<!-- LEGACY BOOKS -->
+<section class="section">
+  <div class="wrap">
+    <div style="max-width:620px;margin-bottom:2.5rem;">
+      <span class="eyebrow">Legacy books</span>
+      <h2>{{ $p.books_heading | default "A book, sized to the life." }}</h2>
+      <p class="lead">{{ $p.books_sub }}</p>
+    </div>
+    <div class="grid grid-3">
+      {{ range $p.book_tiers }}
+      <div class="tier {{ if .featured }}tier--feature{{ end }}">
+        {{ if .featured }}<span class="tier__flag">Most requested</span>{{ end }}
+        <div class="tier__name">{{ .name }}</div>
+        <div class="tier__price">{{ .price }}</div>
+        <p class="tier__desc">{{ .desc }}</p>
+        <ul>
+          {{ range .features }}<li>{{ . }}</li>{{ end }}
+        </ul>
+        <a class="btn {{ if .featured }}btn-primary{{ else }}btn-ghost{{ end }}" href="{{ "/contact" | relURL }}">{{ .cta | default "Ask about this" }}</a>
+      </div>
+      {{ end }}
+    </div>
+    {{ with $p.payment_note }}
+    <div class="note" style="margin-top:2rem;">{{ . | markdownify }}</div>
+    {{ end }}
+  </div>
+</section>
+
+<!-- WORKSHOPS + CLASSES + MEMORIAL -->
+<section class="section panel-cream">
+  <div class="wrap">
+    <div style="max-width:620px;margin-bottom:2.5rem;">
+      <span class="eyebrow">Workshops, classes & memorial work</span>
+      <h2>{{ $p.other_heading | default "More ways we help." }}</h2>
+    </div>
+    <div class="grid grid-2">
+      {{ range $p.other_services }}
+      <div class="card">
+        <h3>{{ .name }}</h3>
+        <div class="tier__price">{{ .price }}</div>
+        <p>{{ .desc }}</p>
+        {{ with .cta_url }}<a class="card__link" href="{{ . | relURL }}">{{ $.Param "cta_text" | default "Learn more" }}</a>{{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+{{ with $p.faqs }}
+<section class="section">
+  <div class="wrap-narrow">
+    <span class="eyebrow">Good questions</span>
+    <h2>Before you ask, you're probably wondering&hellip;</h2>
+    <div style="margin-top:2rem;">
+      {{ range . }}
+      <details style="border-top:1px solid var(--line);padding:1.2rem 0;">
+        <summary style="font-family:var(--serif);font-size:1.25rem;cursor:pointer;color:var(--ink);">{{ .q }}</summary>
+        <p style="margin:.9rem 0 0;color:var(--ink-soft);">{{ .a }}</p>
+      </details>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<!-- CTA -->
+<section class="section-tight panel-ink center" style="padding-block:clamp(3rem,7vw,5rem);">
+  <div class="wrap-narrow">
+    <h2 style="color:var(--white);">Not sure which one fits?</h2>
+    <p class="lead" style="color:rgba(251,247,239,.82);">Tell us who the book is for and your budget. We'll point you to the right starting place, honestly.</p>
+    <a class="btn btn-primary" href="{{ "/contact" | relURL }}" style="margin-top:1rem;">Start the conversation</a>
+  </div>
+</section>
+{{ end }}

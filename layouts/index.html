@@ -1,0 +1,134 @@
+{{ define "main" }}
+{{ $p := .Params }}
+{{ $s := hugo.Data.site }}
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero__inner">
+    <span class="eyebrow">{{ $p.hero_eyebrow | default "Personal history · Brevard County" }}</span>
+    <h1>{{ $p.hero_heading | default "Someday, someone will wish they'd asked." }}</h1>
+
+    <div class="prompt-card" aria-hidden="true">
+      <span class="prompt-card__label">Ask them anything</span>
+      <p class="prompt-card__q" id="rotating-prompt">{{ index $p.hero_prompts 0 }}</p>
+    </div>
+
+    <p class="hero__sub lead">{{ $p.hero_sub }}</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="{{ "/services" | relURL }}">{{ $p.hero_cta1 | default "See legacy books" }}</a>
+      <a class="btn btn-ghost" href="{{ "/card-kits" | relURL }}">{{ $p.hero_cta2 | default "Shop the card kits" }}</a>
+    </div>
+  </div>
+  {{ with $p.hero_prompts }}
+  <ul id="prompt-data" hidden aria-hidden="true">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+  {{ end }}
+</section>
+
+<!-- WHAT WE DO -->
+<section class="section">
+  <div class="wrap">
+    <div class="center" style="max-width:640px;margin-inline:auto;">
+      <span class="eyebrow" style="justify-content:center;">Three ways to begin</span>
+      <h2>{{ $p.offerings_heading | default "Start small, or go all in." }}</h2>
+      <p class="lead">{{ $p.offerings_sub }}</p>
+    </div>
+    <div class="grid grid-3" style="margin-top:3rem;">
+      {{ range $p.offerings }}
+      <div class="card">
+        <span class="card__num">{{ .num }}</span>
+        <h3>{{ .title }}</h3>
+        <p>{{ .body }}</p>
+        <a class="card__link" href="{{ .url | relURL }}">{{ .link_text }}</a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- WHY / EMOTIONAL BREAK -->
+<section class="section panel-ink">
+  <div class="wrap-narrow center">
+    <div class="pullquote" style="border:0;padding:0;">
+      <p class="serif-italic" style="font-size:clamp(1.7rem,3.6vw,2.6rem);line-height:1.3;">{{ $p.why_quote }}</p>
+    </div>
+    <p class="lead" style="color:rgba(251,247,239,.82);margin-top:1.6rem;">{{ $p.why_body }}</p>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section">
+  <div class="wrap">
+    <div class="grid grid-2" style="align-items:start;gap:clamp(2rem,6vw,4.5rem);">
+      <div>
+        <span class="eyebrow">How a legacy book comes together</span>
+        <h2>{{ $p.how_heading | default "You talk. We do the rest." }}</h2>
+        <p class="lead">{{ $p.how_sub }}</p>
+        <a class="btn btn-primary" href="{{ "/services" | relURL }}" style="margin-top:.5rem;">See the full process</a>
+      </div>
+      <div class="steps">
+        {{ range $p.steps }}
+        <div class="step">
+          <div class="step__n" aria-hidden="true"></div>
+          <div>
+            <h3>{{ .title }}</h3>
+            <p>{{ .body }}</p>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DEMO / SAMPLE -->
+<section class="section panel-cream">
+  <div class="wrap">
+    <div class="grid grid-2" style="align-items:center;gap:clamp(2rem,6vw,4rem);">
+      <div>
+        <span class="eyebrow">A finished book</span>
+        <h2>{{ $p.demo_heading | default "See what one looks like." }}</h2>
+        <p class="lead">{{ $p.demo_body }}</p>
+        <a class="btn btn-ghost" href="{{ "/contact" | relURL }}">Request a sample book</a>
+      </div>
+      <div style="background:var(--white);border:1px solid var(--line);border-radius:3px;padding:2.5rem;box-shadow:var(--shadow-soft);">
+        <div style="border:1px solid var(--line);border-top:4px solid var(--brass);border-radius:2px;padding:2rem 1.6rem;text-align:center;">
+          <span class="eyebrow" style="justify-content:center;">Legacy book · sample</span>
+          <p class="serif-italic" style="font-size:1.55rem;line-height:1.35;color:var(--ink);margin:.5rem 0 .3rem;">"A Life in Full"</p>
+          <p style="font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0;">The story of Catherine Small<br>as told in her own words</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOR SENIOR COMMUNITIES (B2B) -->
+<section class="section">
+  <div class="wrap">
+    <div class="note" style="border-left-width:4px;padding:clamp(1.6rem,4vw,2.4rem);">
+      <div class="grid grid-2" style="align-items:center;gap:2rem;">
+        <div>
+          <span class="eyebrow" style="color:var(--sea);">For activity & life-enrichment directors</span>
+          <h3 style="font-size:clamp(1.5rem,2.6vw,1.9rem);">{{ $p.b2b_heading | default "Bring storytelling to your community." }}</h3>
+          <p style="margin-bottom:0;color:var(--ink-soft);">{{ $p.b2b_body }}</p>
+        </div>
+        <div style="text-align:left;">
+          <a class="btn btn-primary" href="{{ "/contact" | relURL }}">Book a free demo class</a>
+          <p style="font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:.9rem 0 0;">First class is on us. Recurring sessions from $150.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="section-tight panel-ink" style="text-align:center;padding-block:clamp(3rem,7vw,5rem);">
+  <div class="wrap-narrow">
+    <h2 style="color:var(--white);">{{ $p.cta_heading | default "The stories don't survive by accident." }}</h2>
+    <p class="lead" style="color:rgba(251,247,239,.82);">{{ $p.cta_body }}</p>
+    <div class="btn-row" style="justify-content:center;margin-top:1.4rem;">
+      <a class="btn btn-primary" href="{{ "/contact" | relURL }}">Start the conversation</a>
+      <a class="btn btn-ghost" href="{{ "/blog" | relURL }}">Read the journal</a>
+    </div>
+  </div>
+</section>
+{{ end }}
