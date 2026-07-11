@@ -44,6 +44,15 @@ collections:
         default: "How to Start"
       - { label: "Tags", name: "tags", widget: "list", required: false }
       - { label: "SEO description", name: "description", widget: "text", required: false, hint: "One or two sentences for Google and social previews." }
+      - label: "FAQs (great for Google + AI answers)"
+        name: "faqs"
+        widget: "list"
+        required: false
+        label_singular: "FAQ"
+        summary: "{{fields.q}}"
+        fields:
+          - { label: "Question", name: "q", widget: "string" }
+          - { label: "Answer", name: "a", widget: "text" }
       - { label: "Cover image", name: "image", widget: "image", required: false }
       - { label: "Draft (hide until ready)", name: "draft", widget: "boolean", default: false, required: false }
       - { label: "Body", name: "body", widget: "markdown" }

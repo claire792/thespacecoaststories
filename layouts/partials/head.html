@@ -48,4 +48,29 @@
   }
   </script>
   {{ end }}
+
+  {{- /* Article + FAQ structured data on blog posts */ -}}
+  {{ if and .IsPage (eq .Section "blog") }}
+  {{ $author := dict "@type" "Person" "name" "Claire Szewczyk" "url" (absURL "about/") }}
+  {{ $publisher := dict "@type" "Organization" "name" "Space Coast Stories" "logo" (dict "@type" "ImageObject" "url" (absURL "images/scs-emblem.png")) }}
+  {{ $bp := dict
+      "@context" "https://schema.org"
+      "@type" "BlogPosting"
+      "headline" .Title
+      "description" (.Params.description | default .Summary)
+      "datePublished" (.Date.Format "2006-01-02")
+      "dateModified" (.Lastmod.Format "2006-01-02")
+      "author" $author
+      "publisher" $publisher
+      "mainEntityOfPage" .Permalink
+  }}
+  {{ with .Params.tags }}{{ $bp = merge $bp (dict "keywords" (delimit . ", ")) }}{{ end }}
+  {{ with .Params.image }}{{ $bp = merge $bp (dict "image" (. | absURL)) }}{{ end }}
+  <script type="application/ld+json">{{ $bp | jsonify | safeJS }}</script>
+  {{ with .Params.faqs }}
+  {{ $items := slice }}
+  {{ range . }}{{ $items = $items | append (dict "@type" "Question" "name" .q "acceptedAnswer" (dict "@type" "Answer" "text" .a)) }}{{ end }}
+  <script type="application/ld+json">{{ (dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $items) | jsonify | safeJS }}</script>
+  {{ end }}
+  {{ end }}
 </head>
