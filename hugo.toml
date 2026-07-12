@@ -31,10 +31,6 @@ summaryLength = 40
     pageRef = "/legacy-books"
     weight = 10
   [[menu.main]]
-    name = "Portfolio"
-    pageRef = "/portfolio"
-    weight = 15
-  [[menu.main]]
     name = "Card Kits"
     pageRef = "/card-kits"
     weight = 20
@@ -42,6 +38,10 @@ summaryLength = 40
     name = "Workshops"
     pageRef = "/storytelling-workshops"
     weight = 30
+  [[menu.main]]
+    name = "Story Prompts"
+    url = "/story-prompts/"
+    weight = 35
   [[menu.main]]
     name = "Journal"
     pageRef = "/blog"
@@ -51,9 +51,15 @@ summaryLength = 40
     pageRef = "/events"
     weight = 50
   [[menu.main]]
+    identifier = "about"
     name = "About"
     pageRef = "/about"
     weight = 60
+  [[menu.main]]
+    name = "Portfolio"
+    pageRef = "/portfolio"
+    parent = "about"
+    weight = 10
 
 # Footer navigation
 [[menu.footer]]
@@ -68,6 +74,10 @@ summaryLength = 40
   name = "Card Kits"
   pageRef = "/card-kits"
   weight = 20
+[[menu.footer]]
+  name = "Story Prompts"
+  url = "/story-prompts/"
+  weight = 22
 [[menu.footer]]
   name = "Brevard County"
   pageRef = "/brevard-county"
