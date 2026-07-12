@@ -89,6 +89,6 @@ Musical memory is stored in parts of the brain that dementia tends to affect lat
 
 ---
 
-*This is a tender subject, and if you're walking through it, I'm sorry, and I'm glad you're here. I'm Claire, a personal historian on Florida's Space Coast, and I help families capture a loved one's stories with patience and care, including when memory loss is part of the picture. [Reach out anytime](/contact). You may also find our guides on [recording a parent's life story](/blog/how-to-record-parents-life-story) and [interviewing an elderly relative](/blog/how-to-interview-elderly-relative) helpful.*
+*This is a tender subject, and if you're walking through it, I'm sorry, and I'm glad you're here. I'm Claire, a personal historian on Florida's Space Coast, and I help families capture a loved one's stories with patience and care, including when memory loss is part of the picture. [Reach out anytime](/contact/). You may also find our guides on [recording a parent's life story](/blog/how-to-record-parents-life-story/) and [interviewing an elderly relative](/blog/how-to-interview-elderly-relative/) helpful.*
 
 *If a diagnosis is new for your family, the Alzheimer's Association helpline (1-800-272-3900) is free, staffed around the clock, and a genuinely good place to start.*

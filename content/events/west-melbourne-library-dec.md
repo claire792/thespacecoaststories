@@ -9,3 +9,11 @@ location: "West Melbourne Public Library"
 ---
 
 A holiday-season session, perfect timing for the time of year when the whole family's around the table. We'll share prompts made for gatherings, so you can turn a normal dinner into the year you finally got the stories down.
+
+## A holiday-friendly way to gather stories
+
+Family gatherings create a rare chance to hear several generations in the same room, but broad questions like “Tell me about your life” often go nowhere. This class offers specific prompts that are easy to bring to a holiday table, including questions about childhood traditions, favorite gifts, recipes, family jokes, first homes, and the celebrations people remember most.
+
+We will also cover how to include quieter relatives, keep the conversation from feeling formal, and save the answers without making everyone self-conscious. Participants can share during class, work privately, or simply collect ideas to use later.
+
+No special equipment is required. Bring a notebook or phone if you want to practice, and leave with a set of questions designed to turn an ordinary family gathering into stories your family can keep.

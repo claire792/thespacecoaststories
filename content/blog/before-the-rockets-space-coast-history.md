@@ -51,6 +51,6 @@ That history lives in people. And unlike the launch records, it's not saved anyw
 
 If someone in your family carries a piece of this place's story, the old Brevard or the new one, it's worth getting it down while you can. A few recorded conversations. A handful of questions asked before it's too late. That's how local memory survives, one family at a time.
 
-That's the whole reason we do this. If you want a hand, [here's where to start](/contact).
+That's the whole reason we do this. If you want a hand, [here's where to start](/contact/).
 
 *A note: we've kept the history here general and welcome corrections from folks who know it firsthand. If we got a detail wrong, or if you have a story that belongs in it, we'd love to hear from you.*

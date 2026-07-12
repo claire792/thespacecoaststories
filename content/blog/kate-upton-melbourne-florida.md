@@ -82,6 +82,6 @@ She attended an Elite Model Management casting call in Miami in 2008 and was sig
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast. Kate Upton's Melbourne horse-show years are a reminder that the most formative chapters are often the ones nobody sees. If you'd like your family's early chapters preserved before they fade, [see how legacy books work](/blog/what-is-a-legacy-book) or [reach out](/contact).*
+*I'm Claire, a writer and personal historian on Florida's Space Coast. Kate Upton's Melbourne horse-show years are a reminder that the most formative chapters are often the ones nobody sees. If you'd like your family's early chapters preserved before they fade, [see how legacy books work](/blog/what-is-a-legacy-book/) or [reach out](/contact/).*
 
 *Sources: [Kate Upton — Wikipedia](https://en.wikipedia.org/wiki/Kate_Upton).*

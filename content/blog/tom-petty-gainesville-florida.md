@@ -79,6 +79,6 @@ Before the Heartbreakers, Petty led a Gainesville band called Mudcrutch, which i
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast. Tom Petty's story shows how one small childhood moment can shape an entire life. Those turning points are exactly what a good life story captures. If you'd like your family's turning points preserved, [see how legacy books work](/blog/what-is-a-legacy-book) or [reach out](/contact).*
+*I'm Claire, a writer and personal historian on Florida's Space Coast. Tom Petty's story shows how one small childhood moment can shape an entire life. Those turning points are exactly what a good life story captures. If you'd like your family's turning points preserved, [see how legacy books work](/blog/what-is-a-legacy-book/) or [reach out](/contact/).*
 
 *Sources: [Tom Petty — Wikipedia](https://en.wikipedia.org/wiki/Tom_Petty).*

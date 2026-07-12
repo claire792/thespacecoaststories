@@ -76,4 +76,4 @@ Reach out with a little about your residents and your goals, and we'll design a 
 
 ---
 
-*I'm Claire, a writer and personal historian, and a Space Coast native. I lead storytelling workshops at senior communities and libraries across Brevard County, and I love every one of them. If you're an activity or life-enrichment director, [let's talk about bringing a workshop to your residents](/contact), or [learn more about workshops here](/services). Working with one resident's family in particular? Here's [how a legacy book comes together](/blog/how-a-legacy-book-gets-made).*
+*I'm Claire, a writer and personal historian, and a Space Coast native. I lead storytelling workshops at senior communities and libraries across Brevard County, and I love every one of them. If you're an activity or life-enrichment director, [let's talk about bringing a workshop to your residents](/contact/), or [learn more about workshops here](/services/). Working with one resident's family in particular? Here's [how a legacy book comes together](/blog/how-a-legacy-book-gets-made/).*

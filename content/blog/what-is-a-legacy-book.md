@@ -2,7 +2,7 @@
 image: https://images.unsplash.com/photo-1645497265259-e1b0ed46066e?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 image_alt: An open legacy book featuring a couple’s photographs
 title: What Is a Legacy Book? (And Why It's More Than a Photo Album)
-seo_title: What Is a Legacy Book?
+seo_title: "What Is a Legacy Book? Examples, Process & Cost"
 description: Learn what a legacy book is, what it includes, how it is created, and how it differs from a memoir, biography, autobiography, or photo album.
 date: '2026-06-23'
 category: Legacy Books
@@ -65,7 +65,7 @@ If you want a shorthand: a legacy book is the story, the voice, and the pictures
 
 The path is simpler than most people expect. It starts with conversations, usually recorded over a few sessions. Those get shaped into a written story, checked with the family for names and dates, laid out with the photographs, and printed. You end up with a finished book, and often a set of copies for the whole family.
 
-If you'd rather capture the raw material yourself first, our guide on [how to record a parent's life story](/blog/how-to-record-parents-life-story) walks you through it. When you're ready to turn those recordings into something bound and permanent, that's where I come in.
+If you'd rather capture the raw material yourself first, our guide on [how to record a parent's life story](/blog/how-to-record-parents-life-story/) walks you through it. When you're ready to turn those recordings into something bound and permanent, that's where I come in.
 
 ## Frequently asked questions
 
@@ -83,4 +83,4 @@ It's built from recorded interviews, which are shaped into a written story, chec
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast. I create legacy books that keep a person's story and voice for the people who love them. [See how it works](/services) or [start a conversation](/contact) whenever you're ready.*
+*I'm Claire, a writer and personal historian on Florida's Space Coast. I create legacy books that keep a person's story and voice for the people who love them. [See how it works](/services/) or [start a conversation](/contact/) whenever you're ready.*

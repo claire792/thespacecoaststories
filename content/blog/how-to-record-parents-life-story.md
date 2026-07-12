@@ -85,4 +85,4 @@ It's worth it if the conversations are hard to have as a family member, if time 
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast. I help families capture a parent's or grandparent's story before it slips away, in their own words, while there's still time to ask. If you'd like a hand, [here's how legacy books work](/services), and [here's how to reach me](/contact). Not ready for that yet? Start with our [list of fifty questions to ask](/blog/questions-to-ask-your-grandparents) this weekend.*
+*I'm Claire, a writer and personal historian on Florida's Space Coast. I help families capture a parent's or grandparent's story before it slips away, in their own words, while there's still time to ask. If you'd like a hand, [here's how legacy books work](/services/), and [here's how to reach me](/contact/). Not ready for that yet? Start with our [list of fifty questions to ask](/blog/questions-to-ask-your-grandparents/) this weekend.*

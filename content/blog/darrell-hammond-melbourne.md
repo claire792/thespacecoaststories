@@ -83,6 +83,6 @@ He was 39 when he joined Saturday Night Live in 1995, after years working in Flo
 
 ---
 
-*I'm Claire, a writer and personal historian, and a Space Coast native. Darrell Hammond's story is a reminder that a life is the whole winding road, not just the highlights, and that the hard chapters are often the most meaningful to preserve. If you'd like your family's full story kept with honesty and care, [see how legacy books work](/blog/what-is-a-legacy-book) or [reach out](/contact).*
+*I'm Claire, a writer and personal historian, and a Space Coast native. Darrell Hammond's story is a reminder that a life is the whole winding road, not just the highlights, and that the hard chapters are often the most meaningful to preserve. If you'd like your family's full story kept with honesty and care, [see how legacy books work](/blog/what-is-a-legacy-book/) or [reach out](/contact/).*
 
 *Sources: [Darrell Hammond — Wikipedia](https://en.wikipedia.org/wiki/Darrell_Hammond).*

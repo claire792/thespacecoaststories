@@ -83,6 +83,6 @@ Besides being born in Melbourne, Morrison later attended St. Petersburg Junior C
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast. I find it remarkable that a rock legend's story began right here, and it's a reminder that every family has beginnings worth preserving. If you'd like your own family's story kept before its early chapters fade, [see how legacy books work](/blog/what-is-a-legacy-book) or [reach out](/contact). Curious about the region's deeper past? Read [a short history of the Space Coast before the rockets](/blog/before-the-rockets-space-coast-history).*
+*I'm Claire, a writer and personal historian on Florida's Space Coast. I find it remarkable that a rock legend's story began right here, and it's a reminder that every family has beginnings worth preserving. If you'd like your own family's story kept before its early chapters fade, [see how legacy books work](/blog/what-is-a-legacy-book/) or [reach out](/contact/). Curious about the region's deeper past? Read [a short history of the Space Coast before the rockets](/blog/before-the-rockets-space-coast-history/).*
 
 *Sources: [Jim Morrison — Wikipedia](https://en.wikipedia.org/wiki/Jim_Morrison); [Jim Morrison — Biography.com](https://www.biography.com/musicians/jim-morrison).*

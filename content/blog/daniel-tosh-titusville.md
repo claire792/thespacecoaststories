@@ -80,6 +80,6 @@ He is best known for hosting Tosh.0 on Comedy Central, which ran from 2009 to 20
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast. Daniel Tosh's story is a reminder that a person's voice is shaped by a very specific hometown and household. If you'd like your family's roots preserved, [see how legacy books work](/blog/what-is-a-legacy-book) or [reach out](/contact).*
+*I'm Claire, a writer and personal historian on Florida's Space Coast. Daniel Tosh's story is a reminder that a person's voice is shaped by a very specific hometown and household. If you'd like your family's roots preserved, [see how legacy books work](/blog/what-is-a-legacy-book/) or [reach out](/contact/).*
 
 *Sources: [Daniel Tosh — Wikipedia](https://en.wikipedia.org/wiki/Daniel_Tosh).*

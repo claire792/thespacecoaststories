@@ -1,5 +1,6 @@
 ---
 title: "The Journal"
+seo_title: "Family History & Legacy Storytelling Journal"
 description: "Practical guides to interviewing parents and grandparents, preserving family memories, creating legacy books, and recording Space Coast history."
 image: "images/book-table2.jpg"
 eyebrow: "Notes on memory, family & the Space Coast"

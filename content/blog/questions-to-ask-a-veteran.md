@@ -119,6 +119,6 @@ Any unhurried, private moment works, and occasions like Veterans Day or Memorial
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast, home to many who served. I help families preserve a veteran's story with the respect it deserves, in their own voice, as a keepsake or a full legacy book. [Reach out here](/contact). New to recording family stories? See our guides on [interviewing an elderly relative](/blog/how-to-interview-elderly-relative) and [recording a parent's life story](/blog/how-to-record-parents-life-story).*
+*I'm Claire, a writer and personal historian on Florida's Space Coast, home to many who served. I help families preserve a veteran's story with the respect it deserves, in their own voice, as a keepsake or a full legacy book. [Reach out here](/contact/). New to recording family stories? See our guides on [interviewing an elderly relative](/blog/how-to-interview-elderly-relative/) and [recording a parent's life story](/blog/how-to-record-parents-life-story/).*
 
 *Source: [Library of Congress Veterans History Project](https://www.loc.gov/programs/veterans-history-project/how-to-participate/).*

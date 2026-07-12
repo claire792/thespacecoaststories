@@ -2,7 +2,7 @@
 image: https://images.unsplash.com/photo-1616122719830-82e74d8b3eb5?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 image_alt: A warm floral arrangement for a meaningful memorial tribute
 title: How to Create a Tribute Book to Honor Someone You've Lost
-seo_title: How to Create a Tribute Book
+seo_title: "How to Create a Tribute Book for Someone You Love"
 description: A gentle step-by-step guide to creating a tribute book with stories, photographs, letters, and memories that honor someone who has died.
 date: '2026-05-14'
 category: Memorial
@@ -87,4 +87,4 @@ Yes. A personal historian can gather the photos and stories, interview the famil
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast. I help families honor the people they've lost with tribute books that keep a voice, a face, and a life story close. If you'd like a hand, [here's how to reach me](/contact), gently and with no pressure. You may also want our [fifty questions to draw out family memories](/blog/questions-to-ask-your-grandparents) as you gather stories from relatives.*
+*I'm Claire, a writer and personal historian on Florida's Space Coast. I help families honor the people they've lost with tribute books that keep a voice, a face, and a life story close. If you'd like a hand, [here's how to reach me](/contact/), gently and with no pressure. You may also want our [fifty questions to draw out family memories](/blog/questions-to-ask-your-grandparents/) as you gather stories from relatives.*

@@ -91,4 +91,4 @@ Use AI for the mechanical parts like transcription and organizing, and rely on a
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast. I use modern tools where they help and do the human work where it counts, so your family's memoir is fast to make and still unmistakably theirs. Curious how the process works? Read [how a legacy book comes together](/blog/how-a-legacy-book-gets-made), or [reach out](/contact). Wondering what a personal historian actually does? Start [here](/blog/what-is-a-personal-historian).*
+*I'm Claire, a writer and personal historian on Florida's Space Coast. I use modern tools where they help and do the human work where it counts, so your family's memoir is fast to make and still unmistakably theirs. Curious how the process works? Read [how a legacy book comes together](/blog/how-a-legacy-book-gets-made/), or [reach out](/contact/). Wondering what a personal historian actually does? Start [here](/blog/what-is-a-personal-historian/).*

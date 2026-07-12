@@ -81,6 +81,6 @@ Flutie is best known for his 1984 "Hail Mary" touchdown pass that beat Miami on 
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast. The Flutie family's story shows how a family's path is often shaped by the bigger history around it. If you'd like to capture why your family came to, or left, the Space Coast, [see how legacy books work](/blog/what-is-a-legacy-book) or [reach out](/contact). For more on the region's changes, read [a short history of the Space Coast before the rockets](/blog/before-the-rockets-space-coast-history).*
+*I'm Claire, a writer and personal historian on Florida's Space Coast. The Flutie family's story shows how a family's path is often shaped by the bigger history around it. If you'd like to capture why your family came to, or left, the Space Coast, [see how legacy books work](/blog/what-is-a-legacy-book/) or [reach out](/contact/). For more on the region's changes, read [a short history of the Space Coast before the rockets](/blog/before-the-rockets-space-coast-history/).*
 
 *Sources: [Doug Flutie — Wikipedia](https://en.wikipedia.org/wiki/Doug_Flutie).*

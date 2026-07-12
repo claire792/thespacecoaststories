@@ -63,11 +63,11 @@ None of that means the stories can't be captured. It means writing-by-email is t
 
 ### If your parent would rather talk than write
 
-This is the most common reason people look past StoryWorth, and the fix is simple: let them talk. Record the conversations instead of asking them to type. You can do this yourself with our guide to [recording a parent's life story](/blog/how-to-record-parents-life-story), or with a card kit to keep it flowing.
+This is the most common reason people look past StoryWorth, and the fix is simple: let them talk. Record the conversations instead of asking them to type. You can do this yourself with our guide to [recording a parent's life story](/blog/how-to-record-parents-life-story/), or with a card kit to keep it flowing.
 
 ### If you want it done for you, and done to last
 
-A personal historian is the full-service alternative. Instead of homework for your parent, it's a series of warm interviews, and the writing, design, and printing are handled for you. It costs more than a subscription because a person is doing the interviewing and the writing, but you end up with a real, polished book in your parent's voice, with no weekly nagging and nothing left half-finished. That's the work I do; here's [how a legacy book comes together](/blog/how-a-legacy-book-gets-made).
+A personal historian is the full-service alternative. Instead of homework for your parent, it's a series of warm interviews, and the writing, design, and printing are handled for you. It costs more than a subscription because a person is doing the interviewing and the writing, but you end up with a real, polished book in your parent's voice, with no weekly nagging and nothing left half-finished. That's the work I do; here's [how a legacy book comes together](/blog/how-a-legacy-book-gets-made/).
 
 ## How to choose
 
@@ -91,6 +91,6 @@ Skip the written, weekly-homework model and capture stories in person, gently an
 
 ---
 
-*I'm Claire, a personal historian on Florida's Space Coast, and I'll always tell you honestly which option fits your family, even when it isn't me. If your parent would rather talk than write, and you want the stories captured well and kept for good, [let's talk](/contact). Prefer to start on your own? Try our [card kits](/card-kits) or our guide to [recording a parent's story](/blog/how-to-record-parents-life-story).*
+*I'm Claire, a personal historian on Florida's Space Coast, and I'll always tell you honestly which option fits your family, even when it isn't me. If your parent would rather talk than write, and you want the stories captured well and kept for good, [let's talk](/contact/). Prefer to start on your own? Try our [card kits](/card-kits/) or our guide to [recording a parent's story](/blog/how-to-record-parents-life-story/).*
 
 *Source: [StoryWorth official site](https://welcome.storyworth.com/) for how their service and pricing work.*

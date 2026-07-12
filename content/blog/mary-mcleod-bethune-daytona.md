@@ -80,6 +80,6 @@ Near the end of her life, Bethune wrote a widely published piece often called he
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast. Mary McLeod Bethune understood that the deepest legacy isn't money, it's the values you write down and pass on. You can do that too. Read about [legacy letters and ethical wills](/blog/legacy-letters-and-ethical-wills), or [reach out](/contact) if you'd like help preserving your family's story and values.*
+*I'm Claire, a writer and personal historian on Florida's Space Coast. Mary McLeod Bethune understood that the deepest legacy isn't money, it's the values you write down and pass on. You can do that too. Read about [legacy letters and ethical wills](/blog/legacy-letters-and-ethical-wills/), or [reach out](/contact/) if you'd like help preserving your family's story and values.*
 
 *Sources: [Mary McLeod Bethune — Wikipedia](https://en.wikipedia.org/wiki/Mary_McLeod_Bethune).*

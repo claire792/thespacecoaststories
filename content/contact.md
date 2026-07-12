@@ -1,5 +1,6 @@
 ---
 title: "Let's start the conversation"
+seo_title: "Start a Legacy Story Project | Space Coast Stories"
 description: "Contact Space Coast Stories about a legacy book, family memoir, memorial book, card kit, or storytelling workshop in Brevard County, Florida."
 image: "images/interview.jpg"
 layout: "contact"

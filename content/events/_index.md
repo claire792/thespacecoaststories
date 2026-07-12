@@ -1,5 +1,6 @@
 ---
 title: "Events & Classes"
+seo_title: "Storytelling Classes & Family History Events in Brevard"
 description: "Find upcoming storytelling classes, library programs, vendor fairs, and family-history events from Space Coast Stories throughout Brevard County."
 image: "images/card-filled.jpg"
 eyebrow: "Come say hi"

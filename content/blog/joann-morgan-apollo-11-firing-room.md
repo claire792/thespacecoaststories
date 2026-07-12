@@ -89,6 +89,6 @@ She broke barriers for women in engineering and spaceflight, was the only woman 
 
 ---
 
-*I'm Claire, a writer and personal historian, and a Space Coast native. JoAnn Morgan's story is exactly why I do this work: the quiet people who did extraordinary things are the ones whose stories vanish unless someone preserves them. If your family has a space-program story, or any story worth keeping, [let's make sure it lasts](/contact). See my guide on [questions to ask someone who worked at NASA or Kennedy Space Center](/blog/questions-to-ask-nasa-kennedy-space-center-worker), or learn about [legacy books](/blog/what-is-a-legacy-book).*
+*I'm Claire, a writer and personal historian, and a Space Coast native. JoAnn Morgan's story is exactly why I do this work: the quiet people who did extraordinary things are the ones whose stories vanish unless someone preserves them. If your family has a space-program story, or any story worth keeping, [let's make sure it lasts](/contact/). See my guide on [questions to ask someone who worked at NASA or Kennedy Space Center](/blog/questions-to-ask-nasa-kennedy-space-center-worker/), or learn about [legacy books](/blog/what-is-a-legacy-book/).*
 
 *Sources: [JoAnn H. Morgan — Wikipedia](https://en.wikipedia.org/wiki/JoAnn_H._Morgan); [Rocket Fuel in Her Blood: The Story of JoAnn Morgan — NASA](https://www.nasa.gov/people-of-nasa/women-at-nasa/rocket-fuel-in-her-blood-the-story-of-joann-morgan/).*

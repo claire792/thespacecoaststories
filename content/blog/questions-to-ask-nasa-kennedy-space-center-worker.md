@@ -94,7 +94,7 @@ But NASA can't capture everyone, and it can't capture your family member the way
 
 Record it, always, with their permission. The technical details and the sequence of events are easy to lose, and their voice telling it is irreplaceable. Old photos, badges, mission patches, and press clippings are wonderful memory keys, so bring them out and ask what each one is.
 
-For more technique, see our guides on [interviewing an elderly relative](/blog/how-to-interview-elderly-relative) and [recording a parent's life story](/blog/how-to-record-parents-life-story).
+For more technique, see our guides on [interviewing an elderly relative](/blog/how-to-interview-elderly-relative/) and [recording a parent's life story](/blog/how-to-record-parents-life-story/).
 
 ## Frequently asked questions
 
@@ -112,6 +112,6 @@ NASA runs an oral history project that preserves interviews with people who work
 
 ---
 
-*I'm Claire, a writer and personal historian, and a Space Coast native. Preserving the stories of the people who made this the Space Coast, the engineers, the technicians, the families who lived it, is some of the most meaningful work I do. If someone in your family helped build the space program, [let's make sure their story is kept](/contact). Learn about [legacy books](/blog/what-is-a-legacy-book) or read [a short history of the Space Coast before the rockets](/blog/before-the-rockets-space-coast-history).*
+*I'm Claire, a writer and personal historian, and a Space Coast native. Preserving the stories of the people who made this the Space Coast, the engineers, the technicians, the families who lived it, is some of the most meaningful work I do. If someone in your family helped build the space program, [let's make sure their story is kept](/contact/). Learn about [legacy books](/blog/what-is-a-legacy-book/) or read [a short history of the Space Coast before the rockets](/blog/before-the-rockets-space-coast-history/).*
 
 *Source: [NASA Johnson Space Center Oral History Project](https://www.nasa.gov/history/history-publications-and-resources/oral-histories/johnson-space-center/).*

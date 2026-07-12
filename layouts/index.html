@@ -17,7 +17,7 @@
       <p class="hero__sub lead">{{ $p.hero_sub }}</p>
       <div class="btn-row">
         <a class="btn btn-primary" href="{{ "/legacy-books/" | relURL }}">{{ $p.hero_cta1 | default "See legacy books" }}</a>
-        <a class="btn btn-ghost" href="{{ "/card-kits" | relURL }}">{{ $p.hero_cta2 | default "Shop the card kits" }}</a>
+        <a class="btn btn-ghost" href="{{ "/card-kits/" | relURL }}">{{ $p.hero_cta2 | default "Shop the card kits" }}</a>
       </div>
     </div>
     <div class="hero__art">
@@ -83,7 +83,7 @@
           </div>
           {{ end }}
         </div>
-        <a class="btn btn-primary" href="{{ "/services" | relURL }}">See the full process</a>
+        <a class="btn btn-primary" href="{{ "/services/" | relURL }}">See the full process</a>
       </div>
     </div>
   </div>
@@ -105,7 +105,7 @@
       </figure>
       {{ end }}
     </div>
-    <div class="center" style="margin-top:2rem;"><a class="btn btn-ghost" href="{{ "/portfolio" | relURL }}">See the portfolio and sample pages</a></div>
+    <div class="center" style="margin-top:2rem;"><a class="btn btn-ghost" href="{{ "/portfolio/" | relURL }}">See the portfolio and sample pages</a></div>
   </div>
 </section>
 
@@ -187,7 +187,7 @@
           <p style="margin-bottom:0;color:var(--ink-soft);">{{ $p.b2b_body }}</p>
         </div>
         <div style="text-align:left;">
-          <a class="btn btn-primary" href="{{ "/contact" | relURL }}">Book a free demo class</a>
+          <a class="btn btn-primary" href="{{ "/contact/" | relURL }}">Book a free demo class</a>
           <p style="font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:.9rem 0 0;">First class is on us. Recurring sessions from $150.</p>
         </div>
       </div>
@@ -201,8 +201,8 @@
     <h2 style="color:var(--white);">{{ $p.cta_heading | default "The stories don't survive by accident." }}</h2>
     <p class="lead" style="color:rgba(251,247,239,.82);">{{ $p.cta_body }}</p>
     <div class="btn-row" style="justify-content:center;margin-top:1.4rem;">
-      <a class="btn btn-primary" href="{{ "/contact" | relURL }}">Start the conversation</a>
-      <a class="btn btn-ghost" href="{{ "/blog" | relURL }}">Read the journal</a>
+      <a class="btn btn-primary" href="{{ "/contact/" | relURL }}">Start the conversation</a>
+      <a class="btn btn-ghost" href="{{ "/blog/" | relURL }}">Read the journal</a>
     </div>
   </div>
 </section>

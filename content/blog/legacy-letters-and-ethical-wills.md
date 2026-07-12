@@ -96,6 +96,6 @@ Write as if speaking directly to your loved ones. Include your values, lessons l
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast. A legacy letter is often the first step toward a fuller [legacy book](/blog/what-is-a-legacy-book), where your values and your whole life story live together for your family. If you'd like help writing either, [reach out here](/contact).*
+*I'm Claire, a writer and personal historian on Florida's Space Coast. A legacy letter is often the first step toward a fuller [legacy book](/blog/what-is-a-legacy-book/), where your values and your whole life story live together for your family. If you'd like help writing either, [reach out here](/contact/).*
 
 *Note: A legacy letter / ethical will is not a legal document and does not replace a legally valid will. For estate and asset decisions, consult a licensed estate planning or elder law attorney.*

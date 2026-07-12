@@ -83,6 +83,6 @@ He performed his first stand-up routine as a freshman at Florida Atlantic Univer
 
 ---
 
-*I'm Claire, a writer and personal historian, and a Space Coast native. Carrot Top's story is proof that where you come from, and what your parents did, shapes everything that follows. If you'd like to preserve your own family's roots, [see how legacy books work](/blog/what-is-a-legacy-book) or [reach out](/contact). Curious about other Space Coast lives shaped by the space program? Read about [JoAnn Morgan](/blog/joann-morgan-apollo-11-firing-room).*
+*I'm Claire, a writer and personal historian, and a Space Coast native. Carrot Top's story is proof that where you come from, and what your parents did, shapes everything that follows. If you'd like to preserve your own family's roots, [see how legacy books work](/blog/what-is-a-legacy-book/) or [reach out](/contact/). Curious about other Space Coast lives shaped by the space program? Read about [JoAnn Morgan](/blog/joann-morgan-apollo-11-firing-room/).*
 
 *Sources: [Carrot Top — Wikipedia](https://en.wikipedia.org/wiki/Carrot_Top).*

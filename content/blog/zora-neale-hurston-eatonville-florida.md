@@ -84,6 +84,6 @@ Hurston died in poverty and relative obscurity in 1960 and was buried in an unma
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast, and Zora Neale Hurston is a hero of mine, because she did what I do: made sure ordinary people's stories didn't disappear. If you'd like your family's voices preserved before they're lost, [see how legacy books work](/blog/what-is-a-legacy-book) or [reach out](/contact). Her life is also a reminder of why we [preserve family stories at all](/blog/preserving-family-stories-space-coast).*
+*I'm Claire, a writer and personal historian on Florida's Space Coast, and Zora Neale Hurston is a hero of mine, because she did what I do: made sure ordinary people's stories didn't disappear. If you'd like your family's voices preserved before they're lost, [see how legacy books work](/blog/what-is-a-legacy-book/) or [reach out](/contact/). Her life is also a reminder of why we [preserve family stories at all](/blog/preserving-family-stories-space-coast/).*
 
 *Sources: [Zora Neale Hurston — Wikipedia](https://en.wikipedia.org/wiki/Zora_Neale_Hurston).*

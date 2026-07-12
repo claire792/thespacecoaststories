@@ -89,6 +89,6 @@ Yes, Slater is widely regarded as the greatest competitive surfer in history, ba
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast. Kelly Slater's story is a hometown reminder that big lives start as local ones. If you'd like to capture the beginnings and turning points of someone in your own family, [see how legacy books work](/blog/what-is-a-legacy-book) or [reach out](/contact). Want to preserve your family's Space Coast roots? Start [here](/blog/preserving-family-stories-space-coast).*
+*I'm Claire, a writer and personal historian on Florida's Space Coast. Kelly Slater's story is a hometown reminder that big lives start as local ones. If you'd like to capture the beginnings and turning points of someone in your own family, [see how legacy books work](/blog/what-is-a-legacy-book/) or [reach out](/contact/). Want to preserve your family's Space Coast roots? Start [here](/blog/preserving-family-stories-space-coast/).*
 
 *Sources: [Kelly Slater — Britannica](https://www.britannica.com/biography/Kelly-Slater); [Kelly Slater — Wikipedia](https://en.wikipedia.org/wiki/Kelly_Slater); [Florida Surf Museum](https://floridasurfmuseum.org/kahuna/kelly-slater-cocoa-beach).*

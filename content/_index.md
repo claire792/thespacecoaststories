@@ -1,5 +1,6 @@
 ---
 title: Home
+seo_title: "Capture Your Family's Stories | Brevard County, FL"
 description: Personal historian and legacy book studio serving Brevard County families. We record, write, design, and preserve the stories of parents and grandparents.
 image: images/book-daughter.jpg
 hero_eyebrow: Personal history · Brevard County, Florida

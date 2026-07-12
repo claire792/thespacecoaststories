@@ -31,7 +31,7 @@ That's not just history. That's your history, and right now a lot of it only exi
 
 ## Why Space Coast memory disappears faster than most
 
-I've written before about [what this coast was before the launch pads](/blog/before-the-rockets-space-coast-history), the Ais who fished the Indian River Lagoon, the cattle and the citrus, the towns strung along the water. That older world didn't fade out gently. It got paved over in a hurry when the space program arrived.
+I've written before about [what this coast was before the launch pads](/blog/before-the-rockets-space-coast-history/), the Ais who fished the Indian River Lagoon, the cattle and the citrus, the towns strung along the water. That older world didn't fade out gently. It got paved over in a hurry when the space program arrived.
 
 The people who watched it happen are in their seventies, eighties, and nineties now. They remember Cocoa before the causeway traffic, Titusville when you could hear a launch rattle the windows and still know half the town by name, Melbourne and Eau Gallie back when boats did what roads do now.
 
@@ -51,7 +51,7 @@ Not just the big moments. The ordinary texture is what brings a decade back to l
 
 You don't need to plan a project. You need one afternoon and a phone.
 
-Pick the oldest person in your family and ask them what this place was like when they got here. Record it. Ask what's gone that they miss. Record that too. If you want a full list to work from, our [fifty questions to ask](/blog/questions-to-ask-your-grandparents) will keep any conversation going.
+Pick the oldest person in your family and ask them what this place was like when they got here. Record it. Ask what's gone that they miss. Record that too. If you want a full list to work from, our [fifty questions to ask](/blog/questions-to-ask-your-grandparents/) will keep any conversation going.
 
 If your family is spread out, or the person you want to record is in a senior community in Viera, Rockledge, Merritt Island, or Melbourne, you can still do this by phone or video. Distance is a solvable problem. A closed door isn't.
 
@@ -59,7 +59,7 @@ If your family is spread out, or the person you want to record is in a senior co
 
 This is my work, and I do it right here on the Space Coast, in the towns I grew up in. I sit down with your parent or grandparent, ask the questions, and turn their memories into a finished book your family keeps for good. I also run storytelling workshops at senior communities and libraries around Brevard, because a room full of people remembering out loud is a beautiful thing to be in.
 
-If any of that sounds like what your family needs, [here's how to reach me](/contact).
+If any of that sounds like what your family needs, [here's how to reach me](/contact/).
 
 ## Frequently asked questions
 
@@ -74,4 +74,4 @@ Yes. I work with families across the Space Coast and remotely by phone or video,
 
 ---
 
-*I'm Claire, a personal historian and Space Coast native. I help Brevard County families keep their stories, in their own words, while there's still time to ask. [See how legacy books work](/services), [learn about workshops for senior communities](/services), or [get in touch](/contact).*
+*I'm Claire, a personal historian and Space Coast native. I help Brevard County families keep their stories, in their own words, while there's still time to ask. [See how legacy books work](/services/), [learn about workshops for senior communities](/services/), or [get in touch](/contact/).*

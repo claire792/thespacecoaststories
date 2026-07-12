@@ -2,7 +2,7 @@
 image: https://images.unsplash.com/photo-1646645733353-55c8bfb60a70?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 image_alt: A professionally designed photo book open to a family collage
 title: 'Behind the Scenes: How a Legacy Book Comes Together'
-seo_title: How a Legacy Book Is Made
+seo_title: "How a Custom Legacy Book Is Made, Step by Step"
 description: See how recorded interviews, family photos, writing, revisions, design, and printing come together to create a finished family legacy book.
 date: '2026-05-30'
 category: Behind the Scenes
@@ -90,4 +90,4 @@ Not much. You help arrange access to your loved one and gather old photographs, 
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast, and turning a life into a book is the work I love most. If you'd like to start your family's book, [reach out here](/contact) or [see how legacy books work](/services). New to all this? Start with [what a legacy book is](/blog/what-is-a-legacy-book) or [what a personal historian does](/blog/what-is-a-personal-historian).*
+*I'm Claire, a writer and personal historian on Florida's Space Coast, and turning a life into a book is the work I love most. If you'd like to start your family's book, [reach out here](/contact/) or [see how legacy books work](/services/). New to all this? Start with [what a legacy book is](/blog/what-is-a-legacy-book/) or [what a personal historian does](/blog/what-is-a-personal-historian/).*

@@ -41,11 +41,11 @@ Objects get outgrown, worn out, or forgotten in a drawer. A life story only grow
 
 You don't need a big budget to give this well. Pick the tier that fits.
 
-1. **A question card kit (smallest budget).** A deck of good questions you work through together over the holidays. It's affordable, it's a warm shared activity, and it gets the stories flowing. Our [Tell Me Your Story cards](/card-kits) are made exactly for this.
+1. **A question card kit (smallest budget).** A deck of good questions you work through together over the holidays. It's affordable, it's a warm shared activity, and it gets the stories flowing. Our [Tell Me Your Story cards](/card-kits/) are made exactly for this.
 
-2. **A "story session" you record yourself (low budget, your time).** Give a heartfelt card promising a weekend of sitting down together with a recorder and a list of questions. The gift is your attention. Our guide on [how to record a parent's life story](/blog/how-to-record-parents-life-story) shows you how.
+2. **A "story session" you record yourself (low budget, your time).** Give a heartfelt card promising a weekend of sitting down together with a recorder and a list of questions. The gift is your attention. Our guide on [how to record a parent's life story](/blog/how-to-record-parents-life-story/) shows you how.
 
-3. **A professional legacy book (the keepsake).** Hire a personal historian to do the interviews, the writing, the design, and the printing, so your parent gets a finished, bound book of their life. It's the version that lasts for generations and asks nothing of your time. See [how legacy books work](/services).
+3. **A professional legacy book (the keepsake).** Hire a personal historian to do the interviews, the writing, the design, and the printing, so your parent gets a finished, bound book of their life. It's the version that lasts for generations and asks nothing of your time. See [how legacy books work](/services/).
 
 You can even give it as a promise. A simple card that says "This year, I want to record your story" is one of the most meaningful things a person can open.
 
@@ -73,4 +73,4 @@ Absolutely. Give a card announcing the gift, maybe with a photo or a first quest
 
 ---
 
-*I'm Claire, a personal historian on Florida's Space Coast, and I help families give the one gift their parents and grandparents don't already have. If you'd like to arrange a legacy book as a gift, [let's talk](/contact). On a smaller budget this year? Start with our [card kits](/card-kits) or [record a few stories yourself](/blog/how-to-record-parents-life-story) over the holidays.*
+*I'm Claire, a personal historian on Florida's Space Coast, and I help families give the one gift their parents and grandparents don't already have. If you'd like to arrange a legacy book as a gift, [let's talk](/contact/). On a smaller budget this year? Start with our [card kits](/card-kits/) or [record a few stories yourself](/blog/how-to-record-parents-life-story/) over the holidays.*

@@ -41,7 +41,7 @@ Use what fits, skip what doesn't, and follow the person wherever their memory le
 - **Record it.** A phone voice memo captures details and the person's actual voice.
 - **Don't rush.** You don't need all 100. A handful of real answers beats a checklist.
 
-For more on technique, see our guide to [interviewing an elderly relative without it feeling like an interview](/blog/how-to-interview-elderly-relative).
+For more on technique, see our guide to [interviewing an elderly relative without it feeling like an interview](/blog/how-to-interview-elderly-relative/).
 
 ## 1. Early childhood
 
@@ -189,4 +189,4 @@ Yes. A free printable PDF of all 100 questions, organized by theme, is linked at
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast. Whether you use these questions yourself or would like me to do the asking and turn the answers into a keepsake, I'm here to help. [Reach out](/contact), explore our [Tell Me Your Story card kits](/card-kits), or learn about [storytelling workshops for senior communities](/blog/storytelling-workshops-senior-communities).*
+*I'm Claire, a writer and personal historian on Florida's Space Coast. Whether you use these questions yourself or would like me to do the asking and turn the answers into a keepsake, I'm here to help. [Reach out](/contact/), explore our [Tell Me Your Story card kits](/card-kits/), or learn about [storytelling workshops for senior communities](/blog/storytelling-workshops-senior-communities/).*

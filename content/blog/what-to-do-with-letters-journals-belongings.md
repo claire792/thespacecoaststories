@@ -50,7 +50,7 @@ You don't have to keep everything, and you shouldn't. But some things carry the 
 - **A few meaningful objects.** Not everything, but the pocket watch, the apron, the tool, the thing that was *them*.
 - **Documents** that tell family history: certificates, military papers, immigration records.
 
-For the photos specifically, our guide on [organizing old family photos](/blog/how-to-organize-old-family-photos) will help.
+For the photos specifically, our guide on [organizing old family photos](/blog/how-to-organize-old-family-photos/) will help.
 
 ## How to preserve letters and journals
 
@@ -65,7 +65,7 @@ Paper is fragile, and it's often the most precious thing left. Protect it.
 
 Here's the part that turns grief into something lasting. Those letters and journals aren't just objects. They're your loved one's voice, their thoughts, their story, in their own words.
 
-Many families find real comfort in gathering them into something to keep and share: transcribing a journal, collecting the letters into a bound book, or weaving the writings together with photos into a keepsake the whole family can hold. Instead of a box in one person's closet, their words become something everyone can return to. That's often where a [tribute book](/blog/how-to-create-a-tribute-book) begins.
+Many families find real comfort in gathering them into something to keep and share: transcribing a journal, collecting the letters into a bound book, or weaving the writings together with photos into a keepsake the whole family can hold. Instead of a box in one person's closet, their words become something everyone can return to. That's often where a [tribute book](/blog/how-to-create-a-tribute-book/) begins.
 
 ## Handling the hard emotions
 
@@ -93,4 +93,4 @@ Gather their letters and journal entries into something lasting: transcribe a jo
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast. When a loved one's letters and journals are ready to become something the whole family can keep, I help turn them into a lasting [tribute book](/blog/how-to-create-a-tribute-book) in their own words. If that would bring your family comfort, [reach out here](/contact), gently and whenever you're ready.*
+*I'm Claire, a writer and personal historian on Florida's Space Coast. When a loved one's letters and journals are ready to become something the whole family can keep, I help turn them into a lasting [tribute book](/blog/how-to-create-a-tribute-book/) in their own words. If that would bring your family comfort, [reach out here](/contact/), gently and whenever you're ready.*

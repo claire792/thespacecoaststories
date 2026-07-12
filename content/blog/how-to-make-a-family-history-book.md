@@ -50,8 +50,8 @@ Ask yourself: whose story is this? A single life, like your mother's? A couple? 
 
 Now collect everything in one place.
 
-- **Stories.** Interview your living relatives and record them. This is the heart of it. Our guides on [recording a parent's life story](/blog/how-to-record-parents-life-story) and [interviewing an elderly relative](/blog/how-to-interview-elderly-relative) walk you through how.
-- **Photographs.** Pull them from every drawer and box. See [how to organize old family photos](/blog/how-to-organize-old-family-photos) for a system.
+- **Stories.** Interview your living relatives and record them. This is the heart of it. Our guides on [recording a parent's life story](/blog/how-to-record-parents-life-story/) and [interviewing an elderly relative](/blog/how-to-interview-elderly-relative/) walk you through how.
+- **Photographs.** Pull them from every drawer and box. See [how to organize old family photos](/blog/how-to-organize-old-family-photos/) for a system.
 - **Documents.** Letters, certificates, recipes, news clippings, military records.
 - **Facts.** Names, dates, and places to anchor the stories.
 
@@ -142,4 +142,4 @@ Do it yourself if you enjoy the work and have the time; hire a personal historia
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast. I help families turn scattered stories and shoeboxes of photos into family history books they'll keep for generations. If you'd rather have it done for you, [see how legacy books work](/blog/what-is-a-legacy-book) or [reach out](/contact). Ready to start gathering material yourself? Begin with our [fifty questions to ask](/blog/questions-to-ask-your-grandparents).*
+*I'm Claire, a writer and personal historian on Florida's Space Coast. I help families turn scattered stories and shoeboxes of photos into family history books they'll keep for generations. If you'd rather have it done for you, [see how legacy books work](/blog/what-is-a-legacy-book/) or [reach out](/contact/). Ready to start gathering material yourself? Begin with our [fifty questions to ask](/blog/questions-to-ask-your-grandparents/).*

@@ -44,7 +44,7 @@ Because it's flexible, you can build the whole thing around who they actually we
 
 1. **Build a memory table.** A display of their photos, belongings, and the objects that defined them. More on how below, because this is the heart of it.
 2. **Invite guests to share stories.** Set aside open time for anyone to stand up and tell a memory. These moments are almost always what people remember most.
-3. **Display their own words.** Frame a favorite saying, print passages from their letters or journals, or set out their [life-story book](/blog/what-is-a-legacy-book) for guests to page through.
+3. **Display their own words.** Frame a favorite saying, print passages from their letters or journals, or set out their [life-story book](/blog/what-is-a-legacy-book/) for guests to page through.
 4. **Play their music.** The songs they loved change the whole feeling of a room and bring them instantly to mind.
 5. **Center their passions.** A gardener's celebration full of their flowers. A fisherman's by the water. A baker's with their recipes served. Let their loves set the scene.
 6. **Serve their favorites.** Their signature dish, their go-to order, the pie they always made. Food carries memory.
@@ -85,4 +85,4 @@ Ask someone to quietly record the story-sharing on a phone, and set out memory c
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast. I help families turn the photos, words, and stories at the center of a celebration of life into a lasting [tribute book](/blog/how-to-create-a-tribute-book) they can keep. If you'd like help honoring someone's story, [reach out here](/contact). You may also find our guide on [writing a eulogy that sounds like them](/blog/how-to-write-a-eulogy) helpful.*
+*I'm Claire, a writer and personal historian on Florida's Space Coast. I help families turn the photos, words, and stories at the center of a celebration of life into a lasting [tribute book](/blog/how-to-create-a-tribute-book/) they can keep. If you'd like help honoring someone's story, [reach out here](/contact/). You may also find our guide on [writing a eulogy that sounds like them](/blog/how-to-write-a-eulogy/) helpful.*

@@ -89,4 +89,4 @@ Almost everyone says that, and almost everyone is wrong. Start with one small, s
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast. When the conversation is too hard to have as a family member, or you simply want it captured well, I'm the neutral, curious outsider who asks and listens. [Here's how to reach me](/contact). Ready to try it yourself first? Pair this with our [fifty questions to ask](/blog/questions-to-ask-your-grandparents) and our guide to [recording a parent's life story](/blog/how-to-record-parents-life-story).*
+*I'm Claire, a writer and personal historian on Florida's Space Coast. When the conversation is too hard to have as a family member, or you simply want it captured well, I'm the neutral, curious outsider who asks and listens. [Here's how to reach me](/contact/). Ready to try it yourself first? Pair this with our [fifty questions to ask](/blog/questions-to-ask-your-grandparents/) and our guide to [recording a parent's life story](/blog/how-to-record-parents-life-story/).*

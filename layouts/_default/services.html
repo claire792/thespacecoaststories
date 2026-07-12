@@ -34,7 +34,7 @@
       <span class="eyebrow">Personal historian on the Space Coast</span>
       <h2 style="font-size:1.55rem;">{{ . }}</h2>
       <p>{{ $p.local_body }}</p>
-      <a class="card__link" href="{{ "/brevard-county" | relURL }}">See Brevard County service areas</a>
+      <a class="card__link" href="{{ "/brevard-county/" | relURL }}">See Brevard County service areas</a>
     </div>
   </div>
 </section>
@@ -49,7 +49,7 @@
         <span class="eyebrow">Look inside a real one</span>
         <h2>{{ $p.inside_heading | default "This is what your family keeps." }}</h2>
         <p class="lead">{{ $p.inside_sub }}</p>
-        <a class="btn btn-primary" href="{{ "/contact" | relURL }}" style="margin-top:.5rem;">Start your family's book</a>
+        <a class="btn btn-primary" href="{{ "/contact/" | relURL }}" style="margin-top:.5rem;">Start your family's book</a>
       </div>
       <figure class="book-flip" aria-label="Sample pages from a finished legacy book, cycling automatically">
         {{ range $i, $pg := . }}
@@ -139,7 +139,7 @@
   <div class="wrap-narrow">
     <h2 style="color:var(--white);">Not sure which one fits?</h2>
     <p class="lead" style="color:rgba(251,247,239,.82);">Tell us who the book is for and your budget. We'll point you to the right starting place, honestly.</p>
-    <a class="btn btn-primary" href="{{ "/contact" | relURL }}" style="margin-top:1rem;">Start the conversation</a>
+    <a class="btn btn-primary" href="{{ "/contact/" | relURL }}" style="margin-top:1rem;">Start the conversation</a>
   </div>
 </section>
 {{ end }}

@@ -46,7 +46,7 @@ Don't start with a blank page. Start by collecting.
 
 Call a few family members and friends and ask each one: what's your favorite memory of them? What did they always say? What were they like when no one was watching? You'll hear the same qualities come up again and again, and those repeated notes are the heart of your eulogy.
 
-Our [fifty questions to ask](/blog/questions-to-ask-your-grandparents) can help jog memories if you're gathering from family.
+Our [fifty questions to ask](/blog/questions-to-ask-your-grandparents/) can help jog memories if you're gathering from family.
 
 ## Step 2: Choose two or three qualities
 
@@ -110,4 +110,4 @@ Avoid reciting the whole life in order, listing accomplishments like a résumé,
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast. When a family wants a loved one's whole story preserved, not just spoken in five minutes, I help them turn memories into a lasting [tribute book](/blog/how-to-create-a-tribute-book). If that's what your family needs, [reach out here](/contact), gently and with no pressure.*
+*I'm Claire, a writer and personal historian on Florida's Space Coast. When a family wants a loved one's whole story preserved, not just spoken in five minutes, I help them turn memories into a lasting [tribute book](/blog/how-to-create-a-tribute-book/). If that's what your family needs, [reach out here](/contact/), gently and with no pressure.*

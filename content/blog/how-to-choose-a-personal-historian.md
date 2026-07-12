@@ -36,7 +36,7 @@ The good news: a few good questions tell you almost everything. Here's how to fi
 
 ## First, what a personal historian actually does
 
-If you're new to the term, a personal historian is a professional who preserves people's life stories, usually by interviewing them and turning those conversations into a book, audio, or video. We wrote a fuller explainer in [what is a personal historian](/blog/what-is-a-personal-historian). This post is about choosing a good one.
+If you're new to the term, a personal historian is a professional who preserves people's life stories, usually by interviewing them and turning those conversations into a book, audio, or video. We wrote a fuller explainer in [what is a personal historian](/blog/what-is-a-personal-historian/). This post is about choosing a good one.
 
 ## The 10 questions to ask before you hire
 
@@ -50,7 +50,7 @@ Ask these on a first call. How someone answers tells you as much as what they an
 
 4. **What exactly is included?** Pin down the scope: interview hours, transcription, writing, editing, photo work, design, and printing. Know what's in the price and what costs extra.
 
-5. **What does it cost, and how is it structured?** Get it clear and in writing. Ask about deposits, payment stages, and what happens if the project grows. See our [cost breakdown](/blog/cost-to-hire-memoir-writer) for context on ranges.
+5. **What does it cost, and how is it structured?** Get it clear and in writing. Ask about deposits, payment stages, and what happens if the project grows. See our [cost breakdown](/blog/cost-to-hire-memoir-writer/) for context on ranges.
 
 6. **How long does it take?** Understand the timeline, especially if a loved one's health makes time tight. Ask what they can do quickly if needed.
 
@@ -99,4 +99,4 @@ For most families it is, particularly when time is limited. You get a lasting re
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast, and I'm happy to answer every one of these ten questions for your family, honestly and with no pressure. [Reach out here](/contact) or [see how legacy books work](/blog/what-is-a-legacy-book). Weighing your options first? Read our take on [StoryWorth alternatives](/blog/storyworth-alternatives).*
+*I'm Claire, a writer and personal historian on Florida's Space Coast, and I'm happy to answer every one of these ten questions for your family, honestly and with no pressure. [Reach out here](/contact/) or [see how legacy books work](/blog/what-is-a-legacy-book/). Weighing your options first? Read our take on [StoryWorth alternatives](/blog/storyworth-alternatives/).*

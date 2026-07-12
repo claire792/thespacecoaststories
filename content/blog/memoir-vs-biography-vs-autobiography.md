@@ -66,7 +66,7 @@ Here's the one families usually actually want, even when they came in asking for
 
 A legacy book borrows the best of each. Like a biography, it's usually created with help, a personal historian does the interviewing and writing, so your loved one doesn't have to sit down and write a book themselves. But like a memoir or autobiography, it keeps their own voice at the center. It reads like them talking, not like an outside author reporting.
 
-It can cover a whole life or just the chapters that matter most, and it's built to be a keepsake for the family rather than a book for strangers in a store. If your goal is "I want to preserve Mom's stories in her own words, but Mom is never going to write a book," a legacy book is the answer. I wrote more about that in [what is a legacy book](/blog/what-is-a-legacy-book).
+It can cover a whole life or just the chapters that matter most, and it's built to be a keepsake for the family rather than a book for strangers in a store. If your goal is "I want to preserve Mom's stories in her own words, but Mom is never going to write a book," a legacy book is the answer. I wrote more about that in [what is a legacy book](/blog/what-is-a-legacy-book/).
 
 ## So which one does your family need?
 
@@ -92,4 +92,4 @@ If they won't be writing it themselves but you want their stories in their own v
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast. Most families who reach me want a legacy book even if they didn't know the term, their loved one's real voice, preserved for the people who love them, without anyone having to write it themselves. [See how it works](/services) or [start a conversation](/contact).*
+*I'm Claire, a writer and personal historian on Florida's Space Coast. Most families who reach me want a legacy book even if they didn't know the term, their loved one's real voice, preserved for the people who love them, without anyone having to write it themselves. [See how it works](/services/) or [start a conversation](/contact/).*

@@ -98,7 +98,7 @@ A note before you start: your parents' stories are also *your* story. Where you 
 
 Don't hand your dad this list and ask him to fill it out. That's not how stories come.
 
-Pick a calm afternoon, ask one question, and then be quiet long enough for him to really answer. Follow the tangents, because the tangent is usually the better story. And record it, even the wandering parts, so you're not scrambling to remember later. For more on this, see our guide to [interviewing an elderly relative without it feeling like an interview](/blog/how-to-interview-elderly-relative).
+Pick a calm afternoon, ask one question, and then be quiet long enough for him to really answer. Follow the tangents, because the tangent is usually the better story. And record it, even the wandering parts, so you're not scrambling to remember later. For more on this, see our guide to [interviewing an elderly relative without it feeling like an interview](/blog/how-to-interview-elderly-relative/).
 
 ## Frequently asked questions
 
@@ -116,4 +116,4 @@ Record them. A phone voice memo captures details you'd never remember and preser
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast. If you'd rather have someone ask these questions for you, and turn the answers into a book your family keeps, that's exactly what I do. [Here's how to reach me](/contact). Want the whole set in your hands at the table? Our [Tell Me Your Story card kits](/card-kits) put questions like these into a deck. Recording an older grandparent too? Here are [fifty questions to ask them](/blog/questions-to-ask-your-grandparents).*
+*I'm Claire, a writer and personal historian on Florida's Space Coast. If you'd rather have someone ask these questions for you, and turn the answers into a book your family keeps, that's exactly what I do. [Here's how to reach me](/contact/). Want the whole set in your hands at the table? Our [Tell Me Your Story card kits](/card-kits/) put questions like these into a deck. Recording an older grandparent too? Here are [fifty questions to ask them](/blog/questions-to-ask-your-grandparents/).*

@@ -21,7 +21,6 @@ summaryLength = 40
     style = "friendly"
 
 [taxonomies]
-  tag = "tags"
   category = "categories"
   series = "series"
 

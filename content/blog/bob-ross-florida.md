@@ -1,6 +1,6 @@
 ---
 title: 'Before the Happy Little Trees: Bob Ross''s Florida Beginnings'
-seo_title: Bob Ross’s Florida Beginnings
+seo_title: "Bob Ross's Florida Beginnings and Life Story"
 description: Bob Ross, the beloved painter of "happy little trees," was born in Daytona Beach and raised in Orlando, Florida. The story behind the calm voice, including the life that came first.
 date: '2026-07-02'
 lastmod: '2026-07-02'
@@ -78,6 +78,6 @@ His warmth was genuine, but his gentle on-camera demeanor was also a deliberate 
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast. Bob Ross's story is a reminder that the calm, familiar person we think we know usually has a whole life underneath. If you'd like to capture the full story of someone you love, [see how legacy books work](/blog/what-is-a-legacy-book) or [reach out](/contact).*
+*I'm Claire, a writer and personal historian on Florida's Space Coast. Bob Ross's story is a reminder that the calm, familiar person we think we know usually has a whole life underneath. If you'd like to capture the full story of someone you love, [see how legacy books work](/blog/what-is-a-legacy-book/) or [reach out](/contact/).*
 
 *Sources: [Bob Ross — Wikipedia](https://en.wikipedia.org/wiki/Bob_Ross).*

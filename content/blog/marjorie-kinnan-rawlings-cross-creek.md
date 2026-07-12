@@ -81,6 +81,6 @@ She immersed herself in her neighbors' lives, spending time with local families 
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast. Marjorie Kinnan Rawlings preserved a whole vanishing way of Florida life by writing down her neighbors' voices. Your family's ways and sayings are worth the same care. If you'd like them preserved before they fade, [see how legacy books work](/blog/what-is-a-legacy-book) or [reach out](/contact).*
+*I'm Claire, a writer and personal historian on Florida's Space Coast. Marjorie Kinnan Rawlings preserved a whole vanishing way of Florida life by writing down her neighbors' voices. Your family's ways and sayings are worth the same care. If you'd like them preserved before they fade, [see how legacy books work](/blog/what-is-a-legacy-book/) or [reach out](/contact/).*
 
 *Sources: [Marjorie Kinnan Rawlings — Wikipedia](https://en.wikipedia.org/wiki/Marjorie_Kinnan_Rawlings).*

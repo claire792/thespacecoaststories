@@ -9,3 +9,11 @@ location: "West Melbourne Public Library"
 ---
 
 Our monthly free class returns. Each session stands on its own, so it's fine to come to just one or to all of them. We'll cover a fresh set of prompts and practical tips for getting a reluctant relative talking.
+
+## What this session covers
+
+October's class focuses on moving past short factual answers and finding the details that make a memory come alive. We will practice questions about homes, work, traditions, turning points, and ordinary routines, then look at gentle follow-ups that help a storyteller continue without feeling interviewed or tested.
+
+The session works for beginners as well as people who attended an earlier class. You can come alone, bring a parent or grandparent, or attend on behalf of a family member who lives elsewhere. Sharing with the group is always optional.
+
+You will leave with reusable prompts, a simple method for recording or taking notes, and ideas for organizing the stories afterward so they do not become another forgotten file on a phone.

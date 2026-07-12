@@ -2,7 +2,7 @@
 image: https://images.unsplash.com/photo-1579017308347-e53e0d2fc5e9?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
 image_alt: A woman writing thoughtful notes in a notebook
 title: What Is a Personal Historian, and Does Your Family Need One?
-seo_title: What Is a Personal Historian?
+seo_title: "What Is a Personal Historian and What Do They Do?"
 description: Learn what a personal historian does, how the work differs from genealogy and ghostwriting, what it costs, and when a family may want one.
 date: '2026-05-26'
 category: How to Start
@@ -66,7 +66,7 @@ And often, honestly, the adult child who tried to do it themselves and found it 
 
 ## What does it cost, and is it worth it
 
-It ranges widely depending on length, interview hours, and whether you want a simple keepsake or a full hardcover. I wrote a whole plain-English breakdown in [how much it costs to hire a memoir writer](/blog/cost-to-hire-memoir-writer).
+It ranges widely depending on length, interview hours, and whether you want a simple keepsake or a full hardcover. I wrote a whole plain-English breakdown in [how much it costs to hire a memoir writer](/blog/cost-to-hire-memoir-writer/).
 
 Is it worth it? I'm biased, so weigh that. But this is one of the few things you can pay for that your family will still be holding in fifty years. Most purchases lose value the moment you unwrap them. This one gains it.
 
@@ -90,4 +90,4 @@ You can absolutely do it yourself, and many families do. Hiring one makes sense 
 
 ---
 
-*I'm Claire, a writer and personal historian, and a Space Coast native. I help families here keep their stories in their own words, while there's still time to ask. [See how legacy books work](/services) or [start a conversation](/contact). Curious what the process looks like from the inside? Read [how a legacy book comes together](/blog/how-a-legacy-book-gets-made).*
+*I'm Claire, a writer and personal historian, and a Space Coast native. I help families here keep their stories in their own words, while there's still time to ask. [See how legacy books work](/services/) or [start a conversation](/contact/). Curious what the process looks like from the inside? Read [how a legacy book comes together](/blog/how-a-legacy-book-gets-made/).*

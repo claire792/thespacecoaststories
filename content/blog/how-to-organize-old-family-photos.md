@@ -65,7 +65,7 @@ People plan to organize everything first and interview the elders "once it's tid
 
 Organized photos and their stories are the raw material of something lasting. Many families realize, once it's all in one place, that they're holding the makings of a real book, the pictures and the stories together, in one keepsake instead of a box in the closet.
 
-That's the natural next step, and it's the work I do. Pairing the photographs with the memories behind them is exactly what a legacy book is for. See [what a legacy book is](/blog/what-is-a-legacy-book) if that's where this is headed for you.
+That's the natural next step, and it's the work I do. Pairing the photographs with the memories behind them is exactly what a legacy book is for. See [what a legacy book is](/blog/what-is-a-legacy-book/) if that's where this is headed for you.
 
 ## Frequently asked questions
 
@@ -83,4 +83,4 @@ Keep them out of direct sunlight, heat, and humidity, handle them by the edges w
 
 ---
 
-*I'm Claire, a personal historian on Florida's Space Coast. When your photos and their stories are ready to become something more than a box in the closet, I turn them into a book your family will keep for generations. [See how legacy books work](/services) or [reach out](/contact). Not sure what to ask as you go through them? Start with our [fifty questions](/blog/questions-to-ask-your-grandparents).*
+*I'm Claire, a personal historian on Florida's Space Coast. When your photos and their stories are ready to become something more than a box in the closet, I turn them into a book your family will keep for generations. [See how legacy books work](/services/) or [reach out](/contact/). Not sure what to ask as you go through them? Start with our [fifty questions](/blog/questions-to-ask-your-grandparents/).*

@@ -98,6 +98,6 @@ Yes. Hospice chaplains and social workers often understand life review and can h
 
 ---
 
-*I'm Claire, a writer and personal historian on Florida's Space Coast, and I approach end-of-life work with all the gentleness it deserves. If your family would like help capturing a loved one's voice and story while there's time, [reach out here](/contact). You may also find our guides on [recording a parent's life story](/blog/how-to-record-parents-life-story) and [creating a tribute book](/blog/how-to-create-a-tribute-book) helpful.*
+*I'm Claire, a writer and personal historian on Florida's Space Coast, and I approach end-of-life work with all the gentleness it deserves. If your family would like help capturing a loved one's voice and story while there's time, [reach out here](/contact/). You may also find our guides on [recording a parent's life story](/blog/how-to-record-parents-life-story/) and [creating a tribute book](/blog/how-to-create-a-tribute-book/) helpful.*
 
 *Note: Life review and dignity therapy are recognized practices in palliative and hospice care. Dignity therapy, developed by Dr. Harvey Max Chochinov, has been studied in clinical trials for its effect on well-being and distress in terminally ill patients.*
