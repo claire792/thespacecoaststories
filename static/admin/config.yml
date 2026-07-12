@@ -122,6 +122,23 @@ collections:
         fields:
           - { label: "Question", name: "q", widget: "string" }
           - { label: "Answer", name: "a", widget: "text" }
+      - label: "Classes / Programs"
+        name: "programs"
+        widget: "list"
+        required: false
+        label_singular: "Class"
+        summary: "{{fields.name}}"
+        hint: "Featured classes show as large blocks (with photo, who it's for, and format). Leave 'Featured' off for a short program card."
+        fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "One-line tagline", name: "tagline", widget: "string", required: false }
+          - { label: "Feature this class", name: "featured", widget: "boolean", default: false, required: false }
+          - { label: "Status badge", name: "status", widget: "string", required: false, hint: "e.g. 'Now booking' or 'Free first demo'. Featured classes only." }
+          - { label: "Photo", name: "image", widget: "image", required: false, hint: "Featured classes only." }
+          - { label: "Photo alt text", name: "image_alt", widget: "string", required: false }
+          - { label: "Who it's for", name: "who", widget: "text", required: false, hint: "Featured classes only." }
+          - { label: "Format", name: "format", widget: "text", required: false, hint: "Featured classes only." }
+          - { label: "Description", name: "body", widget: "text", required: false, hint: "A short paragraph. Featured classes only." }
       - { label: "Show contact prompt", name: "show_contact_cta", widget: "boolean", default: true, required: false }
       - { label: "Managed page", name: "managed_page", widget: "hidden", default: true }
       - { label: "Body", name: "body", widget: "markdown" }
