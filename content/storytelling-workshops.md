@@ -3,9 +3,9 @@ managed_page: true
 title: Storytelling Workshops for Libraries and Senior Communities
 seo_title: Storytelling Workshops in Brevard County
 description: Warm, guided storytelling workshops for Brevard County libraries, senior communities, churches, clubs, and community groups.
-image: images/card-filled.jpg
-portrait: images/card-filled.jpg
-portrait_alt: A filled storytelling prompt card beside a pen
+image: images/laugh-lines-workshop.jpg
+portrait: images/laugh-lines-workshop.jpg
+portrait_alt: Claire leading a lively Laugh Lines storytelling session with two residents in party hats and boas
 eyebrow: Programs that get the whole room talking
 lead: We bring thoughtful prompts and a welcoming structure. Participants bring the stories, laughter, and moments that make the session memorable.
 schema_type: Service
@@ -18,8 +18,6 @@ programs:
 - name: Laugh Lines
   featured: true
   status: Free first demo for senior communities
-  image: images/laugh-lines-workshop.jpg
-  image_alt: Three women laughing together in party hats and boas at a Laugh Lines storytelling session
   tagline: The funny one. An hour of the stories that still get the whole table laughing.
   who: Senior living communities, activity programs, and any group that wants a livelier session.
   format: About an hour. No writing, no pressure. Bring the room; we bring the prompts.
