@@ -19,6 +19,49 @@
       {{ .Content }}
     </div>
 
+    {{ with .Params.programs }}
+    <section class="programs">
+      <span class="eyebrow">Our classes</span>
+      <h2>Classes we bring to the room</h2>
+
+      {{ range where . "featured" true }}
+      {{ $img := .image }}{{ $alt := .image_alt }}{{ $pname := .name }}
+      <article class="program program--featured">
+        {{ with $img }}
+        <div class="program__media">
+          <img src="{{ . | relURL }}" alt="{{ with $alt }}{{ . }}{{ else }}{{ $pname }} storytelling class{{ end }}" loading="lazy" decoding="async" width="1000" height="1250">
+        </div>
+        {{ end }}
+        <div class="program__body">
+          {{ with .status }}<span class="chip program__status">{{ . }}</span>{{ end }}
+          <h3>{{ .name }}</h3>
+          {{ with .tagline }}<p class="program__tagline">{{ . }}</p>{{ end }}
+          {{ with .body }}<div class="program__desc">{{ . | markdownify }}</div>{{ end }}
+          <dl class="program__facts">
+            {{ with .who }}<div><dt>Who it's for</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with .format }}<div><dt>Format</dt><dd>{{ . }}</dd></div>{{ end }}
+          </dl>
+        </div>
+      </article>
+      {{ end }}
+
+      <p class="note programs__note">Library classes are open to the public and free to attend. <a href="{{ "/events/" | relURL }}">See upcoming dates on the Events page</a>, or <a href="{{ "/contact/" | relURL }}">ask about bringing a class to your community</a>.</p>
+
+      {{ $more := where . "featured" "!=" true }}
+      {{ with $more }}
+      <h3 class="programs__more-head">More programs we can bring</h3>
+      <div class="program-grid">
+        {{ range . }}
+        <div class="program-card">
+          <h4>{{ .name }}</h4>
+          {{ with .tagline }}<p>{{ . }}</p>{{ end }}
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+    </section>
+    {{ end }}
+
     {{ with .Params.faqs }}
     <section style="margin-top:3rem;">
       <span class="eyebrow">Common questions</span>
