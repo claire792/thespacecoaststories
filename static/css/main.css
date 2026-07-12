@@ -246,6 +246,49 @@ p { margin: 0 0 1.1em; }
 .card h3 { margin-bottom: .4em; }
 .card p { color: var(--ink-soft); font-size: .98rem; }
 .card__link { margin-top: auto; padding-top: 1rem; font-family: var(--sans); font-weight: 600; font-size: .9rem; text-decoration: none; color: var(--teal-deep); }
+
+/* ---------- workshop programs ---------- */
+.programs { margin-top: 3rem; }
+.programs > h2 { font-size: clamp(1.6rem, 3vw, 2.1rem); margin: .2em 0 1.5rem; }
+.program--featured {
+  display: grid; grid-template-columns: 0.9fr 1.1fr; gap: clamp(1.2rem, 3vw, 2.2rem);
+  align-items: stretch;
+  background: var(--white); border: 1px solid var(--line);
+  border-top: 3px solid var(--coral); border-radius: 4px;
+  overflow: hidden; margin-bottom: 1.6rem;
+}
+.program__media { position: relative; min-height: 260px; }
+.program__media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.program__body { padding: clamp(1.4rem, 3vw, 2.1rem); }
+.program__status {
+  display: inline-block; margin-bottom: .9rem;
+  background: var(--gold); border-color: var(--gold-deep);
+  color: #3d2a06; font-weight: 600;
+}
+.program__body h3 { font-size: clamp(1.4rem, 2.4vw, 1.8rem); margin-bottom: .3em; }
+.program__tagline { font-family: var(--serif); font-style: italic; font-size: 1.15rem; color: var(--ink-soft); margin: 0 0 1rem; }
+.program__desc p { color: var(--ink-soft); margin: 0 0 1rem; line-height: 1.6; }
+.program__facts { margin: 1.1rem 0 0; display: grid; gap: .7rem; }
+.program__facts div { display: grid; grid-template-columns: auto 1fr; gap: .2rem .9rem; }
+.program__facts dt {
+  font-family: var(--sans); font-size: .72rem; font-weight: 700; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--coral-deep); align-self: start; padding-top: .15rem;
+  white-space: nowrap;
+}
+.program__facts dd { margin: 0; color: var(--ink-soft); font-size: .96rem; line-height: 1.5; }
+.programs__note { margin: 1.4rem 0 0; }
+.programs__more-head { font-size: 1.3rem; margin: 2.6rem 0 1.1rem; }
+.program-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1rem; }
+.program-card {
+  background: var(--paper-2); border: 1px solid var(--line); border-radius: 3px;
+  padding: 1.3rem 1.4rem;
+}
+.program-card h4 { font-family: var(--serif); font-size: 1.15rem; margin: 0 0 .35em; color: var(--ink); }
+.program-card p { margin: 0; color: var(--ink-soft); font-size: .94rem; line-height: 1.5; }
+@media (max-width: 680px) {
+  .program--featured { grid-template-columns: 1fr; }
+  .program__media { min-height: 220px; aspect-ratio: 4 / 3; }
+}
 .card__link:hover { color: var(--ink); }
 .card__link::after { content: " →"; }
 
