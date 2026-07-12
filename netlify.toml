@@ -20,3 +20,47 @@
   from = "/admin"
   to = "/admin/"
   status = 301
+
+# SEO route cleanup: preserve authority from older/incorrect URLs and remove 4XX crawl paths.
+[[redirects]]
+  from = "/journal"
+  to = "/blog/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/journal/*"
+  to = "/blog/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tags"
+  to = "/blog/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/tags/*"
+  to = "/blog/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/remembering"
+  to = "/blog/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/was-jim-morrison-born-in-melbourne-florida"
+  to = "/blog/jim-morrison-melbourne-florida/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/was-jim-morrison-born-in-melbourne-florida/"
+  to = "/blog/jim-morrison-melbourne-florida/"
+  status = 301
+  force = true
+

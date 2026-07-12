@@ -2,12 +2,31 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  {{- $desc := .Description | default site.Params.description | plainify -}}
+  {{- /* Build unique metadata for every content, section, taxonomy, and term page. */ -}}
+  {{- $desc := .Description | plainify -}}
+  {{- if not $desc -}}
+    {{- if eq .Kind "term" -}}
+      {{- $desc = printf "Browse %s articles and practical guides from Space Coast Stories about family history, personal history, memory, and preserving the lives people love." .Title -}}
+    {{- else if eq .Kind "taxonomy" -}}
+      {{- $desc = printf "Browse the Space Coast Stories journal by %s to find useful family-history guides, local lives, legacy-book resources, and memorial writing help." (lower .Title) -}}
+    {{- else if .IsSection -}}
+      {{- $desc = printf "Explore %s from Space Coast Stories, a personal-history and legacy-book studio serving Brevard County families." .Title -}}
+    {{- else -}}
+      {{- $desc = site.Params.description | plainify -}}
+    {{- end -}}
+  {{- end -}}
+
   {{- $title := "" -}}
   {{- if .Params.seo_title -}}
     {{- $title = .Params.seo_title -}}
   {{- else if .IsHome -}}
     {{- $title = printf "%s — %s" site.Title (index hugo.Data.site "tagline") -}}
+  {{- else if eq .Kind "term" -}}
+    {{- $title = printf "%s Articles & Guides | %s" .Title site.Title -}}
+  {{- else if eq .Kind "taxonomy" -}}
+    {{- $title = printf "Browse Journal %s | %s" .Title site.Title -}}
+  {{- else if .IsSection -}}
+    {{- $title = printf "%s | %s" .Title site.Title -}}
   {{- else -}}
     {{- $title = printf "%s · %s" .Title site.Title -}}
   {{- end -}}
@@ -19,6 +38,9 @@
 
   <title>{{ $title }}</title>
   <meta name="description" content="{{ $desc }}">
+  {{- if and .IsPage (eq .Section "blog") }}
+  <meta name="author" content="Claire Szewczyk">
+  {{- end }}
   {{- if .Params.noindex }}
   <meta name="robots" content="noindex,follow">
   {{- else }}
@@ -35,6 +57,8 @@
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:image" content="{{ $image }}">
   <meta property="og:image:alt" content="{{ .Params.image_alt | default .Title }}">
+  <meta property="og:image:width" content="1600">
+  <meta property="og:image:height" content="900">
   {{- if and .IsPage (eq .Section "blog") }}
   <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
   <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
