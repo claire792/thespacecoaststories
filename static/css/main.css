@@ -132,6 +132,24 @@ p { margin: 0 0 1.1em; }
 .nav-toggle { display: none; background: none; border: 1px solid var(--line-strong); border-radius: 2px; padding: .5rem .7rem; cursor: pointer; }
 .nav-toggle span { display: block; width: 20px; height: 2px; background: var(--ink); margin: 4px 0; }
 
+/* dropdown submenu (e.g. Portfolio under About) */
+.nav .nav-item.has-sub { position: relative; display: inline-flex; align-items: center; }
+.nav .nav-parent { display: inline-flex; align-items: center; gap: .25rem; font-family: var(--sans); font-size: .93rem; font-weight: 500; color: var(--ink-soft); text-decoration: none; }
+.nav .nav-parent:hover { color: var(--teal-deep); }
+.nav .nav-caret { font-size: .6rem; line-height: 1; margin-top: 1px; }
+.nav .subnav {
+  position: absolute; top: 100%; left: -.6rem; min-width: 11rem;
+  display: flex; flex-direction: column; gap: 0;
+  background: var(--paper); border: 1px solid var(--line); border-radius: 4px;
+  box-shadow: var(--shadow-soft); padding: .35rem;
+  opacity: 0; visibility: hidden; transform: translateY(6px);
+  transition: opacity .16s ease, transform .16s ease, visibility .16s;
+}
+.nav .nav-item.has-sub:hover .subnav,
+.nav .nav-item.has-sub:focus-within .subnav { opacity: 1; visibility: visible; transform: translateY(0); }
+.nav .subnav a { padding: .55rem .7rem; border-radius: 3px; font-size: .9rem; color: var(--ink-soft); }
+.nav .subnav a:hover { background: var(--paper-2); color: var(--ink); }
+
 @media (max-width: 860px) {
   .nav-toggle { display: block; }
   .nav {
@@ -145,6 +163,17 @@ p { margin: 0 0 1.1em; }
   .nav[data-open="true"] { transform: translateY(0); }
   .nav a { padding: .85rem .25rem; border-bottom: 1px solid var(--line); }
   .nav .btn { margin-top: .9rem; justify-content: center; }
+
+  /* submenu collapses into the stack on mobile */
+  .nav .nav-item.has-sub { display: block; }
+  .nav .nav-parent { padding: .85rem .25rem; border-bottom: 1px solid var(--line); justify-content: space-between; }
+  .nav .nav-caret { display: none; }
+  .nav .subnav {
+    position: static; opacity: 1; visibility: visible; transform: none;
+    display: block; min-width: 0; border: 0; box-shadow: none;
+    background: transparent; padding: 0;
+  }
+  .nav .subnav a { padding: .7rem .25rem .7rem 1.1rem; border-bottom: 1px solid var(--line); border-radius: 0; }
 }
 
 /* ---------- hero ---------- */
