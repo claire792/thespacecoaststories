@@ -11,26 +11,21 @@ portrait_caption: "Claire Szewczyk — writer, personal historian, and founder o
 show_contact_cta: true
 ---
 
-<!--
-  ORIGIN STORY — DRAFT. Claire, replace this with your real one.
-  The paragraph below is a safe placeholder written in your voice.
-  Swap in the true spark: the person, the moment, the story that
-  almost got lost. That specificity is what makes an About page work.
--->
+I've spent most of my life telling stories. More novels than I can keep track of, under more names than I'll admit to. Making things up has never been the hard part.
 
-I've spent most of my life telling stories. I've written more novels than I can keep track of, and I grew up here on the Space Coast, back when a lot more of it was scrub and citrus than it is now.
+I didn't grow up here. I landed on the Space Coast about five years ago, been in Florida the better part of a decade, and somewhere in there it became home. Which is a funny thing for someone whose whole job is other people's roots, being a person who had to grow her own.
 
-Space Coast Stories started with a simple, uncomfortable thought: the people I love the most are the ones whose stories I know the least. I could tell you the plot of a hundred books. I couldn't tell you, in real detail, what my own grandparents' childhoods felt like from the inside. And once someone's gone, there's no getting it back.
+Space Coast Stories started with an uncomfortable thought. The people I love most are the ones whose stories I know the least. I can recite the plot of a hundred books. I couldn't tell you what my own grandparents' childhoods actually felt like from the inside. And once someone's gone, that's it. There's no getting it back.
 
-So I started asking. And I found out something that surprised me. The relatives who "didn't have any stories," the quiet ones, the ones who waved you off, turned out to have the best ones of all. They just needed someone to ask the right question and then get out of the way.
+So I started asking. What surprised me was who had the good stuff. The relatives who "didn't have any stories," the quiet ones, the ones who wave you off at the dinner table, turned out to have the best ones of all. They just needed someone to ask the right question and then get out of the way.
 
-That's the whole job. I ask the questions people don't think to ask, I listen closely, and I turn what comes out into something a family can hold onto. A deck of cards for a Sunday dinner. A workshop at a senior community where a whole room lights up. A real book with a real life in it.
+That's the job. I ask what people don't think to ask, I listen close, and I turn what comes out into something a family can keep. Sometimes that's a deck of cards that cracks a Sunday dinner wide open. Sometimes it's a workshop where a room full of people who "never talk about the past" suddenly won't stop. And sometimes it's a real book with a real life inside it.
 
 ## What I believe
 
-A person is a library. Everything they learned, loved, survived, and figured out is shelved somewhere in there. When we lose them, we don't just lose them. We lose the library. Most of it was never written down, and almost none of it had to disappear.
+A person is a library. Everything they learned and loved and survived and quietly figured out is shelved somewhere in there. Lose the person and you lose the library too. Most of it was never written down. Almost none of it had to disappear.
 
-I can't stop that from happening. But I can make sure that for the families I work with, the important parts get kept. In their own words. While there's still time to ask.
+I can't stop people from going. But I can make sure that for the families I work with, the important parts get kept. In their own words. While there's still time to ask.
 
 ## The particulars
 
