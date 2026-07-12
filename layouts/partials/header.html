@@ -14,7 +14,16 @@
 
     <nav class="nav" id="site-nav" aria-label="Primary">
       {{ range site.Menus.main }}
+        {{ if .HasChildren }}
+        <span class="nav-item has-sub">
+          <a href="{{ .URL }}" class="nav-parent">{{ .Name }}<span class="nav-caret" aria-hidden="true">▾</span></a>
+          <span class="subnav">
+            {{ range .Children }}<a href="{{ .URL }}">{{ .Name }}</a>{{ end }}
+          </span>
+        </span>
+        {{ else }}
         <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
       {{ end }}
       <a class="btn btn-primary" href="{{ "/contact/" | relURL }}">Start a project</a>
     </nav>
