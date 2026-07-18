@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $p := .Params }}
-{{ $s := hugo.Data.site }}
+{{ $s := site.Data.site }}
 {{ $checkoutReady := and $s.square_checkout_url (not (in $s.square_checkout_url "REPLACE-ME")) }}
 
 <section class="section-tight">

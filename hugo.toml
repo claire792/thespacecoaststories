@@ -60,6 +60,16 @@ summaryLength = 40
     pageRef = "/portfolio"
     parent = "about"
     weight = 10
+  [[menu.main]]
+    name = "Funeral Services"
+    pageRef = "/funeral-services"
+    parent = "about"
+    weight = 20
+  [[menu.main]]
+    name = "Organizations"
+    pageRef = "/organizational-stories"
+    parent = "about"
+    weight = 30
 
 # Footer navigation
 [[menu.footer]]
@@ -98,4 +108,11 @@ summaryLength = 40
   name = "Contact"
   pageRef = "/contact"
   weight = 60
-
+[[menu.footer]]
+  name = "Funeral Services"
+  pageRef = "/funeral-services"
+  weight = 45
+[[menu.footer]]
+  name = "Organizations"
+  pageRef = "/organizational-stories"
+  weight = 47

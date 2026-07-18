@@ -20,7 +20,7 @@
   {{- if .Params.seo_title -}}
     {{- $title = .Params.seo_title -}}
   {{- else if .IsHome -}}
-    {{- $title = printf "%s — %s" site.Title (index hugo.Data.site "tagline") -}}
+    {{- $title = printf "%s — %s" site.Title (index site.Data.site "tagline") -}}
   {{- else if eq .Kind "term" -}}
     {{- $title = printf "%s Articles & Guides | %s" .Title site.Title -}}
   {{- else if eq .Kind "taxonomy" -}}
@@ -82,20 +82,20 @@
   {{- /* Local business structured data */ -}}
   {{ if .IsHome }}
   {{ $areas := slice }}
-  {{ range (index hugo.Data.site "service_areas") }}
+  {{ range (index site.Data.site "service_areas") }}
     {{ $areas = $areas | append (dict "@type" "City" "name" .) }}
   {{ end }}
   <script type="application/ld+json">
   {{ (dict
       "@context" "https://schema.org"
       "@type" "ProfessionalService"
-      "name" (index hugo.Data.site "business_name")
+      "name" (index site.Data.site "business_name")
       "description" site.Params.description
       "url" site.BaseURL
       "logo" (absURL "images/scs-emblem.png")
       "image" (absURL "images/book-daughter.jpg")
-      "email" (index hugo.Data.site "email")
-      "telephone" (index hugo.Data.site "phone")
+      "email" (index site.Data.site "email")
+      "telephone" (index site.Data.site "phone")
       "priceRange" "$$-$$$$"
       "areaServed" $areas
       "serviceType" (slice "Personal history interviews" "Legacy books" "Family memoir writing" "Memorial books" "Storytelling workshops")
@@ -128,7 +128,7 @@
   {{ if eq .Params.schema_type "Service" }}
   {{ $areas := slice }}{{ range .Params.area_served }}{{ $areas = $areas | append (dict "@type" "Place" "name" .) }}{{ end }}
   {{ $serviceType := .Params.service_type | default .Title }}
-  <script type="application/ld+json">{{ (dict "@context" "https://schema.org" "@type" "Service" "name" .Title "description" $desc "url" .Permalink "serviceType" $serviceType "provider" (dict "@type" "ProfessionalService" "name" "Space Coast Stories" "url" site.BaseURL "telephone" (index hugo.Data.site "phone") "email" (index hugo.Data.site "email")) "areaServed" $areas) | jsonify | safeJS }}</script>
+  <script type="application/ld+json">{{ (dict "@context" "https://schema.org" "@type" "Service" "name" .Title "description" $desc "url" .Permalink "serviceType" $serviceType "provider" (dict "@type" "ProfessionalService" "name" "Space Coast Stories" "url" site.BaseURL "telephone" (index site.Data.site "phone") "email" (index site.Data.site "email")) "areaServed" $areas) | jsonify | safeJS }}</script>
   {{ end }}
 
   {{- /* Event structured data */ -}}
