@@ -50,7 +50,7 @@ Every provider prices differently, so treat these as ballparks, not quotes.
 
 A short and simple project, closer to recorded interviews plus a clean transcript and a modest softcover, tends to land in the lower hundreds to low thousands. A full-service legacy book, with many hours of interviews, professional ghostwriting, photo restoration, custom design, and a real hardcover, more often runs into the several-thousand range. National ghostwriting services for a long, complex book can go well beyond that.
 
-For my own work here on the Space Coast, projects start around $300 for a short Legacy Letter, with most families choosing a Mini Legacy Book in the $1,500–$2,500 range and full hardcover life stories running $5,000 and up, and I'm always happy to walk you through what fits your family and your budget. You can see the full breakdown on the [legacy books page](/services/).
+For my own work here on the Space Coast, projects start at $399 for a 90-minute One Story Keepsake. Mini Legacy Books begin at $2,500, and full hardcover life stories begin at $8,500. I'm always happy to walk you through what fits your family and your budget. You can see the full breakdown on the [legacy books page](/services/).
 
 ## How to know what you actually need
 

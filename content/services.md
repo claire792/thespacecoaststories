@@ -24,25 +24,26 @@ inside_pages:
 - image: images/inside-title.jpg
   alt: The title page of Catherine's legacy book
 books_heading: A book, sized to the life.
-books_sub: Every project starts with a conversation, then we build to fit your family and your budget. Prices below are starting points; final quotes depend on length and number of interviews.
+books_sub: Choose one meaningful story or preserve a whole life. Each option is fully done for you, with a real person interviewing, writing, and finishing the project.
 book_tiers:
-- name: Legacy Letter
-  price: $300–$500
-  desc: A short, beautiful keepsake built from one or two conversations. The perfect first step, or a gift for a milestone birthday or anniversary.
+- name: One Story Keepsake
+  price: $399
+  desc: One meaningful chapter of a life, shaped into a short printed keepsake. A manageable first step and a thoughtful milestone gift.
   features:
-  - One to two recorded interviews
-  - A polished 8–16 page keepsake
-  - A few photos woven in
-  - Printed copies for the family
-  cta: Start a Legacy Letter
+  - One 90-minute recorded interview
+  - 1,500–2,500 words in their natural voice
+  - A polished 8–12 page keepsake
+  - A small selection of family photos
+  - One printed copy plus a print-ready file
+  cta: Preserve one story
   featured: false
   cta_url: /legacy-letters/
 - name: Mini Legacy Book
-  price: $1,500–$2,500
+  price: From $2,500
   desc: The one most families choose. A real book covering a life's chapters, written in their voice, designed to be passed down.
   features:
-  - Four to six recorded interviews
-  - A 40–80 page designed book
+  - Three to four recorded interviews
+  - A 40–60 page designed hardcover
   - Photo curation and captions
   - Two rounds of revisions
   - Print-ready file plus bound copies
@@ -50,29 +51,37 @@ book_tiers:
   featured: true
   cta_url: /legacy-books/
 - name: Full Legacy Book
-  price: $5,000–$8,000
+  price: From $8,500
   desc: The whole life, in depth. For families who want the complete story, richly illustrated and built to last generations.
   features:
-  - Eight or more interviews
-  - A 100+ page hardcover
+  - Eight to twelve recorded interviews
+  - A 120–200 page heirloom hardcover
   - Full photo and document restoration
   - Family tree and timeline
   - Archival-quality printing
   cta: Start a Full Legacy Book
   featured: false
   cta_url: /legacy-books/
-payment_note: '**Payment plans available.** Book projects can be split across the work: 50% to begin, 30% at the draft, and 20% when it''s in your hands. We''ll never ask for the whole thing up front.'
+payment_note: '**Payment plans available.** Larger book projects are split across the work: 50% to begin, 30% at the draft, and 20% at completion. Final scope and printing costs are confirmed before you commit.'
 other_heading: More ways we help.
 cta_text: Learn more
 other_services:
 - name: Storytelling workshops
-  price: From $150 / session · first class free
-  desc: Warm, guided group sessions for senior communities, libraries, and clubs. We bring the prompts; the room brings the stories. Great as recurring programming, and the first class is always on us.
+  price: From $275 / session
+  desc: Warm, guided programs for senior communities, libraries, Rotary clubs, veterans groups, churches, and civic organizations. Custom programs and family showcase events are available.
   cta_url: /storytelling-workshops/
 - name: Memorial & tribute books
-  price: $2,000–$5,000
+  price: $3,000–$6,000
   desc: When someone's already gone, their story doesn't have to be. We work from interviews with family and friends, letters, and photos to build a book that honors a life. Often arranged through funeral homes and estate planners.
   cta_url: /memorial-tribute-books/
+- name: Funeral & celebration-of-life services
+  price: Short-turnaround and custom options
+  desc: Human-written obituaries and Eulogias, tribute keepsakes, memorial videos, guest-story Memory Stations, and fuller books created after the service.
+  cta_url: /funeral-services/
+- name: Organizational & Space Coast history projects
+  price: Custom quote
+  desc: Founding stories, retiree and memorial profiles, oral-history projects, and presentations for NASA and aerospace teams, nonprofits, clubs, and local organizations.
+  cta_url: /organizational-stories/
 - name: Storytelling classes
   price: $35–$45 / person
   desc: Small live workshops (and pre-recorded courses) that teach anyone to capture their own family's history. For the do-it-yourselfers who just need a guide and a nudge.
@@ -89,7 +98,7 @@ faqs:
 - q: What if my parent is hard to get talking?
   a: That's the norm, honestly, and it's exactly what the prompts are for. People who 'don't have any stories' usually have the best ones. We're patient and we know how to get there.
 - q: How long does a book take?
-  a: A Legacy Letter can be a few weeks. A Mini Legacy Book usually runs six to ten weeks once interviews are done. Full books take longer. If there's a deadline, a birthday or a holiday, tell us early and we'll plan around it.
+  a: A One Story Keepsake can be completed in a few weeks. A Mini Legacy Book usually runs six to ten weeks once interviews are done. Full books take longer. If there's a deadline, tell us early and we'll plan around it.
 - q: Who owns the finished book?
   a: You do. It's your family's story. We keep a copy of the files so we can reprint for you later, but the work is yours.
 show_contact_cta: false

@@ -1,5 +1,7 @@
 ---
 title: How to Write Your Own Life Story, Even If You're Not a Writer
+image: https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: A person writing thoughtfully in a notebook at a wooden desk
 date: '2026-07-13'
 category: Legacy Books
 tags:
@@ -20,7 +22,7 @@ faqs:
   a: That's common. You can record yourself telling stories out loud and transcribe them, or work with a personal historian who interviews you and does the writing, so you still end up with your story in your own voice without having to write it yourself.
 ---
 
-*Published [DATE] · Updated [DATE]*
+*Published July 13, 2026*
 
 To write your own life story, you don't need to be a writer. Start by breaking your life into chapters or themes, write about one memory at a time in your own natural voice, use prompts to jog your memory, and don't worry about polish on the first pass. Aim for a little at a time, and let the stories add up. Here's a simple way to actually get it done.
 

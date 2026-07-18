@@ -1,5 +1,7 @@
 ---
 title: How to Preserve Old Home Movies, VHS Tapes, and Slides
+image: https://images.unsplash.com/photo-1781492654912-cd9b53d7ad89?auto=format&fit=crop&fm=jpg&w=1600&h=900&q=82
+image_alt: A wooden cabinet filled with books and vintage VHS tapes
 date: '2026-07-13'
 category: How to Start
 tags:
@@ -20,7 +22,7 @@ faqs:
   a: Back them up in at least two places, share copies with family, and, most meaningfully, watch them with older relatives while recording them explaining who and what is on screen. Pairing the footage with the stories behind it turns raw video into a lasting family history.
 ---
 
-*Published [DATE] · Updated [DATE]*
+*Published July 13, 2026*
 
 To preserve old home movies, VHS tapes, film reels, and slides, digitize them as soon as possible, because these formats degrade over time and the machines to play them are disappearing. You can do it yourself with a scanner or capture device, or send them to a digitizing service. Then back up the files in more than one place. Here's how, and why waiting is the real risk.
 
