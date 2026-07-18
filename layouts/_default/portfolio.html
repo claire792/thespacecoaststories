@@ -273,6 +273,7 @@
 
   var slides = Array.prototype.slice.call(gallery.querySelectorAll("[data-slide]"));
   var thumbs = Array.prototype.slice.call(gallery.querySelectorAll("[data-thumb]"));
+  var thumbsContainer = gallery.querySelector(".portfolio-carousel__thumbs");
   var prev = gallery.querySelector("[data-prev]");
   var next = gallery.querySelector("[data-next]");
   var autoplayButton = gallery.querySelector("[data-autoplay]");
@@ -311,8 +312,12 @@
     caption.textContent = pageCaption;
     count.textContent = "Page " + (index + 1) + " of " + slides.length;
 
-    if (currentThumb) {
-      currentThumb.scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth", block: "nearest", inline: "center" });
+    if (currentThumb && thumbsContainer) {
+      var centeredLeft = currentThumb.offsetLeft - ((thumbsContainer.clientWidth - currentThumb.offsetWidth) / 2);
+      thumbsContainer.scrollTo({
+        left: Math.max(0, centeredLeft),
+        behavior: reducedMotion ? "auto" : "smooth"
+      });
     }
 
     if (userInitiated && playing) restart(7000);
