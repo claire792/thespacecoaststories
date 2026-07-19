@@ -6,12 +6,17 @@
 <style>
   .hero-reader-rotation {
     position: relative;
-    width: min(100%, 30rem);
+    width: 100%;
+    max-width: 30rem;
     aspect-ratio: 4 / 5;
     overflow: hidden;
     border-radius: 4px;
     background: var(--paper-2);
     box-shadow: 0 30px 60px -30px rgba(22,50,79,.5);
+  }
+  .hero__art--readers {
+    width: 100%;
+    max-width: 30rem;
   }
   .hero-reader-rotation__image {
     position: absolute;
@@ -24,7 +29,8 @@
   }
   .hero-reader-rotation__image.is-active { opacity: 1; }
   @media (max-width: 820px) {
-    .hero-reader-rotation { width: min(100%, 22rem); }
+    .hero__art--readers { max-width: 22rem; }
+    .hero-reader-rotation { max-width: 22rem; }
   }
   @media (prefers-reduced-motion: reduce) {
     .hero-reader-rotation__image { transition: none; }
@@ -42,7 +48,7 @@
         <a class="btn btn-ghost" href="{{ "/card-kits/" | relURL }}">{{ $p.hero_cta2 | default "Shop the card kits" }}</a>
       </div>
     </div>
-    <div class="hero__art">
+    <div class="hero__art hero__art--readers">
       <div class="hero-reader-rotation" data-hero-reader-rotation>
         <img class="hero-reader-rotation__image is-active" src="{{ "images/book-daughter.jpg" | relURL }}" alt="A daughter holding a finished photo-rich legacy book about Catherine Small" width="1100" height="1375" loading="eager" decoding="async">
         <img class="hero-reader-rotation__image" src="{{ "images/working-mans-moon-reader.png" | relURL }}" alt="A young man smiling as he reads the full narrative legacy book A Working Man's Moon" width="1024" height="1536" loading="eager" decoding="async">
