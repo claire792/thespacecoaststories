@@ -1,144 +1,34 @@
 {{ define "main" }}
 {{ $p := .Params }}
 
-<section class="section-tight">
-  <div class="wrap">
-    <div class="grid grid-2" style="align-items:center;gap:clamp(2rem,6vw,4rem);">
-      <div>
-        <span class="eyebrow">{{ $p.eyebrow }}</span>
-        <h1>{{ .Title }}</h1>
-        <p class="lead">{{ $p.lead }}</p>
-      </div>
-      <figure style="margin:0;">
-        <img src="{{ $p.image | default "images/book-beach.jpg" | relURL }}" alt="A finished legacy book, The Life and Times of Catherine Small, held up on a Florida beach" style="width:100%;border-radius:4px;box-shadow:0 24px 50px -28px rgba(22,50,79,.5);" loading="eager" decoding="async" width="1600" height="900">
-      </figure>
-    </div>
+<section class="section-tight panel-cream">
+  <div class="wrap-narrow center">
+    <span class="eyebrow">{{ $p.eyebrow | default "Services & pricing" }}</span>
+    <h1>{{ .Title }}</h1>
+    <p class="lead" style="margin-inline:auto;max-width:700px;">{{ $p.lead }}</p>
   </div>
 </section>
 
-<!-- POSITIONING -->
-{{ with $p.positioning }}
-<section class="section-tight" style="padding-top:0;">
-  <div class="wrap-narrow">
-    <div class="pullquote"><p>{{ . }}</p></div>
-  </div>
-</section>
-{{ end }}
-
-
-<!-- LOCAL SERVICE AREA -->
-{{ with $p.local_heading }}
-<section class="section-tight" style="padding-top:0;">
-  <div class="wrap-narrow">
-    <div class="note">
-      <span class="eyebrow">Personal historian on the Space Coast</span>
-      <h2 style="font-size:1.55rem;">{{ . }}</h2>
-      <p>{{ $p.local_body }}</p>
-      <a class="card__link" href="{{ "/brevard-county/" | relURL }}">See Brevard County service areas</a>
-    </div>
-  </div>
-</section>
-{{ end }}
-
-<!-- LOOK INSIDE (auto-flipping showcase) -->
-{{ with $p.inside_pages }}
-<section class="section" style="padding-top:1rem;">
-  <div class="wrap">
-    <div class="grid grid-2" style="align-items:center;gap:clamp(2rem,6vw,4rem);">
-      <div>
-        <span class="eyebrow">Look inside a real one</span>
-        <h2>{{ $p.inside_heading | default "This is what your family keeps." }}</h2>
-        <p class="lead">{{ $p.inside_sub }}</p>
-        <a class="btn btn-primary" href="{{ "/contact/" | relURL }}" style="margin-top:.5rem;">Start your family's book</a>
-      </div>
-      <figure class="book-flip" aria-label="Sample pages from a finished legacy book, cycling automatically">
-        {{ range $i, $pg := . }}
-        <img src="{{ $pg.image | relURL }}" alt="{{ $pg.alt }}" class="book-flip__img{{ if eq $i 0 }} is-active{{ end }}" loading="lazy" decoding="async" width="800" height="800">
-        {{ end }}
-      </figure>
-    </div>
-  </div>
-</section>
-{{ end }}
-
-
-<!-- PORTFOLIO PROOF -->
-{{ with $p.portfolio_heading }}
-<section class="section-tight" style="padding-top:0;">
-  <div class="wrap-narrow"><div class="note"><span class="eyebrow">Portfolio</span><h2 style="font-size:1.55rem;">{{ . }}</h2><p>{{ $p.portfolio_body }}</p><a class="card__link" href="{{ "/portfolio/" | relURL }}">Browse covers and sample pages</a></div></div>
-</section>
-{{ end }}
-<!-- LEGACY BOOKS -->
 <section class="section">
   <div class="wrap">
-    <div style="max-width:620px;margin-bottom:2.5rem;">
-      <span class="eyebrow">Legacy books</span>
-      <h2>{{ $p.books_heading | default "A book, sized to the life." }}</h2>
-      <p class="lead">{{ $p.books_sub }}</p>
-    </div>
     <div class="grid grid-3">
-      {{ range $p.book_tiers }}
-      <div class="tier {{ if .featured }}tier--feature{{ end }}">
+      {{ range $p.services }}
+      <article class="tier {{ if .featured }}tier--feature{{ end }}" style="display:flex;flex-direction:column;">
         {{ if .featured }}<span class="tier__flag">Most requested</span>{{ end }}
         <div class="tier__name">{{ .name }}</div>
         <div class="tier__price">{{ .price }}</div>
-        <p class="tier__desc">{{ .desc }}</p>
-        <ul>
-          {{ range .features }}<li>{{ . }}</li>{{ end }}
-        </ul>
-        <a class="btn {{ if .featured }}btn-primary{{ else }}btn-ghost{{ end }}" href="{{ .cta_url | default "/contact/" | relURL }}">{{ .cta | default "Ask about this" }}</a>
-      </div>
-      {{ end }}
-    </div>
-    {{ with $p.payment_note }}
-    <div class="note" style="margin-top:2rem;">{{ . | markdownify }}</div>
-    {{ end }}
-  </div>
-</section>
-
-<!-- WORKSHOPS + CLASSES + MEMORIAL -->
-<section class="section panel-cream">
-  <div class="wrap">
-    <div style="max-width:620px;margin-bottom:2.5rem;">
-      <span class="eyebrow">Workshops, classes & memorial work</span>
-      <h2>{{ $p.other_heading | default "More ways we help." }}</h2>
-    </div>
-    <div class="grid grid-2">
-      {{ range $p.other_services }}
-      <div class="card">
-        <h3>{{ .name }}</h3>
-        <div class="tier__price">{{ .price }}</div>
-        <p>{{ .desc }}</p>
-        {{ with .cta_url }}<a class="card__link" href="{{ . | relURL }}">{{ $.Param "cta_text" | default "Learn more" }}</a>{{ end }}
-      </div>
+        <p class="tier__desc" style="flex:1;">{{ .desc }}</p>
+        <a class="btn {{ if .featured }}btn-primary{{ else }}btn-ghost{{ end }}" href="{{ .cta_url | default "/contact/" | relURL }}">Learn more</a>
+      </article>
       {{ end }}
     </div>
   </div>
 </section>
 
-<!-- FAQ -->
-{{ with $p.faqs }}
-<section class="section">
-  <div class="wrap-narrow">
-    <span class="eyebrow">Good questions</span>
-    <h2>Before you ask, you're probably wondering&hellip;</h2>
-    <div style="margin-top:2rem;">
-      {{ range . }}
-      <details style="border-top:1px solid var(--line);padding:1.2rem 0;">
-        <summary style="font-family:var(--serif);font-size:1.25rem;cursor:pointer;color:var(--ink);">{{ .q }}</summary>
-        <p style="margin:.9rem 0 0;color:var(--ink-soft);">{{ .a }}</p>
-      </details>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
-
-<!-- CTA -->
 <section class="section-tight panel-ink center" style="padding-block:clamp(3rem,7vw,5rem);">
   <div class="wrap-narrow">
-    <h2 style="color:var(--white);">Not sure which one fits?</h2>
-    <p class="lead" style="color:rgba(251,247,239,.82);">Tell us who the book is for and your budget. We'll point you to the right starting place, honestly.</p>
+    <h2 style="color:var(--white);">Ready to preserve their story?</h2>
+    <p class="lead" style="color:rgba(251,247,239,.82);">Tell us who the project is for, and we’ll help you choose the right place to begin.</p>
     <a class="btn btn-primary" href="{{ "/contact/" | relURL }}" style="margin-top:1rem;">Start the conversation</a>
   </div>
 </section>
