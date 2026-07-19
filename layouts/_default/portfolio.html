@@ -1,5 +1,73 @@
 {{ define "main" }}
 <style>
+  .portfolio-chooser {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    max-width: 920px;
+    margin: 0 auto;
+  }
+
+  .portfolio-choice {
+    display: grid;
+    grid-template-columns: 82px 1fr;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    background: var(--white);
+    color: var(--ink);
+    box-shadow: var(--shadow-soft);
+    transition: transform .18s ease, border-color .18s ease;
+  }
+
+  .portfolio-choice:hover { transform: translateY(-2px); border-color: var(--sage-dark); }
+  .portfolio-choice img { width: 82px; height: 104px; object-fit: cover; border-radius: 6px; }
+  .portfolio-choice strong { display: block; font-family: var(--serif); font-size: 1.2rem; }
+  .portfolio-choice span { display: block; margin-top: .25rem; color: var(--muted); font-family: var(--sans); font-size: .88rem; }
+
+  .full-book-showcase {
+    background: linear-gradient(145deg, #0d2d4d 0%, #163b5e 65%, #0e263d 100%);
+    color: var(--paper);
+  }
+
+  .full-book-intro {
+    display: grid;
+    grid-template-columns: minmax(220px, 330px) minmax(0, 1fr);
+    gap: clamp(2rem, 6vw, 5rem);
+    align-items: center;
+    max-width: 1040px;
+    margin: 0 auto 3rem;
+  }
+
+  .full-book-cover {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0 30px 70px -25px rgba(0,0,0,.75);
+  }
+
+  .full-book-copy h2 { color: var(--paper); margin-bottom: .4rem; }
+  .full-book-copy .book-subtitle { color: #f0c36b; font-family: var(--serif); font-size: 1.18rem; line-height: 1.45; }
+  .full-book-copy p { color: rgba(251,247,239,.82); }
+  .full-book-meta { display: flex; flex-wrap: wrap; gap: .55rem; margin: 1.2rem 0 1.5rem; }
+  .full-book-meta span { padding: .4rem .7rem; border: 1px solid rgba(251,247,239,.25); border-radius: 999px; font: 600 .78rem/1 var(--sans); color: var(--paper); }
+
+  .pdf-reader-wrap { max-width: 1040px; margin: 0 auto; }
+  .pdf-reader-heading { display: flex; align-items: end; justify-content: space-between; gap: 1rem; margin-bottom: .8rem; }
+  .pdf-reader-heading h3 { color: var(--paper); margin: 0; }
+  .pdf-reader-heading a { color: #f0c36b; font-family: var(--sans); font-weight: 700; }
+  .pdf-reader {
+    width: 100%;
+    height: clamp(600px, 78vh, 860px);
+    display: block;
+    border: 1px solid rgba(251,247,239,.22);
+    border-radius: 12px;
+    background: #fff;
+  }
+  .pdf-reader-note { margin: .7rem 0 0; color: rgba(251,247,239,.68); font: .82rem/1.5 var(--sans); }
+
   .portfolio-carousel {
     max-width: 920px;
     margin: 0 auto;
@@ -140,6 +208,12 @@
   }
 
   @media (max-width: 640px) {
+    .portfolio-chooser { grid-template-columns: 1fr; }
+    .full-book-intro { grid-template-columns: 1fr; }
+    .full-book-cover { width: min(76%, 300px); margin: 0 auto; }
+    .pdf-reader { height: 620px; }
+    .pdf-reader-heading { align-items: start; flex-direction: column; }
+
     .portfolio-carousel__stage {
       border-radius: 12px;
     }
@@ -177,26 +251,52 @@
 
 <section class="section-tight" style="padding-top:0;">
   <div class="wrap">
-    <div class="showcase-grid">
-      {{ range .Params.book_examples }}
-        <figure class="showcase-card">
-          <img src="{{ .image | relURL }}" alt="{{ .alt }}" loading="eager" decoding="async">
-          <figcaption>
-            <strong>{{ .title }}</strong>
-            <span>{{ .caption }}</span>
-          </figcaption>
-        </figure>
-      {{ end }}
+    <div class="portfolio-chooser" aria-label="Choose a legacy book sample">
+      <a class="portfolio-choice" href="#full-legacy-book">
+        <img src="{{ .Params.full_book.cover | relURL }}" alt="" loading="eager">
+        <span><strong>Full Legacy Book</strong><span>Read Bud's narrative biography sample</span></span>
+      </a>
+      <a class="portfolio-choice" href="#mini-legacy-book">
+        <img src="{{ (index .Params.inside_gallery 1).image | relURL }}" alt="" loading="eager">
+        <span><strong>Mini Legacy Book</strong><span>Flip through Catherine's photo-rich book</span></span>
+      </a>
     </div>
   </div>
 </section>
 
-<section class="section panel-cream">
+{{ with .Params.full_book }}
+<section class="section full-book-showcase" id="full-legacy-book">
+  <div class="wrap">
+    <div class="full-book-intro">
+      <img class="full-book-cover" src="{{ .cover | relURL }}" alt="{{ .cover_alt }}" loading="eager" decoding="async">
+      <div class="full-book-copy">
+        <span class="eyebrow" style="color:#f0c36b;">Full Legacy Book sample</span>
+        <h2>{{ .title }}</h2>
+        <p class="book-subtitle">{{ .subtitle }}</p>
+        <div class="full-book-meta"><span>{{ .word_count }}</span><span>{{ .page_count }}</span><span>Narrative biography</span></div>
+        <p>{{ .description }}</p>
+        <a class="btn btn-primary" href="{{ .pdf | relURL }}" target="_blank" rel="noopener">Open the sample full screen</a>
+      </div>
+    </div>
+
+    <div class="pdf-reader-wrap">
+      <div class="pdf-reader-heading">
+        <h3>Read the excerpt</h3>
+        <a href="{{ .pdf | relURL }}" target="_blank" rel="noopener">Open or download PDF ↗</a>
+      </div>
+      <iframe class="pdf-reader" src="{{ .pdf | relURL }}#page=1&view=FitH" title="Read A Working Man's Moon sample PDF" loading="lazy"></iframe>
+      <p class="pdf-reader-note">Use the PDF controls to turn pages, zoom, or download. If the reader does not appear on your device, use the full-screen link above.</p>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<section class="section panel-cream" id="mini-legacy-book">
   <div class="wrap">
     <div style="max-width:720px;margin:0 auto 2rem;text-align:center;">
-      <span class="eyebrow" style="justify-content:center;">Inside Catherine's sample book</span>
-      <h2>Flip through the finished book.</h2>
-      <p class="lead">The gallery advances automatically, or you can use the arrows and thumbnails to move through every designed page. Nothing opens in a new tab.</p>
+      <span class="eyebrow" style="justify-content:center;">Mini Legacy Book sample</span>
+      <h2>Flip through Catherine's book.</h2>
+      <p class="lead">This shorter format balances polished storytelling with photographs and keepsakes. It advances automatically, or you can use the arrows and thumbnails.</p>
     </div>
 
     {{ $total := len .Params.inside_gallery }}
@@ -235,6 +335,23 @@
           </button>
         {{ end }}
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="wrap">
+    <div style="max-width:720px;margin:0 auto 2rem;text-align:center;">
+      <span class="eyebrow" style="justify-content:center;">More book directions</span>
+      <h2>Every design begins with the person.</h2>
+    </div>
+    <div class="showcase-grid">
+      {{ range .Params.book_examples }}
+        <figure class="showcase-card">
+          <img src="{{ .image | relURL }}" alt="{{ .alt }}" loading="lazy" decoding="async">
+          <figcaption><strong>{{ .title }}</strong><span>{{ .caption }}</span></figcaption>
+        </figure>
+      {{ end }}
     </div>
   </div>
 </section>
