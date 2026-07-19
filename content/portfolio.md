@@ -5,7 +5,16 @@ description: See finished legacy book examples, cover concepts, and sample inter
 image: /images/legacy-book-peggy.jpg
 layout: portfolio
 eyebrow: See the work
-lead: Every book is designed around one person. These examples show the range, from warm floral family memoirs to coastal life stories and clean, literary interiors.
+lead: Every life asks for a different kind of book. Compare a photo-rich Mini Legacy Book with a narrative Full Legacy Book, then look through the real pages for yourself.
+full_book:
+  title: A Working Man's Moon
+  subtitle: The Life of Bud Prather, from the Red Dirt of Georgia to the Last Launch on the Cape
+  cover: /images/working-mans-moon-cover.png
+  cover_alt: Cover of A Working Man's Moon, the life story of Bud Prather
+  pdf: /downloads/a-working-mans-moon-sample.pdf
+  word_count: 8,000-word excerpt
+  page_count: 40-page sample
+  description: This is what the top-tier Full Legacy Book can become—a true narrative biography with chapters, scenes, historical context, and a strong literary voice. Photographs can still appear throughout the finished book, but the story carries the experience.
 book_examples:
 - image: /images/book-table.jpg
   alt: The Catherine Small legacy book displayed on a table
