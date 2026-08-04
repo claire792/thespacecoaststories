@@ -160,9 +160,17 @@ collections:
           - { label: "Phone", name: "phone", widget: "string" }
           - { label: "Phone note", name: "phone_note", widget: "string" }
           - { label: "Square checkout URL", name: "square_checkout_url", widget: "string", hint: "Paste your Square Online link for the card kits." }
+          - { label: "Story Session checkout URL", name: "story_session_checkout_url", widget: "string", required: false, hint: "Square payment link for the $399 Story Session." }
+          - { label: "Audio Letters checkout URL", name: "audio_letters_checkout_url", widget: "string", required: false, hint: "Square payment link for Audio Letters terms." }
+          - { label: "Story line phone number", name: "story_line_phone", widget: "string", required: false, hint: "The dedicated Twilio number clients call to record answers. Leave blank until it's live." }
+          - { label: "Story line note", name: "story_line_note", widget: "string", required: false }
           - { label: "Facebook URL", name: "facebook", widget: "string", required: false }
           - { label: "Instagram URL", name: "instagram", widget: "string", required: false }
           - { label: "Newsletter name", name: "newsletter_name", widget: "string", required: false }
+          - { label: "Signup eyebrow", name: "magnet_eyebrow", widget: "string", required: false, hint: "Small label above the email signup box." }
+          - { label: "Signup heading", name: "magnet_heading", widget: "string", required: false }
+          - { label: "Signup body", name: "magnet_body", widget: "text", required: false }
+          - { label: "Signup button text", name: "magnet_button", widget: "string", required: false }
           - { label: "Footer note", name: "footer_note", widget: "string" }
 
   # ------------------------------------------------------------------
@@ -188,7 +196,9 @@ collections:
             field: { label: "Prompt", name: "prompt", widget: "string" }
           - { label: "Hero subtext", name: "hero_sub", widget: "text" }
           - { label: "Hero button 1", name: "hero_cta1", widget: "string" }
+          - { label: "Hero button 1 URL", name: "hero_cta1_url", widget: "string", required: false, default: "/services/" }
           - { label: "Hero button 2", name: "hero_cta2", widget: "string" }
+          - { label: "Hero button 2 URL", name: "hero_cta2_url", widget: "string", required: false, default: "/card-kits/" }
           - { label: "Offerings heading", name: "offerings_heading", widget: "string" }
           - { label: "Offerings subtext", name: "offerings_sub", widget: "text" }
           - label: "Offerings (3 cards)"
@@ -197,6 +207,7 @@ collections:
             fields:
               - { label: "Badge", name: "num", widget: "string" }
               - { label: "Title", name: "title", widget: "string" }
+              - { label: "Price", name: "price", widget: "string", required: false, hint: "Shown under the title, e.g. $399 or From $3,000." }
               - { label: "Body", name: "body", widget: "text" }
               - { label: "Link URL", name: "url", widget: "string" }
               - { label: "Link text", name: "link_text", widget: "string" }
@@ -325,56 +336,38 @@ collections:
         file: "content/services.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
+          - { label: "SEO title", name: "seo_title", widget: "string", required: false }
           - { label: "SEO description", name: "description", widget: "text" }
           - { label: "Social share image", name: "image", widget: "image", required: false }
           - { label: "Layout", name: "layout", widget: "hidden", default: "services" }
           - { label: "Eyebrow", name: "eyebrow", widget: "string" }
           - { label: "Lead", name: "lead", widget: "text" }
-          - { label: "Positioning line", name: "positioning", widget: "text" }
-          - { label: "Local service heading", name: "local_heading", widget: "string" }
-          - { label: "Local service description", name: "local_body", widget: "text" }
-          - { label: "Inside-pages heading", name: "inside_heading", widget: "string", required: false }
-          - { label: "Inside-pages subtext", name: "inside_sub", widget: "text", required: false }
-          - label: "Inside sample pages"
-            name: "inside_pages"
+          - label: "Pricing groups"
+            name: "groups"
             widget: "list"
-            required: false
+            hint: "Each group becomes its own band on the page. Keep 'Start here' first — that's the cheap, easy entry point."
             fields:
-              - { label: "Image", name: "image", widget: "image" }
-              - { label: "Alt text", name: "alt", widget: "string" }
-          - { label: "Portfolio heading", name: "portfolio_heading", widget: "string", required: false }
-          - { label: "Portfolio body", name: "portfolio_body", widget: "text", required: false }
-          - { label: "Books heading", name: "books_heading", widget: "string" }
-          - { label: "Books subtext", name: "books_sub", widget: "text" }
-          - label: "Book tiers"
-            name: "book_tiers"
-            widget: "list"
-            fields:
-              - { label: "Name", name: "name", widget: "string" }
-              - { label: "Price", name: "price", widget: "string" }
-              - { label: "Description", name: "desc", widget: "text" }
-              - { label: "Features", name: "features", widget: "list", field: { label: "Feature", name: "feature", widget: "string" } }
-              - { label: "Button text", name: "cta", widget: "string" }
-              - { label: "Button URL", name: "cta_url", widget: "string", required: false }
-              - { label: "Highlight this tier", name: "featured", widget: "boolean", default: false }
-          - { label: "Payment note", name: "payment_note", widget: "text" }
-          - { label: "Other services heading", name: "other_heading", widget: "string" }
-          - { label: "Link text (cards)", name: "cta_text", widget: "string", default: "Learn more" }
-          - label: "Other services"
-            name: "other_services"
-            widget: "list"
-            fields:
-              - { label: "Name", name: "name", widget: "string" }
-              - { label: "Price", name: "price", widget: "string" }
-              - { label: "Description", name: "desc", widget: "text" }
-              - { label: "Link URL", name: "cta_url", widget: "string", required: false }
+              - { label: "Group label", name: "label", widget: "string" }
+              - { label: "Group subtext", name: "sub", widget: "text", required: false }
+              - label: "Services in this group"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Price", name: "price", widget: "string" }
+                  - { label: "Description", name: "desc", widget: "text" }
+                  - { label: "Link URL", name: "cta_url", widget: "string", required: false }
+                  - { label: "Highlight this one", name: "featured", widget: "boolean", default: false, required: false }
+          - { label: "Credit note", name: "credit_note", widget: "text", required: false, hint: "The line about session credit rolling forward toward a bigger book." }
           - label: "FAQs"
             name: "faqs"
             widget: "list"
+            required: false
             fields:
               - { label: "Question", name: "q", widget: "string" }
               - { label: "Answer", name: "a", widget: "text" }
-          - { label: "Show contact prompt", name: "show_contact_cta", widget: "boolean", default: false }
+          - { label: "Show contact prompt", name: "show_contact_cta", widget: "boolean", default: false, required: false }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
 
       # ---- CARD KITS ----
       - name: "card-kits"
