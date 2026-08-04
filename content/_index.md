@@ -13,23 +13,28 @@ hero_prompts:
 - What did you believe at twenty that you'd argue with now?
 - Describe the moment you knew your whole life had just changed.
 hero_sub: We're a legacy storytelling studio on the Space Coast. We help families capture a parent, a grandparent, a whole life, in their own voice, and turn it into something you can hold.
-hero_cta1: See legacy books
+hero_cta1: See what it costs
+hero_cta1_url: /services/
 hero_cta2: Shop the card kits
+hero_cta2_url: /card-kits/
 offerings_heading: Start small, or go all in.
-offerings_sub: 'However you begin, the point is the same: get the story down before it''s only half-remembered.'
+offerings_sub: 'Prices are on the page, not behind a phone call. However you begin, the point is the same: get the story down before it''s only half-remembered.'
 offerings:
 - num: Kit
   title: Tell Me Your Story cards
+  price: $20
   body: A deck of the questions people wish they'd asked. Pull one out at Sunday dinner and watch what happens. The easiest place to start.
   url: /card-kits
   link_text: See the card kits
-- num: Class
-  title: Storytelling workshops
-  body: Guided sessions for senior communities, libraries, and groups. People come for the prompts and stay for each other's stories.
-  url: /storytelling-workshops/
-  link_text: Bring a workshop in
+- num: Session
+  title: One hour, one story, one booklet
+  price: $399
+  body: We record a single conversation on one theme and turn it into a finished 15-page keepsake with photographs. No months, no thousands of dollars.
+  url: /story-sessions/
+  link_text: See how a session works
 - num: Book
   title: Legacy & memorial books
+  price: From $3,000
   body: We interview, we write, we design. You get a real book with your family's story in it, from a short keepsake to a full hardcover life.
   url: /legacy-books/
   link_text: Explore legacy books

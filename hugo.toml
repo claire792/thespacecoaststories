@@ -31,13 +31,13 @@ summaryLength = 40
     pageRef = "/legacy-books"
     weight = 10
   [[menu.main]]
+    name = "Pricing"
+    pageRef = "/services"
+    weight = 15
+  [[menu.main]]
     name = "Card Kits"
     pageRef = "/card-kits"
     weight = 20
-  [[menu.main]]
-    name = "Workshops"
-    pageRef = "/storytelling-workshops"
-    weight = 30
   [[menu.main]]
     name = "Story Prompts"
     url = "/story-prompts/"
@@ -46,10 +46,6 @@ summaryLength = 40
     name = "Journal"
     pageRef = "/blog"
     weight = 40
-  [[menu.main]]
-    name = "Events"
-    pageRef = "/events"
-    weight = 50
   [[menu.main]]
     identifier = "about"
     name = "About"
@@ -70,12 +66,34 @@ summaryLength = 40
     pageRef = "/organizational-stories"
     parent = "about"
     weight = 30
+  [[menu.main]]
+    name = "Workshops"
+    pageRef = "/storytelling-workshops"
+    parent = "about"
+    weight = 40
+  [[menu.main]]
+    name = "Events"
+    pageRef = "/events"
+    parent = "about"
+    weight = 50
 
 # Footer navigation
 [[menu.footer]]
   name = "Legacy Books"
   pageRef = "/services"
   weight = 10
+[[menu.footer]]
+  name = "Story Sessions"
+  pageRef = "/story-sessions"
+  weight = 12
+[[menu.footer]]
+  name = "Audio Letters"
+  pageRef = "/audio-letters"
+  weight = 13
+[[menu.footer]]
+  name = "Pricing"
+  pageRef = "/services"
+  weight = 14
 [[menu.footer]]
   name = "Portfolio"
   pageRef = "/portfolio"
