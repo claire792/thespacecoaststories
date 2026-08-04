@@ -1,0 +1,60 @@
+{{ $s := site.Data.site }}
+<section class="section-tight panel-cream" data-signup>
+  <div class="wrap-narrow">
+    <span class="eyebrow">{{ $s.magnet_eyebrow | default "Free download" }}</span>
+    <h2 style="margin-bottom:.3em;">{{ $s.magnet_heading | default "The 10 questions to ask before it's too late." }}</h2>
+    <p class="lead">{{ $s.magnet_body | default "The ten questions that open people up fastest, pulled from every interview we've done. Free, and yours in about thirty seconds." }}</p>
+
+    <form class="form signup-form" data-signup-form style="margin-top:1.5rem;">
+      <p hidden><label>Skip this: <input name="company" tabindex="-1" autocomplete="off"></label></p>
+      <div>
+        <label for="signup-email">Email address</label>
+        <input id="signup-email" name="email" type="email" required autocomplete="email" placeholder="you@example.com">
+      </div>
+      <div>
+        <button class="btn btn-primary" type="submit" data-signup-submit>{{ $s.magnet_button | default "Send me the questions" }}</button>
+      </div>
+      <p class="signup-status" data-signup-status role="status" aria-live="polite" style="margin:0;font-size:.92rem;color:var(--ink-soft);"></p>
+    </form>
+
+    <p style="margin-top:1rem;font-size:.85rem;color:var(--muted);">One short letter every few weeks about capturing family stories. Unsubscribe whenever you like.</p>
+  </div>
+</section>
+
+<script>
+(function () {
+  "use strict";
+  var form = document.querySelector("[data-signup-form]");
+  if (!form || form.dataset.bound) return;
+  form.dataset.bound = "1";
+  var status = form.querySelector("[data-signup-status]");
+  var button = form.querySelector("[data-signup-submit]");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var email = form.querySelector('input[name="email"]').value.trim();
+    var trap = form.querySelector('input[name="company"]').value;
+    if (trap) return;
+    if (!email) return;
+
+    button.disabled = true;
+    status.textContent = "Sending…";
+
+    fetch("/.netlify/functions/subscribe", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email: email, source: window.location.pathname })
+    })
+      .then(function (r) { return r.json().then(function (d) { return { ok: r.ok, data: d }; }); })
+      .then(function (res) {
+        if (!res.ok) throw new Error(res.data && res.data.error ? res.data.error : "Something went wrong");
+        status.textContent = "Check your inbox. The questions are on their way.";
+        form.querySelector('input[name="email"]').value = "";
+      })
+      .catch(function () {
+        status.textContent = "That didn't go through. Email claire@thespacecoaststories.com and I'll send it myself.";
+      })
+      .finally(function () { button.disabled = false; });
+  });
+})();
+</script>

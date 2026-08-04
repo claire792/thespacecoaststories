@@ -9,10 +9,15 @@
   </div>
 </section>
 
-<section class="section">
+{{ range $i, $g := $p.groups }}
+<section class="section {{ if modBool $i 2 }}panel-cream{{ end }}">
   <div class="wrap">
-    <div class="grid grid-3">
-      {{ range $p.services }}
+    <div class="center" style="max-width:640px;margin-inline:auto;">
+      <h2 style="margin-bottom:.4em;">{{ $g.label }}</h2>
+      {{ with $g.sub }}<p class="lead">{{ . }}</p>{{ end }}
+    </div>
+    <div class="grid grid-3" style="margin-top:2.5rem;">
+      {{ range $g.items }}
       <article class="tier {{ if .featured }}tier--feature{{ end }}" style="display:flex;flex-direction:column;">
         {{ if .featured }}<span class="tier__flag">Most requested</span>{{ end }}
         <div class="tier__name">{{ .name }}</div>
@@ -24,11 +29,48 @@
     </div>
   </div>
 </section>
+{{ end }}
+
+{{ with $p.credit_note }}
+<section class="section-tight">
+  <div class="wrap-narrow">
+    <div class="note">{{ . }}</div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Content }}
+<section class="section-tight">
+  <div class="wrap-narrow"><div class="prose">{{ . }}</div></div>
+</section>
+{{ end }}
+
+{{ with $p.faqs }}
+<section class="section-tight">
+  <div class="wrap-narrow">
+    <span class="eyebrow">Common questions</span>
+    <h2>What families ask</h2>
+    <div style="margin-top:1.5rem;">
+      {{ range . }}
+      <details style="border-top:1px solid var(--line);padding:1.2rem 0;">
+        <summary style="font-family:var(--serif);font-size:1.2rem;cursor:pointer;color:var(--ink);">{{ .q }}</summary>
+        <p style="margin:.9rem 0 0;color:var(--ink-soft);">{{ .a }}</p>
+      </details>
+      {{ end }}
+    </div>
+  </div>
+</section>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{{ range $i, $f := $p.faqs }}{{ if $i }},{{ end }}{"@type":"Question","name":{{ $f.q }},"acceptedAnswer":{"@type":"Answer","text":{{ $f.a }}}}{{ end }}]}
+</script>
+{{ end }}
+
+{{ partial "signup.html" . }}
 
 <section class="section-tight panel-ink center" style="padding-block:clamp(3rem,7vw,5rem);">
   <div class="wrap-narrow">
-    <h2 style="color:var(--white);">Ready to preserve their story?</h2>
-    <p class="lead" style="color:rgba(251,247,239,.82);">Tell us who the project is for, and we’ll help you choose the right place to begin.</p>
+    <h2 style="color:var(--white);">Not sure which one fits?</h2>
+    <p class="lead" style="color:rgba(251,247,239,.82);">Tell us who the project is for and we'll point you at the smallest thing that would actually help.</p>
     <a class="btn btn-primary" href="{{ "/contact/" | relURL }}" style="margin-top:1rem;">Start the conversation</a>
   </div>
 </section>

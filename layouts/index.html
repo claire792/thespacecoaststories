@@ -44,8 +44,8 @@
 
       <p class="hero__sub lead">{{ $p.hero_sub }}</p>
       <div class="btn-row">
-        <a class="btn btn-primary" href="{{ "/legacy-books/" | relURL }}">{{ $p.hero_cta1 | default "See legacy books" }}</a>
-        <a class="btn btn-ghost" href="{{ "/card-kits/" | relURL }}">{{ $p.hero_cta2 | default "Shop the card kits" }}</a>
+        <a class="btn btn-primary" href="{{ $p.hero_cta1_url | default "/services/" | relURL }}">{{ $p.hero_cta1 | default "See what it costs" }}</a>
+        <a class="btn btn-ghost" href="{{ $p.hero_cta2_url | default "/card-kits/" | relURL }}">{{ $p.hero_cta2 | default "Shop the card kits" }}</a>
       </div>
     </div>
     <div class="hero__art hero__art--readers">
@@ -87,6 +87,7 @@
       <div class="card">
         <span class="card__num">{{ .num }}</span>
         <h3>{{ .title }}</h3>
+        {{ with .price }}<p class="tier__price" style="margin-bottom:.6rem;">{{ . }}</p>{{ end }}
         <p>{{ .body }}</p>
         <a class="card__link" href="{{ .url | relURL }}">{{ .link_text }}</a>
       </div>
@@ -238,6 +239,8 @@
     </div>
   </div>
 </section>
+
+{{ partial "signup.html" . }}
 
 <!-- FINAL CTA -->
 <section class="section-tight panel-ink" style="text-align:center;padding-block:clamp(3rem,7vw,5rem);">

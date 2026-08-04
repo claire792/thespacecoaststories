@@ -20,9 +20,12 @@
   <div class="wrap-narrow">
     <div class="prose">{{ .Content }}</div>
     {{ with .Params.tags }}<div class="chip-row" style="margin-top:2.5rem;">{{ range . }}<span class="chip">{{ . }}</span>{{ end }}</div>{{ end }}
-    <div class="note" style="margin-top:2.5rem;">Thinking about capturing your own family's story? <a href="{{ "/legacy-books/" | relURL }}">See how legacy books work</a> or <a href="{{ "/contact/" | relURL }}">start a conversation</a>.</div>
+    <div class="note" style="margin-top:2.5rem;">{{ with .Params.post_cta }}{{ . | markdownify }}{{ else }}Thinking about capturing your own family's story? The smallest place to start is a <a href="{{ "/story-sessions/" | relURL }}">$399 Story Session</a> — one recorded hour that becomes a finished booklet. <a href="{{ "/services/" | relURL }}">All prices are here.</a>{{ end }}</div>
   </div>
 </article>
+
+{{ partial "signup.html" . }}
+
 <section class="section-tight">
   <div class="wrap">
     <h2 style="font-size:1.55rem;">Keep reading</h2>
