@@ -10,7 +10,7 @@
     {{- else if eq .Kind "taxonomy" -}}
       {{- $desc = printf "Browse the Space Coast Stories journal by %s to find useful family-history guides, local lives, legacy-book resources, and memorial writing help." (lower .Title) -}}
     {{- else if .IsSection -}}
-      {{- $desc = printf "Explore %s from Space Coast Stories, a personal-history and legacy-book studio serving Brevard County families." .Title -}}
+      {{- $desc = printf "Explore %s from Space Coast Stories, a Space Coast-based personal-history and legacy-book studio serving families nationwide." .Title -}}
     {{- else -}}
       {{- $desc = site.Params.description | plainify -}}
     {{- end -}}
@@ -85,6 +85,7 @@
   {{ range (index site.Data.site "service_areas") }}
     {{ $areas = $areas | append (dict "@type" "City" "name" .) }}
   {{ end }}
+  {{ $areas = $areas | append (dict "@type" "Country" "name" "United States") }}
   <script type="application/ld+json">
   {{ (dict
       "@context" "https://schema.org"
