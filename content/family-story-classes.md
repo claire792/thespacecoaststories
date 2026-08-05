@@ -1,8 +1,8 @@
 ---
 managed_page: true
 title: DIY Family Story Classes and Guided Courses
-seo_title: Family Storytelling Classes in Brevard County
-description: Practical family storytelling classes that teach you to interview relatives, organize memories and photographs, and create a family history keepsake.
+seo_title: Online Family Storytelling & Oral History Classes
+description: Practical online and Space Coast classes that teach families to interview relatives, organize memories and photographs, and create a history keepsake.
 image: images/feature-life-story-questions.jpg
 portrait: images/feature-life-story-questions.jpg
 portrait_alt: A printable set of life story interview questions
@@ -12,13 +12,15 @@ schema_type: Service
 service_type: Family history and memoir classes
 area_served:
 - Brevard County, Florida
-- Online
+- United States online
 show_contact_cta: true
 faqs:
 - q: Do I need writing experience?
   a: No. The class is designed for ordinary family members who want a clear process and practical tools.
 - q: Can a library or church host a class?
   a: Yes. Classes can be adapted for public programs, community groups, or private family gatherings.
+- q: Are classes available outside Florida?
+  a: Yes. In-person classes are available on the Space Coast, and online classes can be arranged for families and groups anywhere in the United States.
 - q: Are materials included?
   a: Depending on the class, participants receive worksheets, interview prompts, checklists, or printable guides.
 ---

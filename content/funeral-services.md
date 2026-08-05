@@ -1,7 +1,7 @@
 ---
 title: Funeral & Celebration-of-Life Story Services
-seo_title: Funeral Writing & Memorial Story Services in Brevard County
-description: Human-written obituaries, Eulogias, memorial keepsakes, tribute videos, Memory Stations, and posthumous books for Space Coast families and funeral homes.
+seo_title: Funeral Writing & Memorial Story Services
+description: Human-written obituaries, memorial keepsakes, tribute videos, Memory Stations, and posthumous books for families and funeral homes nationwide.
 image: images/book-table.jpg
 eyebrow: Thoughtful help when time is short
 lead: A person was more than a list of dates. We help families tell the story that belongs beside the facts, both for the service and for the years after it.
@@ -37,6 +37,6 @@ Learn more about [memorial and tribute books](/memorial-tribute-books/).
 
 Space Coast Stories can provide a quiet, human layer of support without adding work for your staff. Referral and pilot partnership options are available for independent funeral homes and hospice teams, including Eulogia and obituary packages, Memory Stations, tribute keepsakes, videos, and post-service book referrals.
 
-We serve Brevard County families in person and can work by phone or video when relatives live elsewhere.
+We serve Brevard County and the Space Coast in person. Obituary writing, Eulogias, tribute keepsakes, memorial books, and many professional partnerships are also available nationwide by phone or video.
 
 [Ask about a family project or professional partnership](/contact/).

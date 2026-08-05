@@ -1,9 +1,9 @@
 ---
 title: Home
-seo_title: "Capture Your Family's Stories | Brevard County, FL"
-description: Personal historian and legacy book studio serving Brevard County families. We record, write, design, and preserve the stories of parents and grandparents.
+seo_title: "Personal Historian & Legacy Books | Nationwide Service"
+description: Space Coast-based personal historian creating legacy books and family memoirs for families nationwide through in-person, phone, and video interviews.
 image: images/book-daughter.jpg
-hero_eyebrow: Personal history · Brevard County, Florida
+hero_eyebrow: Space Coast-based · Working with families nationwide
 hero_heading: Someday, someone will wish they'd asked.
 hero_prompts:
 - What's the bravest thing you ever did, and did anyone know at the time?
@@ -12,7 +12,7 @@ hero_prompts:
 - What did a Sunday smell like when you were ten?
 - What did you believe at twenty that you'd argue with now?
 - Describe the moment you knew your whole life had just changed.
-hero_sub: We're a legacy storytelling studio on the Space Coast. We help families capture a parent, a grandparent, a whole life, in their own voice, and turn it into something you can hold.
+hero_sub: We're a legacy storytelling studio based on Florida's Space Coast and working with families nationwide. We capture a parent, a grandparent, or a whole life in their own voice and turn it into something you can hold.
 hero_cta1: See what it costs
 hero_cta1_url: /services/
 hero_cta2: Shop the card kits
@@ -46,7 +46,7 @@ steps:
 - title: We meet and listen
   body: A relaxed conversation to learn who the book is for and what matters most. No homework, no pressure.
 - title: We interview
-  body: Recorded sessions, in person or by phone, on your schedule. We ask the good questions and follow where the story goes.
+  body: Recorded sessions in person across the Space Coast or by phone or video anywhere in the country. We ask the good questions and follow where the story goes.
 - title: We write and design
   body: We shape the transcripts into clean, readable chapters, add the photos, and lay it all out with care.
 - title: You hold the book
@@ -54,7 +54,7 @@ steps:
 demo_heading: Three lives. Three completely different books.
 demo_body: A legacy book should feel like the person, not a template. These sample concepts show how the cover, photographs, tone, and design can change with the life being told.
 b2b_heading: Bring storytelling to your community.
-b2b_body: We run warm, easy storytelling sessions for assisted living and senior communities across Brevard. Residents light up, families get keepsakes, and your activity calendar gets something with real heart in it. The first class is free so you can see how the room responds.
+b2b_body: We run warm, easy storytelling sessions for assisted living and senior communities across Brevard, with virtual programs available nationwide. Residents light up, families get keepsakes, and your activity calendar gets something with real heart in it. The first class is free so you can see how the room responds.
 cta_heading: The stories don't survive by accident.
 cta_body: Tell us who you're trying to remember. We'll tell you the simplest way to start.
 book_showcase:
@@ -94,5 +94,4 @@ journal_series:
   series_values:
   - Memory, Loss, and Legacy
 ---
-
 

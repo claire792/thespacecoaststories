@@ -12,6 +12,7 @@ tags:
 - memory care
 - caregiving
 draft: false
+post_cta: "If your family wants help gathering stories gently, learn about [dementia life story books](/dementia-life-story-books/) or start with a conversation about what your loved one can comfortably participate in."
 faqs:
 - q: Can you still capture the memories of someone with dementia?
   a: Often, yes, especially early. Dementia usually affects recent memory first while sparing older, deeper memories, so childhood and early-life stories frequently stay accessible well into the disease. The key is to start capturing them sooner rather than later.

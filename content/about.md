@@ -1,7 +1,7 @@
 ---
 title: "About Space Coast Stories"
 seo_title: "About Claire Szewczyk & Space Coast Stories"
-description: "Meet Claire Szewczyk, the Brevard County writer and personal historian behind Space Coast Stories, serving families across Florida's Space Coast."
+description: "Meet Claire Szewczyk, the Space Coast-based writer and personal historian creating legacy books for families locally and nationwide."
 image: "images/claire-headshot.jpg"
 eyebrow: "Who's behind this"
 lead: "A writer, a stack of question cards, and a stubborn belief that the people we love should get to keep their stories."
@@ -29,6 +29,6 @@ I can't stop people from going. But I can make sure that for the families I work
 
 ## The particulars
 
-I'm based in [Brevard County](/brevard-county/) and I work all over the Space Coast, from Melbourne up through Viera, Rockledge, and Merritt Island, and by phone or video for families who've spread out. I have a background in writing and communication, a good ear, and a real soft spot for the quiet ones at the end of the table.
+I'm based in [Brevard County](/brevard-county/) and work in person throughout the Space Coast, from Melbourne up through Viera, Rockledge, Merritt Island, and Titusville. I also work nationwide by phone or video, so the storyteller can be in Ohio, the adult children can be in three different states, and the project can still come together smoothly. I have a background in writing and communication, a good ear, and a real soft spot for the quiet ones at the end of the table.
 
 If any of this is ringing a bell for someone in your family, [let's talk](/contact/). Starting is the hard part, and I make that part easy.
