@@ -20,7 +20,15 @@ email: claire@thespacecoaststories.com
 phone: (321) 780-0784
 phone_note: Call or text — I answer personally
 square_checkout_url: https://square.link/REPLACE-ME
+story_session_checkout_url: https://square.link/REPLACE-ME
+audio_letters_checkout_url: https://square.link/REPLACE-ME
+story_line_phone: ''
+story_line_note: Your private story line. Save it as "Claire — Story Line."
 facebook: ''
 instagram: ''
-newsletter_name: Bright Side Brevard
-footer_note: Serving Brevard County and Indian River County, with remote projects available anywhere.
+newsletter_name: The Space Coast Stories letter
+magnet_eyebrow: Free download
+magnet_heading: The questions that actually get people talking.
+magnet_body: The list we use in real interviews, built to get past "it was fine" and into the stories you've never heard. Free, and yours in about thirty seconds.
+magnet_button: Send me the questions
+footer_note: Based on Florida's Space Coast. In-person service across Brevard and Indian River counties, with remote legacy projects available nationwide.
