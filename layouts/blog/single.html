@@ -23,12 +23,14 @@
     <div class="note article-cta" style="margin-top:2.5rem;">
       {{ with .Params.post_cta }}
         {{ . | markdownify }}
-      {{ else if eq .Params.category "Local History" }}
-        Does your family hold a Space Coast story that should not disappear? Start with a <a href="{{ "/story-sessions/" | relURL }}">$399 Story Session</a>, or explore our <a href="{{ "/space-coast-history/" | relURL }}">Space Coast history project</a>.
-      {{ else if eq .Params.category "Memorial" }}
-        Need help honoring someone in words? Explore <a href="{{ "/memorial-tribute-books/" | relURL }}">memorial and tribute books available nationwide</a>, or <a href="{{ "/contact/" | relURL }}">tell Claire what your family needs</a>.
       {{ else }}
-        Thinking about capturing your own family's story? The smallest place to start is a <a href="{{ "/story-sessions/" | relURL }}">$399 Story Session</a> — one recorded hour that becomes a finished booklet, available nationwide by phone or video. <a href="{{ "/services/" | relURL }}">See every option and price.</a>
+        {{ if eq $.Params.category "Local History" }}
+          Does your family hold a Space Coast story that should not disappear? Start with a <a href="{{ "/story-sessions/" | relURL }}">$399 Story Session</a>, or explore our <a href="{{ "/space-coast-history/" | relURL }}">Space Coast history project</a>.
+        {{ else if eq $.Params.category "Memorial" }}
+          Need help honoring someone in words? Explore <a href="{{ "/memorial-tribute-books/" | relURL }}">memorial and tribute books available nationwide</a>, or <a href="{{ "/contact/" | relURL }}">tell Claire what your family needs</a>.
+        {{ else }}
+          Thinking about capturing your own family's story? The smallest place to start is a <a href="{{ "/story-sessions/" | relURL }}">$399 Story Session</a> — one recorded hour that becomes a finished booklet, available nationwide by phone or video. <a href="{{ "/services/" | relURL }}">See every option and price.</a>
+        {{ end }}
       {{ end }}
     </div>
   </div>
