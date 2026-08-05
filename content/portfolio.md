@@ -1,11 +1,11 @@
 ---
 title: Legacy Book Portfolio and Sample Pages
 seo_title: Legacy Book Examples & Sample Pages
-description: See finished legacy book examples, cover concepts, and sample interior pages created by Space Coast Stories for family memoir and personal history projects.
+description: See legacy book examples, cover concepts, and sample pages from the Space Coast-based personal history studio serving families nationwide.
 image: /images/legacy-book-peggy.jpg
 layout: portfolio
 eyebrow: See the work
-lead: Every life asks for a different kind of book. Compare a photo-rich Mini Legacy Book with a narrative Full Legacy Book, then look through the real pages for yourself.
+lead: Every life asks for a different kind of book. Compare a photo-rich Mini Legacy Book with a narrative Full Legacy Book, then look through the real pages for yourself. Projects are available locally on the Space Coast and nationwide by phone or video.
 full_book:
   title: A Working Man's Moon
   subtitle: The Life of Bud Prather, from the Red Dirt of Georgia to the Last Launch on the Cape

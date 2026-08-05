@@ -1,10 +1,10 @@
 ---
 title: Legacy Story Services & Pricing
 seo_title: Legacy Book & Personal Historian Pricing
-description: Clear pricing for story sessions, audio letters, legacy letters, mini and full legacy books, veteran story books, memorial books, and storytelling workshops from Space Coast Stories.
+description: Clear pricing for nationwide legacy books, story sessions, audio letters, memorial books, and other personal history services from Space Coast Stories.
 layout: services
 eyebrow: Services & pricing
-lead: Start with one conversation for $399, or commission a whole life. Every price is on this page, because you shouldn't have to book a call just to find out what something costs.
+lead: Start with one conversation for $399, or commission a whole life. We work in person on Florida's Space Coast and nationwide by phone or video. Every price is on this page, because you shouldn't have to book a call just to find out what something costs.
 groups:
 - label: Start here
   sub: Small, finished projects that don't take months or thousands of dollars. Most families begin here.
@@ -71,5 +71,7 @@ faqs:
   a: A Story Session preserves a story about someone's life. A Legacy Letter is a message written forward from them to their family, closer to an ethical will than a memoir.
 - q: Can a small project turn into a bigger book later?
   a: Yes, and it often does. Session credit applies toward a Mini or Full Legacy Book for a year, so nothing you spend at the small end is wasted.
+- q: Do you work with families outside Florida?
+  a: Yes. Most personal history, legacy book, memorial book, and audio letter projects can be completed nationwide by phone or video. Relatives can contribute from several states, and finished books can be shipped to the family.
 show_contact_cta: false
 ---

@@ -2,7 +2,7 @@
 managed_page: true
 title: Story Sessions
 seo_title: One-Hour Story Session, $399 | Space Coast Stories
-description: One recorded hour on one theme, turned into a finished 15-page keepsake booklet with photographs. $399, no sales call, for families in Brevard County and anywhere by phone.
+description: One recorded hour on one theme, turned into a finished 15-page keepsake booklet with photographs. $399, available on the Space Coast or nationwide remotely.
 image: /images/interview.jpg
 portrait: /images/interview.jpg
 portrait_alt: Claire interviewing a client, taking notes as they talk
@@ -13,7 +13,7 @@ service_type: Themed personal history interview and keepsake booklet
 area_served:
 - Brevard County, Florida
 - Indian River County, Florida
-- Remote by phone or video
+- United States by phone or video
 show_contact_cta: true
 faqs:
 - q: What does $399 actually include?
@@ -25,7 +25,7 @@ faqs:
 - q: Does the money carry forward if we want a full book later?
   a: Yes. Every session earns $75 toward your next one, and the full price of your first session comes off a Mini or Full Legacy Book commissioned within twelve months.
 - q: Can the interview happen by phone?
-  a: Yes, and it works better than people expect. Plenty of storytellers relax more on the phone than they do with someone sitting across the table.
+  a: Yes. Story Sessions are available nationwide by phone or video, and plenty of storytellers relax more remotely than they do with someone sitting across the table.
 - q: What if my parent doesn't want to be interviewed?
   a: Tell them it's an hour, it's one topic, and they can stop whenever they like. Almost nobody stops.
 ---
@@ -47,7 +47,7 @@ You choose the theme. We build the questions around it and send them ahead of ti
 
 **Before.** A short call with you, the family member arranging it, to learn who we're talking to and what you're hoping to hear. Fifteen minutes.
 
-**The hour.** A recorded conversation, in your home, at their facility, or over the phone. It is a conversation, not an interrogation. We follow the memories that light them up.
+**The hour.** A recorded conversation in your home or facility on the Space Coast, or by phone or video anywhere in the United States. It is a conversation, not an interrogation. We follow the memories that light them up.
 
 **After.** We transcribe, shape it into readable chapters that still sound like them, place your photographs, and design a 15-page booklet. You review it, we fix anything wrong, and then it's printed.
 

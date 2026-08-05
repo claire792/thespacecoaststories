@@ -1,8 +1,8 @@
 ---
 managed_page: true
 title: Storytelling Workshops for Libraries and Senior Communities
-seo_title: Storytelling Workshops in Brevard County
-description: Warm, guided storytelling workshops for Brevard County libraries, senior communities, churches, clubs, and community groups.
+seo_title: Storytelling Workshops for Seniors & Community Groups
+description: Warm, guided storytelling workshops for Space Coast libraries and senior communities, with virtual programs available to groups nationwide.
 image: images/laugh-lines-workshop.jpg
 portrait: images/laugh-lines-workshop.jpg
 portrait_alt: Claire leading a lively Laugh Lines storytelling session with two residents in party hats and boas
@@ -13,6 +13,7 @@ service_type: Storytelling workshops and reminiscence programs
 area_served:
 - Brevard County, Florida
 - Indian River County, Florida
+- United States online
 show_contact_cta: true
 programs:
 - name: Laugh Lines
@@ -53,6 +54,8 @@ faqs:
   a: Most programs run about one hour, with options for shorter or recurring sessions.
 - q: Who are the workshops for?
   a: Libraries, senior living communities, churches, veterans groups, clubs, and community organizations can all host a session.
+- q: Are virtual workshops available outside Florida?
+  a: Yes. In-person programs are centered on the Space Coast, while virtual workshops can be arranged for libraries, senior communities, families, and organizations nationwide.
 - q: Do participants have to write?
   a: No. Sessions center on conversation and optional short activities, so people can participate comfortably at any level.
 ---

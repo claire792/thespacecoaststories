@@ -1,7 +1,7 @@
 ---
-title: Organizational, Founding & Space Coast History Projects
-seo_title: Organizational Oral History & NASA Legacy Projects
-description: Founding histories, employee and retiree profiles, memorial projects, oral histories, and storytelling programs for Space Coast organizations, clubs, and aerospace teams.
+title: Organizational, Founding & Oral History Projects
+seo_title: Organizational Oral History & Legacy Projects
+description: Founding histories, employee and retiree profiles, memorial projects, oral histories, and anniversary books for organizations nationwide.
 image: images/interview.jpg
 eyebrow: Preserve the people behind the organization
 lead: Institutions remember milestones. People remember what it felt like to build them. We gather both before the firsthand stories disappear.
@@ -13,6 +13,8 @@ show_contact_cta: true
 For businesses, nonprofits, clubs, churches, and community organizations, we can document how the organization began, the people who carried it through difficult years, and the traditions newer members may not know.
 
 Projects can become a printed anniversary book, a series of web profiles, a short exhibit, an audio collection, or a private archive for future leaders.
+
+Space Coast organizations can meet with Claire in person. Organizations elsewhere in the United States can complete interviews, archive reviews, writing, and design remotely.
 
 ## NASA, aerospace, and Space Coast workforce stories
 
