@@ -341,6 +341,9 @@ p { margin: 0 0 1.1em; }
 .article-head .cat { color: var(--coral-deep); font-family: var(--sans); font-weight: 700; text-transform: uppercase; letter-spacing: .12em; font-size: .72rem; }
 .article-head h1 { margin-top: .6rem; font-size: clamp(2.1rem, 5vw, 3.4rem); }
 .article-meta { font-family: var(--sans); font-size: .88rem; color: var(--muted); margin-top: .8rem; }
+.article-body { padding-bottom: clamp(2.5rem, 5vw, 4rem); }
+.article-cta { overflow-wrap: anywhere; }
+.article-cta p:last-child { margin-bottom: 0; }
 
 /* ---------- forms ---------- */
 .form { display: grid; gap: 1.1rem; }

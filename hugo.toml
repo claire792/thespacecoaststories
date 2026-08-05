@@ -10,7 +10,7 @@ buildFuture = false
 summaryLength = 40
 
 [params]
-  description = "Legacy storytelling and personal history for Brevard County families. We help you capture the people you love, in their own words, while there's still time to ask."
+  description = "Space Coast-based personal historian creating legacy books and family memoirs for families nationwide through in-person, phone, and video interviews."
   # These fall back to data/site.yaml values in templates; kept here for quick reference.
 
 [markup]
@@ -83,6 +83,10 @@ summaryLength = 40
   pageRef = "/services"
   weight = 10
 [[menu.footer]]
+  name = "Family History Books"
+  pageRef = "/family-history-book-service"
+  weight = 11
+[[menu.footer]]
   name = "Story Sessions"
   pageRef = "/story-sessions"
   weight = 12
@@ -110,6 +114,10 @@ summaryLength = 40
   name = "Brevard County"
   pageRef = "/brevard-county"
   weight = 25
+[[menu.footer]]
+  name = "Space Coast History"
+  pageRef = "/space-coast-history"
+  weight = 26
 [[menu.footer]]
   name = "The Journal"
   pageRef = "/blog"
