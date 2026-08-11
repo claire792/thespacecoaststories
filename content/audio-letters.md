@@ -2,11 +2,11 @@
 managed_page: true
 title: Audio Letters
 seo_title: Audio Letters — A Voice-Based Memoir Service | Space Coast Stories
-description: We send a question each week. Your parent calls a private line and answers in their own voice. At the end you get a printed book. From $349, for families anywhere.
+description: We send a question each week. Your parent calls a private line and answers in their own voice. At the end you get a printed keepsake. From $249, for families anywhere.
 image: /images/book-table.jpg
 portrait: /images/book-table.jpg
 portrait_alt: A finished legacy book resting on a table
-eyebrow: A memoir made out of phone calls · from $349
+eyebrow: A memoir made out of phone calls · from $249
 lead: No computer, no typing, no app to learn. We ask a question. They pick up the phone and answer it. Over a few weeks it becomes a book.
 schema_type: Service
 service_type: Asynchronous voice-based memoir and personal history service
@@ -39,7 +39,7 @@ We transcribe it, edit it lightly so it still sounds exactly like them, and writ
 
 ## Choose how long
 
-**Four weeks — $349.** Four questions, four answers, a designed 20-page booklet. A good test, and a good gift when a birthday is close.
+**Four weeks — $249.** Four questions, four answers, a smaller designed keepsake, and a $100 credit toward a longer Audio Letters term or legacy book. A good first step when a birthday is close.
 
 **Twelve weeks — $799.** Twelve stories with real range, a softcover book of roughly 60 pages, and enough material that patterns start to show up. This is the one most families pick.
 

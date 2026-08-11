@@ -3,7 +3,7 @@ title: Home
 seo_title: "Personal Historian & Legacy Books | Nationwide Service"
 description: Space Coast-based personal historian creating legacy books and family memoirs for families nationwide through in-person, phone, and video interviews.
 image: images/book-daughter.jpg
-hero_eyebrow: Space Coast-based · Working with families nationwide
+hero_eyebrow: Working with families in all 50 states · Based on Florida's Space Coast
 hero_heading: Someday, someone will wish they'd asked.
 hero_prompts:
 - What's the bravest thing you ever did, and did anyone know at the time?
@@ -12,20 +12,27 @@ hero_prompts:
 - What did a Sunday smell like when you were ten?
 - What did you believe at twenty that you'd argue with now?
 - Describe the moment you knew your whole life had just changed.
-hero_sub: We're a legacy storytelling studio based on Florida's Space Coast and working with families nationwide. We capture a parent, a grandparent, or a whole life in their own voice and turn it into something you can hold.
-hero_cta1: See what it costs
-hero_cta1_url: /services/
-hero_cta2: Shop the card kits
-hero_cta2_url: /card-kits/
+hero_sub: We capture a parent, a grandparent, or a whole life in their own voice and turn it into something you can hold. Every interview is led by a real person. Every story is shaped by a real writer.
+hero_price_line: Prices start at $149. No sales call required.
+hero_cta1: Start with One Story
+hero_cta1_url: /one-story/
+hero_cta2: See everything we make
+hero_cta2_url: /shop/
 offerings_heading: Start small, or go all in.
 offerings_sub: 'Prices are on the page, not behind a phone call. However you begin, the point is the same: get the story down before it''s only half-remembered.'
 offerings:
-- num: Kit
-  title: Tell Me Your Story cards
-  price: $20
-  body: A deck of the questions people wish they'd asked. Pull one out at Sunday dinner and watch what happens. The easiest place to start.
-  url: /card-kits
-  link_text: See the card kits
+- num: One
+  title: One Story
+  price: $149
+  body: One question written for your person. One phone call. One story edited by a real writer and mailed as a printed keepsake.
+  url: /one-story/
+  link_text: Start with one story
+- num: Fast
+  title: Rapid Fire
+  price: $249
+  body: A lively 45-minute conversation on one theme, turned into a designed digital booklet and one printed copy.
+  url: /rapid-fire/
+  link_text: See Rapid Fire
 - num: Session
   title: One hour, one story, one booklet
   price: $399
@@ -54,7 +61,7 @@ steps:
 demo_heading: Three lives. Three completely different books.
 demo_body: A legacy book should feel like the person, not a template. These sample concepts show how the cover, photographs, tone, and design can change with the life being told.
 b2b_heading: Bring storytelling to your community.
-b2b_body: We run warm, easy storytelling sessions for assisted living and senior communities across Brevard, with virtual programs available nationwide. Residents light up, families get keepsakes, and your activity calendar gets something with real heart in it. The first class is free so you can see how the room responds.
+b2b_body: We run warm, easy storytelling sessions for assisted living, senior communities, libraries, veterans groups, and nonprofits nationwide. Virtual programs work anywhere; in-person programs are available in Central Florida. Residents light up, families get keepsakes, and your calendar gets something with real heart in it.
 cta_heading: The stories don't survive by accident.
 cta_body: Tell us who you're trying to remember. We'll tell you the simplest way to start.
 book_showcase:
@@ -94,4 +101,3 @@ journal_series:
   series_values:
   - Memory, Loss, and Legacy
 ---
-
