@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $p := .Params }}
-{{ $s := site.Data.site }}
+{{ $s := hugo.Data.site }}
 
 <!-- HERO -->
 <style>
@@ -43,6 +43,7 @@
       <h1>{{ $p.hero_heading | default "Someday, someone will wish they'd asked." }}</h1>
 
       <p class="hero__sub lead">{{ $p.hero_sub }}</p>
+      {{ with $p.hero_price_line }}<p class="hero-price-line">{{ . }}</p>{{ end }}
       <div class="btn-row">
         <a class="btn btn-primary" href="{{ $p.hero_cta1_url | default "/services/" | relURL }}">{{ $p.hero_cta1 | default "See what it costs" }}</a>
         <a class="btn btn-ghost" href="{{ $p.hero_cta2_url | default "/card-kits/" | relURL }}">{{ $p.hero_cta2 | default "Shop the card kits" }}</a>
@@ -78,11 +79,11 @@
 <section class="section">
   <div class="wrap">
     <div class="center" style="max-width:640px;margin-inline:auto;">
-      <span class="eyebrow" style="justify-content:center;">Three ways to begin</span>
+      <span class="eyebrow" style="justify-content:center;">Four ways to begin</span>
       <h2>{{ $p.offerings_heading | default "Start small, or go all in." }}</h2>
       <p class="lead">{{ $p.offerings_sub }}</p>
     </div>
-    <div class="grid grid-3" style="margin-top:3rem;">
+    <div class="grid grid-4" style="margin-top:3rem;">
       {{ range $p.offerings }}
       <div class="card">
         <span class="card__num">{{ .num }}</span>
@@ -233,7 +234,7 @@
         </div>
         <div style="text-align:left;">
           <a class="btn btn-primary" href="{{ "/contact/" | relURL }}">Book a free demo class</a>
-          <p style="font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:.9rem 0 0;">First class is on us. Recurring sessions from $275.</p>
+          <p style="font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:.9rem 0 0;">Virtual nationwide. First class is on us. Recurring sessions from $275.</p>
         </div>
       </div>
     </div>
@@ -249,7 +250,7 @@
     <p class="lead" style="color:rgba(251,247,239,.82);">{{ $p.cta_body }}</p>
     <div class="btn-row" style="justify-content:center;margin-top:1.4rem;">
       <a class="btn btn-primary" href="{{ "/contact/" | relURL }}">Start the conversation</a>
-      <a class="btn btn-ghost" href="{{ "/blog/" | relURL }}">Read the journal</a>
+      <a class="btn btn-ghost" href="{{ "/shop/" | relURL }}">Browse the shop</a>
     </div>
   </div>
 </section>

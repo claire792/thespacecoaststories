@@ -27,30 +27,31 @@ summaryLength = 40
 # Main navigation
 [menu]
   [[menu.main]]
-    name = "Legacy Books"
-    pageRef = "/legacy-books"
+    name = "Shop"
+    pageRef = "/shop"
     weight = 10
   [[menu.main]]
-    name = "Pricing"
+    name = "Services"
     pageRef = "/services"
     weight = 15
   [[menu.main]]
-    name = "Card Kits"
-    pageRef = "/card-kits"
+    name = "Free Tools"
+    pageRef = "/tools"
     weight = 20
-  [[menu.main]]
-    name = "Story Prompts"
-    url = "/story-prompts/"
-    weight = 35
   [[menu.main]]
     name = "Journal"
     pageRef = "/blog"
-    weight = 40
+    weight = 30
   [[menu.main]]
     identifier = "about"
     name = "About"
     pageRef = "/about"
     weight = 60
+  [[menu.main]]
+    name = "Nationwide Service"
+    pageRef = "/nationwide"
+    parent = "about"
+    weight = 5
   [[menu.main]]
     name = "Portfolio"
     pageRef = "/portfolio"
@@ -78,6 +79,26 @@ summaryLength = 40
     weight = 50
 
 # Footer navigation
+[[menu.footer]]
+  name = "Shop All"
+  pageRef = "/shop"
+  weight = 5
+[[menu.footer]]
+  name = "One Story"
+  pageRef = "/one-story"
+  weight = 6
+[[menu.footer]]
+  name = "Gift Certificates"
+  pageRef = "/gift"
+  weight = 7
+[[menu.footer]]
+  name = "Free Tools"
+  pageRef = "/tools"
+  weight = 8
+[[menu.footer]]
+  name = "Nationwide Service"
+  pageRef = "/nationwide"
+  weight = 9
 [[menu.footer]]
   name = "Legacy Books"
   pageRef = "/services"
@@ -108,7 +129,7 @@ summaryLength = 40
   weight = 20
 [[menu.footer]]
   name = "Story Prompts"
-  url = "/story-prompts/"
+  url = "/tools/#question-generator"
   weight = 22
 [[menu.footer]]
   name = "Brevard County"

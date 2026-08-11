@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $p := .Params }}
-{{ $s := site.Data.site }}
+{{ $s := hugo.Data.site }}
 <section class="section-tight">
   <div class="wrap">
     <div class="grid grid-2" style="gap:clamp(2rem,6vw,4rem);align-items:start;">
@@ -39,6 +39,10 @@
             <label for="interest">What's this about?</label>
             <select id="interest" name="interest">
               <option>A legacy book for my family</option>
+              <option>One Story — $149</option>
+              <option>Rapid Fire — $249</option>
+              <option>A gift certificate</option>
+              <option>Story Postcards</option>
               <option>A memorial / tribute book</option>
               <option>Card kits</option>
               <option>A workshop for my community or group</option>

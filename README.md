@@ -14,7 +14,7 @@ Hugo static site with Decap CMS, built to deploy on Netlify at
 All of these are editable in the CMS once it's live, or directly in the files listed.
 
 - [ ] **Contact email & phone** — `data/site.yaml` (CMS → Site Settings). Placeholders are in now.
-- [ ] **Square checkout link** for the card kits — `data/site.yaml` → `square_checkout_url`.
+- [ ] **Square checkout links** — add the product/payment links in `data/site.yaml`. The full placeholder list is in `NATIONAL-GROWTH-IMPLEMENTATION.md`.
 - [ ] **Your real origin story** on the About page — `content/about.md`. A heartfelt draft is in place; swap in the true version.
 - [ ] **Social links** (Facebook/Instagram) — `data/site.yaml`.
 - [ ] **Photos** (optional) — headshot for About, card-kit shot, a workshop photo. Add via the CMS or in `static/images/`.
@@ -81,3 +81,7 @@ npx decap-server        # local CMS backend; then open /admin/
 ## Contact form
 
 Uses **Netlify Forms** (no setup once deployed). Submissions appear in Netlify -> **Forms**. Add a notification email there to get pinged on new inquiries.
+
+## Story-letter email sequence
+
+The signup form uses Resend plus Netlify Blobs. Add `RESEND_API_KEY`, `RESEND_AUDIENCE_ID`, and `RESEND_FROM` in Netlify. The immediate download is followed by two scheduled emails; details are in `NATIONAL-GROWTH-IMPLEMENTATION.md`.

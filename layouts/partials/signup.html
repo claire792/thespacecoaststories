@@ -1,4 +1,4 @@
-{{ $s := site.Data.site }}
+{{ $s := hugo.Data.site }}
 <section class="section-tight panel-cream" data-signup>
   <div class="wrap-narrow">
     <span class="eyebrow">{{ $s.magnet_eyebrow | default "Free download" }}</span>
@@ -6,7 +6,7 @@
     <p class="lead">{{ $s.magnet_body | default "The ten questions that open people up fastest, pulled from every interview we've done. Free, and yours in about thirty seconds." }}</p>
 
     <form class="form signup-form" data-signup-form style="margin-top:1.5rem;">
-      <p hidden><label>Skip this: <input name="company" tabindex="-1" autocomplete="off"></label></p>
+      <p hidden><label>Skip this: <input name="company" type="text" tabindex="-1" autocomplete="off"></label></p>
       <div>
         <label for="signup-email">Email address</label>
         <input id="signup-email" name="email" type="email" required autocomplete="email" placeholder="you@example.com">

@@ -1,0 +1,87 @@
+{{ define "main" }}
+{{ $p := .Params }}
+<section class="offer-hero section-tight panel-cream">
+  <div class="wrap offer-hero__grid">
+    <div>
+      <span class="eyebrow">{{ $p.eyebrow }}</span>
+      <h1>{{ .Title }}</h1>
+      <p class="lead">{{ $p.lead }}</p>
+      {{ with $p.human_note }}<p class="human-note"><strong>Human first:</strong> {{ . }}</p>{{ end }}
+      <div class="btn-row" style="margin-top:1.5rem;">
+        {{ if $p.purchase_placeholder }}
+          <span class="btn btn-primary btn-disabled" aria-disabled="true">Square checkout coming soon</span>
+        {{ else if $p.cta_url }}
+          <a class="btn btn-primary" href="{{ $p.cta_url }}">{{ $p.cta_label | default "Start here" }}</a>
+        {{ end }}
+        <a class="btn btn-ghost" href="{{ "/contact/" | relURL }}">Ask Claire a question</a>
+      </div>
+      {{ with $p.purchase_note }}<p class="microcopy">{{ . }}</p>{{ end }}
+    </div>
+    <aside class="offer-price-card">
+      {{ with $p.badge }}<span class="chip">{{ . }}</span>{{ end }}
+      {{ with $p.price }}<div class="offer-price">{{ . }}</div>{{ end }}
+      {{ with $p.price_note }}<p>{{ . }}</p>{{ end }}
+      {{ with $p.facts }}
+      <dl class="fact-list">
+        {{ range . }}<div><dt>{{ .label }}</dt><dd>{{ .value }}</dd></div>{{ end }}
+      </dl>
+      {{ end }}
+    </aside>
+  </div>
+</section>
+
+{{ with $p.included }}
+<section class="section-tight">
+  <div class="wrap">
+    <div class="grid grid-2" style="align-items:start;gap:clamp(2rem,6vw,5rem);">
+      <div>
+        <span class="eyebrow">What you get</span>
+        <h2>{{ $p.included_heading | default "A finished story, not homework." }}</h2>
+        {{ with $p.included_lead }}<p class="lead">{{ . }}</p>{{ end }}
+      </div>
+      <ul class="check-list">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with $p.states }}
+<section class="section-tight nationwide-coverage">
+  <div class="wrap">
+    <div class="nationwide-coverage__head"><div><span class="eyebrow">Nationwide means nationwide</span><h2>All 50 states are in the service area.</h2></div><div class="coverage-mark" aria-hidden="true"><strong>50</strong><span>states</span></div></div>
+    <ul class="state-grid" aria-label="States served">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+  </div>
+</section>
+{{ end }}
+
+{{ with $p.steps }}
+<section class="section panel-cream">
+  <div class="wrap">
+    <span class="eyebrow">How it works</span>
+    <h2>{{ $p.steps_heading | default "Simple on purpose." }}</h2>
+    <div class="steps steps--wide" style="margin-top:2rem;">
+      {{ range . }}<div class="step"><div class="step__n" aria-hidden="true"></div><div><h3>{{ .title }}</h3><p>{{ .body }}</p></div></div>{{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Content }}
+<section class="section-tight"><div class="wrap-narrow"><div class="prose">{{ . }}</div></div></section>
+{{ end }}
+
+{{ with $p.faqs }}
+<section class="section-tight">
+  <div class="wrap-narrow">
+    <span class="eyebrow">Common questions</span><h2>The practical details</h2>
+    <div class="faq-stack">{{ range . }}<details><summary>{{ .q }}</summary><p>{{ .a }}</p></details>{{ end }}</div>
+  </div>
+</section>
+{{ end }}
+
+{{ with $p.related }}
+<section class="section panel-cream"><div class="wrap"><span class="eyebrow">Other ways to begin</span><div class="grid grid-3">{{ range . }}<article class="card"><span class="card__num">{{ .price }}</span><h3>{{ .name }}</h3><p>{{ .body }}</p><a class="card__link" href="{{ .url | relURL }}">See the details</a></article>{{ end }}</div></div></section>
+{{ end }}
+
+<section class="section-tight panel-ink center"><div class="wrap-narrow"><h2>One story is enough to start.</h2><p class="lead" style="color:rgba(251,247,239,.82);">Tell us who you are trying to remember. We will point you to the smallest thing that will help.</p><a class="btn btn-primary" href="{{ "/contact/" | relURL }}">Start the conversation</a></div></section>
+{{ end }}

@@ -22,6 +22,11 @@
   to = "/admin/"
   status = 301
 
+[[redirects]]
+  from = "/story-prompts/"
+  to = "/tools/#question-generator"
+  status = 301
+
 # SEO route cleanup: preserve authority from older/incorrect URLs and remove 4XX crawl paths.
 [[redirects]]
   from = "/journal"
@@ -64,4 +69,3 @@
   to = "/blog/jim-morrison-melbourne-florida/"
   status = 301
   force = true
-

@@ -31,6 +31,31 @@
 </section>
 {{ end }}
 
+{{ with $p.comparison }}
+<section class="section panel-ink">
+  <div class="wrap">
+    <div style="max-width:720px;margin-bottom:2rem;">
+      <span class="eyebrow">An honest comparison</span>
+      <h2>{{ $p.comparison_heading }}</h2>
+      <p class="lead" style="color:rgba(251,247,239,.82);">{{ $p.comparison_lead }}</p>
+    </div>
+    <div class="table-scroll">
+      <table class="compare-table">
+        <thead><tr><th scope="col">Option</th><th scope="col">Price</th><th scope="col">Prompt</th><th scope="col">Interview</th><th scope="col">Editing</th><th scope="col">Keepsake</th></tr></thead>
+        <tbody>
+          {{ range . }}
+          <tr class="{{ if in .name "Space Coast Stories" }}is-us{{ end }}">
+            <th scope="row">{{ .name }}</th><td>{{ .price }}</td><td>{{ .prompt }}</td><td>{{ .interview }}</td><td>{{ .editing }}</td><td>{{ .keepsake }}</td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
+    <p class="comparison-note">Competitor prices shown from the August 2026 growth-plan review and may change. We would rather help you choose honestly than pretend every family needs the same thing.</p>
+  </div>
+</section>
+{{ end }}
+
 {{ with $p.credit_note }}
 <section class="section-tight">
   <div class="wrap-narrow">
@@ -60,9 +85,6 @@
     </div>
   </div>
 </section>
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{{ range $i, $f := $p.faqs }}{{ if $i }},{{ end }}{"@type":"Question","name":{{ $f.q }},"acceptedAnswer":{"@type":"Answer","text":{{ $f.a }}}}{{ end }}]}
-</script>
 {{ end }}
 
 {{ partial "signup.html" . }}

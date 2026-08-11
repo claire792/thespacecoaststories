@@ -1,0 +1,66 @@
+{{ define "main" }}
+{{ $p := .Params }}
+<section class="section-tight panel-cream"><div class="wrap-narrow center"><span class="eyebrow">{{ $p.eyebrow }}</span><h1>{{ .Title }}</h1><p class="lead">{{ $p.lead }}</p></div></section>
+
+<nav class="tool-jump wrap" aria-label="Choose a free tool">
+  <a href="#question-generator">Question generator</a><a href="#cost-calculator">Cost calculator</a><a href="#eulogy-builder">Eulogy outline</a><a href="#right-fit-quiz">What fits?</a><a href="#printables">Printables</a>
+</nav>
+
+<section class="section tool-section" id="question-generator"><div class="wrap tool-layout">
+  <div><span class="eyebrow">Free tool 01</span><h2>Question Generator</h2><p class="lead">Choose the person, the time, and the kind of story. Get ten questions specific enough to make somebody remember a real day.</p><p class="privacy-note">Your choices stay in your browser. Nothing is uploaded.</p></div>
+  <div class="tool-card">
+    <div class="field-half"><div><label for="q-relationship">Who are you asking?</label><select id="q-relationship"><option value="parent">A parent</option><option value="grandparent">A grandparent</option><option value="partner">A spouse or partner</option><option value="veteran">A veteran</option><option value="sibling">A sibling</option><option value="friend">A friend</option></select></div><div><label for="q-decade">Which era?</label><select id="q-decade"><option value="childhood">Childhood</option><option value="teen">Teen years</option><option value="young-adult">Young adulthood</option><option value="midlife">Work and family years</option><option value="today">Looking back now</option></select></div></div>
+    <div><label for="q-theme">What kind of story?</label><select id="q-theme"><option value="home">Home and daily life</option><option value="love">Love and relationships</option><option value="work">Work and purpose</option><option value="turning">Turning points</option><option value="tradition">Traditions and recipes</option><option value="service">Service and sacrifice</option></select></div>
+    <button class="btn btn-primary" id="generate-questions" type="button">Give me ten questions</button>
+    <div class="tool-result" id="question-results" aria-live="polite"></div>
+  </div>
+</div></section>
+
+<section class="section panel-cream tool-section" id="cost-calculator"><div class="wrap tool-layout">
+  <div><span class="eyebrow">Free tool 02</span><h2>Legacy Book Cost Calculator</h2><p class="lead">A useful range before you contact anyone. The result also shows when a smaller fixed-price service makes more sense than a custom book.</p></div>
+  <div class="tool-card">
+    <div class="field-half"><div><label for="calc-interviews">Interview hours</label><input id="calc-interviews" type="number" min="1" max="30" value="3"></div><div><label for="calc-pages">Finished pages</label><input id="calc-pages" type="number" min="4" max="300" value="40"></div></div>
+    <div class="field-half"><div><label for="calc-photos">Photographs</label><input id="calc-photos" type="number" min="0" max="500" value="20"></div><div><label for="calc-format">Format</label><select id="calc-format"><option value="digital">Digital keepsake</option><option value="softcover">Softcover book</option><option value="hardcover" selected>Hardcover book</option></select></div></div>
+    <button class="btn btn-primary" id="calculate-cost" type="button">Show my range</button>
+    <div class="tool-result" id="cost-result" aria-live="polite"></div>
+  </div>
+</div></section>
+
+<section class="section tool-section" id="eulogy-builder"><div class="wrap tool-layout">
+  <div><span class="eyebrow">Free tool 03</span><h2>Eulogy Outline Builder</h2><p class="lead">Six answers become a calm, readable structure. This does not write over your voice; it gives your memories somewhere to go.</p><p class="privacy-note">Nothing you type leaves this page.</p></div>
+  <form class="tool-card" id="eulogy-form">
+    <label for="eu-name">Their name and your relationship</label><input id="eu-name" type="text" placeholder="My father, Robert">
+    <label for="eu-trait">What quality defined them?</label><textarea id="eu-trait" placeholder="He made people feel useful, even when they were falling apart."></textarea>
+    <label for="eu-scene">One scene that shows that quality</label><textarea id="eu-scene" placeholder="A specific afternoon, habit, joke, or act of care."></textarea>
+    <label for="eu-loved">What did they love?</label><textarea id="eu-loved" placeholder="People, places, work, music, food, rituals."></textarea>
+    <label for="eu-taught">What did they teach you?</label><textarea id="eu-taught" placeholder="A lesson you carry, whether they said it directly or not."></textarea>
+    <label for="eu-close">What do you want to say at the end?</label><textarea id="eu-close" placeholder="A goodbye, a thank-you, or a promise."></textarea>
+    <button class="btn btn-primary" type="submit">Build my outline</button>
+    <div class="tool-result" id="eulogy-result" aria-live="polite"></div>
+  </form>
+</div></section>
+
+<section class="section panel-ink tool-section" id="right-fit-quiz"><div class="wrap tool-layout">
+  <div><span class="eyebrow">Free tool 04</span><h2>What should we make?</h2><p class="lead" style="color:rgba(251,247,239,.82);">Two minutes. One practical recommendation. We will not funnel a $149 problem into a $9,500 answer.</p></div>
+  <div class="tool-card tool-card--light">
+    <label for="fit-goal">What matters most?</label><select id="fit-goal"><option value="one">Save one meaningful story</option><option value="voice">Keep hearing their voice over time</option><option value="conversation">Have a lively guided conversation</option><option value="whole">Capture a larger part of a life</option><option value="family">Bring several relatives together</option><option value="memorial">Make something for a memorial</option><option value="gift">Give this as a gift</option></select>
+    <div class="field-half"><div><label for="fit-time">How fast?</label><select id="fit-time"><option value="flexible">No hard deadline</option><option value="month">Within a month</option><option value="week">Within a week</option></select></div><div><label for="fit-budget">Comfortable budget</label><select id="fit-budget"><option value="under150">Under $150</option><option value="under300">$150–$299</option><option value="under700">$300–$699</option><option value="under1600">$700–$1,599</option><option value="custom">$1,600+</option></select></div></div>
+    <button class="btn btn-primary" id="find-fit" type="button">Show my best fit</button>
+    <div class="tool-result" id="fit-result" aria-live="polite"></div>
+  </div>
+</div></section>
+
+<section class="section tool-section" id="printables"><div class="wrap"><div class="center" style="max-width:720px;margin-inline:auto;"><span class="eyebrow" style="justify-content:center;">Free printables</span><h2>Bring one page. Start there.</h2><p class="lead">No email wall for the simple stuff. Open either sheet and print it from your browser.</p></div>
+  <div class="grid grid-2" style="margin-top:2.5rem;">
+    <article class="printable-card"><span class="card__num">One-page checklist</span><h3>Interview Day Checklist</h3><p>What to bring, how to record, where to sit, and what to do before the first question.</p><button class="btn btn-ghost" type="button" data-print-sheet="interview-sheet">Open printable</button></article>
+    <article class="printable-card"><span class="card__num">One-page prompt sheet</span><h3>Questions for an Old Photograph</h3><p>Prompts that move beyond “Who is this?” and into the room, the day, and what happened next.</p><button class="btn btn-ghost" type="button" data-print-sheet="photo-sheet">Open printable</button></article>
+  </div>
+</div></section>
+
+<section class="print-sheet" id="interview-sheet" hidden><button class="print-sheet__close" type="button" data-close-sheet>Close</button><span class="eyebrow">Space Coast Stories · Free printable</span><h1>Interview Day Checklist</h1><div class="print-grid"><div><h2>Before</h2><ul><li>Choose one theme, not an entire lifetime.</li><li>Charge the phone or recorder.</li><li>Bring a second recording device if possible.</li><li>Find a quiet room with soft furniture.</li><li>Ask permission to record.</li></ul></div><div><h2>Bring</h2><ul><li>Five photographs or objects</li><li>Water and a light snack</li><li>Names and dates you already know</li><li>Paper for follow-up notes</li><li>Patience for pauses</li></ul></div><div><h2>During</h2><ul><li>Ask one question at a time.</li><li>Wait three seconds longer than feels natural.</li><li>Ask, “What happened next?”</li><li>Do not correct the story mid-memory.</li><li>Stop before everyone is exhausted.</li></ul></div><div><h2>After</h2><ul><li>Back up the recording twice.</li><li>Write down spellings and open questions.</li><li>Name the file with the person and date.</li><li>Send a thank-you.</li><li>Choose the next small story.</li></ul></div></div><button class="btn btn-primary screen-only" type="button" onclick="window.print()">Print this page</button></section>
+
+<section class="print-sheet" id="photo-sheet" hidden><button class="print-sheet__close" type="button" data-close-sheet>Close</button><span class="eyebrow">Space Coast Stories · Free printable</span><h1>Questions for an Old Photograph</h1><ol class="photo-prompts"><li>Who took this photograph, and why that day?</li><li>What happened five minutes before it?</li><li>What do you remember about the room or place?</li><li>What could you hear nearby?</li><li>What were you wearing, and how did you feel in it?</li><li>Who is missing from the photograph?</li><li>What was happening in the family then that the picture does not show?</li><li>Which person here changed the most afterward?</li><li>What happened later that day?</li><li>If this photograph could speak, what would it correct?</li><li>Who should have this picture someday?</li><li>What is the story you never want the caption to lose?</li></ol><button class="btn btn-primary screen-only" type="button" onclick="window.print()">Print this page</button></section>
+
+<div id="free-download">{{ partial "signup.html" . }}</div>
+<script src="{{ "js/tools.js" | relURL }}" defer></script>
+{{ end }}

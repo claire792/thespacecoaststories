@@ -1,0 +1,26 @@
+{{ define "main" }}
+{{ $p := .Params }}
+<section class="section-tight panel-cream"><div class="wrap-narrow center"><span class="eyebrow">{{ $p.eyebrow }}</span><h1>{{ .Title }}</h1><p class="lead">{{ $p.lead }}</p></div></section>
+<section class="section">
+  <div class="wrap">
+    {{ with $p.filters }}<div class="catalog-filters" role="group" aria-label="Filter products"><button class="chip is-active" type="button" data-catalog-filter="all">Everything</button>{{ range . }}<button class="chip" type="button" data-catalog-filter="{{ .key }}">{{ .label }}</button>{{ end }}</div>{{ end }}
+    <div class="catalog-grid" data-catalog>
+      {{ range $p.products }}
+      <article class="catalog-card {{ if .featured }}catalog-card--featured{{ end }}" data-catalog-category="{{ .category }}">
+        <div class="catalog-card__top"><span class="chip">{{ .tag }}</span>{{ if .featured }}<span class="catalog-card__flag">Best first step</span>{{ end }}</div>
+        <h2>{{ .name }}</h2><div class="tier__price">{{ .price }}</div><p>{{ .desc }}</p>
+        <div class="catalog-card__actions">
+          {{ with .url }}<a class="btn btn-ghost" href="{{ . | relURL }}">See details</a>{{ end }}
+          {{ if .purchase_placeholder }}<span class="btn btn-primary btn-disabled" aria-disabled="true">Square link coming soon</span>{{ end }}
+        </div>
+      </article>
+      {{ end }}
+    </div>
+    {{ with .Content }}<div class="prose wrap-narrow" style="margin-top:3rem;">{{ . }}</div>{{ end }}
+  </div>
+</section>
+<script>
+(function(){var buttons=document.querySelectorAll('[data-catalog-filter]');var cards=document.querySelectorAll('[data-catalog-category]');buttons.forEach(function(button){button.addEventListener('click',function(){var key=button.dataset.catalogFilter;buttons.forEach(function(b){b.classList.toggle('is-active',b===button);});cards.forEach(function(card){card.hidden=key!=='all'&&card.dataset.catalogCategory!==key;});});});})();
+</script>
+{{ partial "signup.html" . }}
+{{ end }}
