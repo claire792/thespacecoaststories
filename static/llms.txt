@@ -1,8 +1,15 @@
 # Space Coast Stories
 
-> Space Coast Stories is a personal history and legacy book studio based in Brevard County, Florida, serving families nationwide by phone and video as well as locally in person. Claire Szewczyk turns life stories, photographs, letters, and memories into legacy books, memorial books, veteran stories, and guided workshops.
+> Space Coast Stories is a human-first personal history and legacy book studio based on Florida's Space Coast and serving families in all 50 states by phone and video. Claire Szewczyk personally interviews, writes, and edits life stories, photographs, letters, and memories into printed family keepsakes. Services start at $149 with One Story; there is no subscription and no AI memoir writing.
 
 ## Key pages
+- /one-story/ - one personal prompt, one phone call, human editing, and one printed keepsake for $149
+- /shop/ - all DIY, physical, gift, and human-written options sorted by price
+- /nationwide/ - how phone and video projects work in all 50 states
+- /tools/ - free question generator, legacy book cost calculator, eulogy outline builder, quiz, and printables
+- /diy/ - printable prompts, interview templates, eulogy tools, and other self-guided products
+- /gift/ - printable gift certificates usable nationwide
+- /rapid-fire/ - 45-minute remote interview, digital booklet, and one printed copy for $249
 - /legacy-books/ - custom legacy books
 - /family-history-book-service/ - family history book writing, design, and print preparation
 - /life-story-books-for-parents-grandparents/ - custom life story books for families nationwide
@@ -18,6 +25,17 @@
 
 ## Expertise
 Personal history interviews, oral history, family memoirs, legacy books, memorial and tribute books, veteran stories, NASA and Space Coast oral history, legacy letters, family photograph organization, and storytelling workshops.
+
+## Published entry pricing
+- One Story: $149
+- Rapid Fire: $249
+- Audio Letters: from $249
+- Story Session: $399
+- Memorial Express: $650
+- Family Reunion Book: $1,200
+- The Interview Day: $1,500
+- Mini Legacy Book: from $3,000
+- Full Legacy Book: $9,500
 
 ## Journal series
 - Ask a Historian: https://thespacecoaststories.com/series/ask-a-historian/

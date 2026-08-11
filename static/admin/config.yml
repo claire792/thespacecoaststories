@@ -162,6 +162,15 @@ collections:
           - { label: "Square checkout URL", name: "square_checkout_url", widget: "string", hint: "Paste your Square Online link for the card kits." }
           - { label: "Story Session checkout URL", name: "story_session_checkout_url", widget: "string", required: false, hint: "Square payment link for the $399 Story Session." }
           - { label: "Audio Letters checkout URL", name: "audio_letters_checkout_url", widget: "string", required: false, hint: "Square payment link for Audio Letters terms." }
+          - { label: "One Story checkout URL", name: "one_story_checkout_url", widget: "string", required: false }
+          - { label: "Rapid Fire checkout URL", name: "rapid_fire_checkout_url", widget: "string", required: false }
+          - { label: "Gift certificate checkout URL", name: "gift_checkout_url", widget: "string", required: false }
+          - { label: "Story Postcards checkout URL", name: "postcards_checkout_url", widget: "string", required: false }
+          - { label: "Memorial Express checkout URL", name: "memorial_express_checkout_url", widget: "string", required: false }
+          - { label: "Family Reunion Book checkout URL", name: "family_reunion_checkout_url", widget: "string", required: false }
+          - { label: "Interview Day checkout URL", name: "interview_day_checkout_url", widget: "string", required: false }
+          - { label: "Eulogy Kit checkout URL", name: "eulogy_kit_checkout_url", widget: "string", required: false }
+          - { label: "Prompt Vault checkout URL", name: "prompt_vault_checkout_url", widget: "string", required: false }
           - { label: "Story line phone number", name: "story_line_phone", widget: "string", required: false, hint: "The dedicated Twilio number clients call to record answers. Leave blank until it's live." }
           - { label: "Story line note", name: "story_line_note", widget: "string", required: false }
           - { label: "Facebook URL", name: "facebook", widget: "string", required: false }
@@ -195,13 +204,14 @@ collections:
             hint: "These fade through in the hero card. Add or edit the questions."
             field: { label: "Prompt", name: "prompt", widget: "string" }
           - { label: "Hero subtext", name: "hero_sub", widget: "text" }
+          - { label: "Hero price line", name: "hero_price_line", widget: "string", required: false }
           - { label: "Hero button 1", name: "hero_cta1", widget: "string" }
           - { label: "Hero button 1 URL", name: "hero_cta1_url", widget: "string", required: false, default: "/services/" }
           - { label: "Hero button 2", name: "hero_cta2", widget: "string" }
           - { label: "Hero button 2 URL", name: "hero_cta2_url", widget: "string", required: false, default: "/card-kits/" }
           - { label: "Offerings heading", name: "offerings_heading", widget: "string" }
           - { label: "Offerings subtext", name: "offerings_sub", widget: "text" }
-          - label: "Offerings (3 cards)"
+          - label: "Offerings (4 cards)"
             name: "offerings"
             widget: "list"
             fields:
